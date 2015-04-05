@@ -26,7 +26,7 @@
 			<script src="js/respond.min.js"></script>
 		<![endif]-->
 	</head>
-    <body>		
+    <body>
 		<div id="top-bar" class="container">
 			<div class="row">
 				<div class="span4">

@@ -10,12 +10,6 @@
        http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
        ">
 
-
-       <context:component-scan base-package="com.lxl" use-default-filters="false" />
-
-       <!-- 注解支持 -->
-       <mvc:annotation-driven/>
-
        <!-- 默认首页 -->
        <mvc:view-controller path="/" view-name="redirect:/index"/>
        <mvc:view-controller path="/index" view-name="index"/>
