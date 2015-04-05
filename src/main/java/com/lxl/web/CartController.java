@@ -16,6 +16,8 @@ public class CartController {
     @RequestMapping("/cart.html")
     public ModelAndView defaultMethod()
     {
-        return new ModelAndView();
+        ModelAndView model = new ModelAndView();
+        model.addObject("myname","兰肖鲁");
+        return model;
     }
 }

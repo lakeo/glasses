@@ -10,12 +10,12 @@
        http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
        ">
 
-       <context:component-scan base-package="com.lxl.web" use-default-filters="false" />
+       <context:component-scan base-package="com.lxl.web"/>
        <mvc:annotation-driven />
 
        <!-- 默认首页 -->
-       <mvc:view-controller path="/" view-name="redirect:/index"/>
-       <mvc:view-controller path="/index" view-name="index"/>
+       <mvc:view-controller path="/" view-name="redirect:/index.html"/>
+       <mvc:view-controller path="/index" view-name="redirect:/index.html"/>
        <!-- 静态资源映射 -->
        <mvc:resources mapping="/resources/**" location="/resources/"/>
 </beans>
