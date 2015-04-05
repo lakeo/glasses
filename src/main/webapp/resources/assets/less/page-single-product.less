@@ -1,0 +1,216 @@
+.body-container{
+	.product-container{
+		.product-top{
+			.product-image{
+				.image{
+					img{
+						width: 100%;
+						display: block;
+					}
+				}
+			}
+
+			.product-info{
+				.name{
+					.font-hb(24px , bold , @fiv-color , 36px);
+					margin: 0;
+					margin-bottom: 15px;
+					text-transform: uppercase;
+				}
+
+				.rating-reviews{
+					margin-bottom: 20px;
+
+					.rating{
+
+					}
+
+					.reviews{
+						.font-hl(13px , 300 , @fiv-color , 18px);
+					}
+				}
+
+				.info-container{
+					.label{
+						.font-hl(14px , 300 , @fiv-color , 18px);
+						padding: 0;
+					}
+
+					.value{
+						padding: 0; 
+					}
+				}
+
+				.stock-container{
+					padding: 25px 0;
+					border-top: 1px solid #f2f2f2;
+					border-bottom: 1px solid #f2f2f2; 
+					margin-bottom: 25px;
+				}
+
+				.description-container{
+					.font-hl(14px , 300 , @sec-color , 24px);
+					margin-bottom: 25px;
+				}
+
+				.quantity-container{
+					padding: 30px 0;
+					border-top: 1px solid #f2f2f2;
+					border-bottom: 1px solid #f2f2f2; 
+					margin-bottom: 0;
+
+					.label{
+						line-height: 30px;
+					}
+
+					.txt-qty{
+						width: 60px;
+						height: 30px;
+						border: 1px solid #f2f2f2;
+						.rounded-corners(3px);
+						padding: 5px 10px;
+						text-align: center;
+					}	
+
+					.lnk{
+						display: block;
+						font-size: 12px;
+						line-height: 14px;
+
+						.ico{
+							width: 10px;
+							display: inline-block;
+						}
+					}
+
+					.btn-options{
+						> a{
+							line-height: 21px !important;
+						}
+					}
+				}
+
+				.price-container{
+					padding: 20px 0;
+					border-bottom: 1px solid #f2f2f2; 
+					margin-bottom: 25px;
+
+					.label{
+						line-height: 50px;
+					}	
+
+					.price{
+						.font-hbc(36px , bold , #595959 , 50px);
+					}
+
+					.price-strike{
+						.font-hl(16px , 300 , @sec-color , 50px);
+						text-decoration: line-through;
+					}
+				}
+			}
+		}
+
+		.product-bottom{
+			margin-top: 60px;
+
+			.product-tabs{
+				.nav-tab-cell{
+			
+				}
+
+				.product-tab{
+					margin-top: 20px;
+
+					.text{
+						.font-hl(14px , 300 , @fiv-color , 26px);
+					}
+
+					.title{
+						.font-hb(15px , 500 , @fiv-color , 20px);
+						margin:0;
+						margin-bottom: 20px;
+						text-transform: uppercase;
+					}
+
+					.product-reviews{
+						.reviews{
+							.review{
+								margin-bottom: 25px;
+								.review-title
+								{
+									margin-bottom: 5px;
+									
+									.summary 
+									{
+										.font-hl(14px , 300 , @fiv-color, 24px);
+										margin-right: 10px;
+									}
+									.date 
+									{
+										.font-hl(12px , 300 , @fiv-color, 24px);
+									}
+								}
+
+								.text 
+								{
+									.font-hl(13px , 300 , @fiv-color, 20px);
+									margin-bottom: 18px;
+								}
+
+								.author
+								{
+									.font-hl(13px , 300 , @fiv-color , 20px);
+									.name 
+									{
+										color: #ff3636;
+									}
+								}
+							}
+						}
+					}
+
+					.product-add-review{
+						.table{
+							tr{
+								td 
+								{
+									input 
+									{
+										float: none;
+										margin: auto; 
+									}
+								}
+							}
+						}
+
+						.form-container{
+							.action{
+								margin-top: 0;
+							}
+
+							.txt-review{
+								height: 110px;
+							}
+						}						
+					}
+
+					.form-inline{
+						label{
+							margin-right: 10px;
+							width: 90px;
+						}
+
+						input{
+							margin-right: 10px;
+						}
+
+						.text{
+							.font-hl(13px , 300 , @fiv-color , 36px);
+						}
+					}
+				}
+			}
+		}
+	}
+}

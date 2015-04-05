@@ -1,0 +1,150 @@
+.body-container{
+	.cart-container{
+		.table-container{
+			margin-top: 20px;
+		}
+
+		table{
+			thead{
+				tr{
+					th{
+						text-align: center;
+						vertical-align: middle;
+
+						&.edit, &.qty, &.price, &.sub-total, &.delete{
+							padding : 0 15px;
+						}
+					}
+				}
+			}
+
+			tbody{
+				tr{
+					td{
+						text-align: center;
+						vertical-align: middle;
+						border : 1px solid #dddddd;
+
+						&.img{
+							padding : 0;
+							min-width: 170px;
+							max-width: 170px;
+
+							.image{
+								width: 100%;
+								
+								img{
+									width: 100%;
+									display: block;
+								}
+							}
+						}
+
+						&.details{
+							text-align: left;
+							padding: 30px 35px;
+							vertical-align: top;
+
+							.product-desc{
+								.name{
+									.font-hb(14px , bold , @fiv-color , 20px);
+									margin: 0;
+									margin-bottom: 10px;
+									text-transform: uppercase;
+								}
+
+								.rating{
+									margin-bottom: 10px;	
+								}
+
+								.attributes{
+									margin:0;
+									margin-top: 15px;
+									list-style: none;
+									padding-left: 0;
+
+									li{
+										padding: 2px 0;
+
+										.att{
+											.label{
+												.font-hl(13px , light , @fiv-color , 24px); 
+												padding: 0;
+											}
+
+											.value{
+												.font-hl(13px , light , #2a69b2 , 24px); 
+												margin-left: 15px;
+												padding: 0;
+											}
+										}
+									}
+								}
+							}
+						}
+
+						&.edit, &.qty, &.price, &.sub-total, &.delete{
+							padding : 0 15px;
+						}
+
+						&.edit, &.delete{
+							a{
+								.font-hl(13px , light , #ed1c24 , 24px);
+								text-decoration: underline;
+								&:hover, &:focus, &:active{
+									color : @sec-color;
+								}
+							}
+						}
+
+						&.price, &.sub-total{
+							.font-hbc(20px , bold , @fiv-color , 30px);
+						}
+
+						&.qty{
+							text-align: center;
+							input{
+								background: none;
+								border:1px solid @six-color;
+								height: 34px;
+								width: 60px;	
+								text-align: center;
+							}
+						}
+
+						&.action{
+							padding: 20px 30px;
+
+							@media(max-width: 920px){
+								text-align:left;
+							}
+						}
+
+						.action-left{
+							float: left;
+							border-left: none;
+							border-right: none;
+
+							@media(max-width: 920px){
+								float: none;
+								display: block;
+								margin-bottom: 10px;
+							}
+						}
+
+						.action-right{
+							float: right;
+							border-left: none;
+							border-right: none;
+
+							@media(max-width: 920px){
+								float: none;
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,440 @@
+.gradient(@top ; @center ; @bottom){
+	background: -webkit-linear-gradient(top, @top 0%, @center 33%, @bottom 100%);
+	background: -o-linear-gradient(top, @top 0%, @center 33%, @bottom 100%);
+	background: -ms-linear-gradient(top, @top 0%, @center 33%, @bottom 100%);
+	background: -moz-linear-gradient(top, @top 0%, @center 33%, @bottom 100%);
+	background: linear-gradient(to bottom, @top 0%, @center 33%, @bottom 100%);
+}
+
+.transition(@property : background){
+	-webkit-transition: @property linear 0.2s;
+  	-moz-transition: @property linear 0.2s;
+  	-ms-transition: @property linear 0.2s;
+  	-o-transition: @property linear 0.2s;
+  	transition: @property linear 0.2s;
+}
+
+.rounded-corners (@radius: 5px){
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-ms-border-radius: @radius;
+	-o-border-radius: @radius;
+	border-radius: @radius;
+}
+
+.text-shadow(@color , @size : 1px 1px 3px){
+	-webkit-text-shadow: @size @color;
+	-moz-text-shadow: @size @color;
+	-ms-text-shadow: @size @color;
+	-o-text-shadow: @size @color;
+	text-shadow: @size @color;
+}
+
+.no-text-shadow(){
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	-ms-text-shadow: none;
+	-o-text-shadow:none;
+	text-shadow: none;
+}
+
+.box-shadow(@color , @size : 0 2px 0){
+	-webkit-box-shadow: @size @color;
+	-moz-box-shadow: @size @color;
+	-ms-box-shadow: @size @color;
+	-o-box-shadow: @size @color;
+	box-shadow: @size @color;
+}
+
+.box-shadow-inset(@color , @size : 0 0 5px){
+	-webkit-box-shadow: @size @color inset;
+	-moz-box-shadow: @size @color inset;
+	-ms-box-shadow: @size @color inset;
+	-o-box-shadow: @size @color inset;
+	box-shadow: @size @color inset;
+}
+
+.box-shadow-inset-top-bottom(@color-top , @color-bottom , @size-top : 0 9px 2px -9px , @size-bottom : 0 -9px 2px -9px){
+	-webkit-box-shadow: inset @size-top @color-top, inset @size-bottom @color-bottom;
+	-moz-box-shadow: inset @size-top @color-top, inset @size-bottom @color-bottom;
+	-ms-box-shadow: inset @size-top @color-top, inset @size-bottom @color-bottom;
+	-o-box-shadow: inset @size-top @color-top, inset @size-bottom @color-bottom;
+	box-shadow: inset @size-top @color-top, inset @size-bottom @color-bottom;
+}
+
+.box-shadow-bottom(@color , @size){
+	-webkit-box-shadow: @size @color, @size @color, @size @color;
+	-moz-box-shadow:  @size @color, @size @color, @size @color;
+	-ms-box-shadow: @size @color, @size @color, @size @color;
+	-o-box-shadow:  @size @color, @size @color, @size @color;
+	box-shadow:  @size @color, @size @color, @size @color;
+}
+
+.box-shadow-top-bottom(@color , @size){
+	-webkit-box-shadow: @size @color, 0, @size @color , 0;
+	-moz-box-shadow: @size @color, 0, @size @color , 0;
+	-ms-box-shadow: @size @color, 0, @size @color , 0;
+	-o-box-shadow: @size @color, 0, @size @color , 0;
+	box-shadow:  @size @color, 0, @size @color , 0;
+}
+
+.no-box-shadow(){
+	-webkit-box-shadow: none;
+	-moz-box-shadow:none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+
+.circular{
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+}
+
+.font(@size , @weight:normal, @color , @line-height){
+	font-size: @size;
+	font-weight: @weight;
+	color: @color;
+	line-height: @line-height;
+}
+
+.font-hl(@size, @weight : 300, @color, @line-height){
+	font-family: 'Roboto', sans-serif;
+	.font(@size, @weight, @color, @line-height);
+}
+
+.font-hb(@size, @weight : 500 , @color, @line-height){
+	font-family: 'Roboto', sans-serif;
+	.font(@size, @weight , @color , @line-height);
+}
+
+.font-hn(@size, @weight : 400 , @color, @line-height){
+	font-family: 'Roboto', sans-serif;
+	.font(@size, @weight, @color, @line-height);
+}
+
+.font-hbc(@size , @weight : 900 , @color, @line-height){
+	font-family: 'Roboto', sans-serif;
+	.font(@size, @weight, @color , @line-height);
+}
+
+.font-h(@size , @weight : 700 , @color, @line-height){
+	font-family: 'Roboto', sans-serif;
+	.font(@size, @weight, @color, @line-height);
+}
+
+@media (min-width: 768px){
+	.row-fluid .offset0{
+		margin-left: 0
+	}
+	
+	.row-fluid .span12.offset0{
+		width: 99.99999999999999%;
+		*width: 99.93055555555554%;
+	}
+	
+	.row-fluid .span11.offset0{
+		width: 91.66666666666666%;
+		*width: 91.59722222222221%;
+	}
+	
+	.row-fluid .span10.offset0{
+		width: 83.33333333333331%;
+		*width: 83.26388888888887%;
+	}
+	
+	.row-fluid .span9.offset0{
+		width: 74.99999999999999%;
+		*width: 74.93055555555554%;
+	}
+	
+	.row-fluid .span8.offset0{
+		width: 66.66666666666666%;
+		*width: 66.59722222222221%;
+	}
+	
+	.row-fluid .span7.offset0{
+		width: 58.33333333333333%;
+		*width: 58.263888888888886%;
+	}
+	
+	.row-fluid .span6.offset0{
+		width: 49.99999999999999%;
+		*width: 49.93055555555555%;
+	}
+	
+	.row-fluid .span5.offset0{
+		width: 41.66666666666666%;
+		*width: 41.597222222222214%;
+	}
+	
+	.row-fluid .span4.offset0{
+		width: 33.33333333333333%;
+		*width: 33.263888888888886%;
+	}
+	
+	.row-fluid .span3.offset0{
+		width: 24.999999999999996%;
+		*width: 24.930555555555554%;
+	}
+	
+	.row-fluid .span2.offset0{
+		width: 16.666666666666664%;
+		*width: 16.59722222222222%;
+	}
+	
+	.row-fluid .span1.offset0{
+		width: 8.333333333333332%;
+		*width: 8.263888888888888%;
+	}
+}
+
+.center-align-media(@max-width : 767px){
+	@media(max-width:@max-width){
+		clear: both;
+		float: none;
+		display: block;
+		text-align: center;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.center-align-inline-media(@max-width : 767px){
+	@media(max-width:@max-width){
+		clear: both;
+		float: none;
+		display: inline-block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.cnt-map img{
+	max-width: none;
+}
+
+::-webkit-input-placeholder{
+}
+
+:-moz-placeholder{
+}
+
+::-moz-placeholder{
+}
+
+:-ms-input-placeholder{
+}
+
+.btn-blue(){
+	background: @primary-color;
+	text-transform: none;
+	.font-hl(12px , 500 , @btn-color , 21px);
+}
+
+.btn-dark-blue(){
+	background: desaturate(@primary-color, 14.1%);
+	text-transform: none;
+	.font-hl(12px , 500 , @btn-color , 21px);
+}
+
+.bo-gradient(@color: #F5F5F5, @start: #EEE, @stop: #FFF) {
+  background: @color;
+  background: -webkit-gradient(linear,
+                               left bottom,
+                               left top,
+                               color-stop(0, @start),
+                               color-stop(1, @stop));
+  background: -ms-linear-gradient(bottom,
+                                  @start,
+                                  @stop);
+  background: -moz-linear-gradient(center bottom,
+                                   @start 0%,
+                                   @stop 100%);
+  background: -o-linear-gradient(@stop,
+                                 @start);
+  filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",@stop,@start));
+}
+
+.bo-bw-gradient(@color: #F5F5F5, @start: 0, @stop: 255) {
+  background: @color;
+  background: -webkit-gradient(linear,
+                               left bottom,
+                               left top,
+                               color-stop(0, rgb(@start,@start,@start)),
+                               color-stop(1, rgb(@stop,@stop,@stop)));
+  background: -ms-linear-gradient(bottom,
+                                  rgb(@start,@start,@start) 0%,
+                                  rgb(@stop,@stop,@stop) 100%);
+  background: -moz-linear-gradient(center bottom,
+                                   rgb(@start,@start,@start) 0%,
+                                   rgb(@stop,@stop,@stop) 100%);
+  background: -o-linear-gradient(rgb(@stop,@stop,@stop),
+                                 rgb(@start,@start,@start));
+  filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",rgb(@stop,@stop,@stop),rgb(@start,@start,@start)));
+}
+
+.bo-bordered(@top-color: #EEE, @right-color: #EEE, @bottom-color: #EEE, @left-color: #EEE) {
+  border-top: solid 1px @top-color;
+  border-left: solid 1px @left-color;
+  border-right: solid 1px @right-color;
+  border-bottom: solid 1px @bottom-color;
+}
+
+.bo-drop-shadow(@x-axis: 0, @y-axis: 1px, @blur: 2px, @alpha: 0.1) {
+  -webkit-box-shadow: @x-axis @y-axis @blur rgba(0, 0, 0, @alpha);
+  -moz-box-shadow: @x-axis @y-axis @blur rgba(0, 0, 0, @alpha);
+  box-shadow: @x-axis @y-axis @blur rgba(0, 0, 0, @alpha);
+}
+
+.bo-rounded(@radius: 2px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.bo-border-radius(@topright: 0, @bottomright: 0, @bottomleft: 0, @topleft: 0) {
+  -webkit-border-top-right-radius: @topright;
+  -webkit-border-bottom-right-radius: @bottomright;
+  -webkit-border-bottom-left-radius: @bottomleft;
+  -webkit-border-top-left-radius: @topleft;
+  -moz-border-radius-topright: @topright;
+  -moz-border-radius-bottomright: @bottomright;
+  -moz-border-radius-bottomleft: @bottomleft;
+  -moz-border-radius-topleft: @topleft;
+  border-top-right-radius: @topright;
+  border-bottom-right-radius: @bottomright;
+  border-bottom-left-radius: @bottomleft;
+  border-top-left-radius: @topleft;
+  .bo-background-clip(padding-box);
+}
+
+.bo-opacity(@opacity: 0.5) {
+  -moz-opacity: @opacity;
+  -khtml-opacity: @opacity;
+  -webkit-opacity: @opacity;
+  opacity: @opacity;
+  @opperc: @opacity * 100;
+  -ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(opacity=@{opperc})";
+  filter: ~"alpha(opacity=@{opperc})";
+}
+
+.bo-transition-duration(@duration: 0.2s) {
+  -moz-transition-duration: @duration;
+  -webkit-transition-duration: @duration;
+  -o-transition-duration: @duration;
+  transition-duration: @duration;
+}
+
+.bo-transform(...) {
+  -webkit-transform: @arguments;
+  -moz-transform: @arguments;
+  -o-transform: @arguments;
+  -ms-transform: @arguments;
+  transform: @arguments;
+}
+
+.bo-rotation(@deg:5deg){
+  .bo-transform(rotate(@deg));
+}
+
+.bo-scale(@ratio:1.5){
+  .bo-transform(scale(@ratio));
+}
+
+.bo-transition(@duration:0.2s, @ease:ease-out) {
+  -webkit-transition: all @duration @ease;
+  -moz-transition: all @duration @ease;
+  -o-transition: all @duration @ease;
+  transition: all @duration @ease;
+}
+
+.bo-inner-shadow(@horizontal:0, @vertical:1px, @blur:2px, @alpha: 0.4) {
+  -webkit-box-shadow: inset @horizontal @vertical @blur rgba(0, 0, 0, @alpha);
+  -moz-box-shadow: inset @horizontal @vertical @blur rgba(0, 0, 0, @alpha);
+  box-shadow: inset @horizontal @vertical @blur rgba(0, 0, 0, @alpha);
+}
+
+.bo-box-shadow(@arguments) {
+  -webkit-box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  box-shadow: @arguments;
+}
+
+.bo-box-sizing(@sizing: border-box) {
+  -ms-box-sizing: @sizing;
+  -moz-box-sizing: @sizing;
+  -webkit-box-sizing: @sizing;
+  box-sizing: @sizing;
+}
+
+.bo-user-select(@argument: none) {
+  -webkit-user-select: @argument;
+  -moz-user-select: @argument;
+  -ms-user-select: @argument;
+  user-select: @argument;
+}
+
+.bo-columns(@colwidth: 250px, @colcount: 0, @colgap: 50px, @columnRuleColor: #EEE, @columnRuleStyle: solid, @columnRuleWidth: 1px) {
+  -moz-column-width: @colwidth;
+  -moz-column-count: @colcount;
+  -moz-column-gap: @colgap;
+  -moz-column-rule-color: @columnRuleColor;
+  -moz-column-rule-style: @columnRuleStyle;
+  -moz-column-rule-width: @columnRuleWidth;
+  -webkit-column-width: @colwidth;
+  -webkit-column-count: @colcount;
+  -webkit-column-gap: @colgap;
+  -webkit-column-rule-color: @columnRuleColor;
+  -webkit-column-rule-style: @columnRuleStyle;
+  -webkit-column-rule-width: @columnRuleWidth;
+  column-width: @colwidth;
+  column-count: @colcount;
+  column-gap: @colgap;
+  column-rule-color: @columnRuleColor;
+  column-rule-style: @columnRuleStyle;
+  column-rule-width: @columnRuleWidth;
+}
+
+.bo-translate(@x:0, @y:0) {
+  .bo-transform(translate(@x, @y));
+}
+
+.bo-background-clip(@argument: padding-box) {
+  -moz-background-clip: @argument;
+  -webkit-background-clip: @argument;
+  background-clip: @argument;
+}
+
+.bo-scale (@factor) {
+    -webkit-transform: scale(@factor);
+    -moz-transform: 	 scale(@factor);
+    -ms-transform: 		 scale(@factor);
+    -o-transform: 		 scale(@factor);
+}
+
+.bo-rotate-scale(@deg,@factor){
+    -webkit-transform: rotate(@deg) scale(@factor);
+    -moz-transform: 	rotate(@deg) scale(@factor);
+    -ms-transform: 	rotate(@deg)	 scale(@factor);
+    -o-transform: 	rotate(@deg)	 scale(@factor);
+}
+
+.bo-rotate (@deg) {
+    -webkit-transform: rotate(@deg);
+    -moz-transform: 	 rotate(@deg);
+    -ms-transform: 		 rotate(@deg);
+    -o-transform: 		 rotate(@deg);
+}
+
+.color-text (@color){
+	color: @color !important;
+
+    &:hover, &:focus, &:active{
+        background-color: @color !important;
+        color: #fff !important;
+    }
+}

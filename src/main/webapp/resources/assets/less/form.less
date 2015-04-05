@@ -1,0 +1,68 @@
+/*===================================================================================*/
+/*  Form
+/*===================================================================================*/
+
+.form-container{
+	@media(max-width:1191px){
+		margin-bottom : 30px;
+
+		&.no-margin{
+			margin-bottom: 0;
+		}
+	}
+
+	.title{
+		.font-hn(16px , normal , @sec-color , 24px);
+		margin : 0;
+		margin-bottom: 20px;
+	}
+
+	label{
+		.font-hl(13px , light , @sec-color , 20px);
+	}
+
+	p{
+		.font-hl(13px , light , @sec-color , 20px);
+		margin-top: 15px;		
+	}
+
+	div.radio{
+		margin-bottom: 15px;
+	}
+
+	input.radio{
+		margin-top: 0;
+	}
+
+	.txt{
+		.box-shadow-inset(rgba(0 , 0 , 0 , 0.1) , 2px 2px 4px);
+		border:none;
+		.rounded-corners(3px);
+		background: @six-color;
+
+		.font-hl(13px , light , @sec-color , 24px);
+	}
+
+	.sel{
+		padding-top: 9px;
+
+		option{
+			padding: 9px 5px; 
+		}
+	}
+
+ 	a{
+ 		.font-hl(13px , light, #959595 , 24px);
+ 		text-decoration: underline;
+ 	}
+
+ 	.astk 
+ 	{
+ 		color : #FF0000;
+ 		font-size: 12px;
+ 	}
+
+	.action{
+		margin-top: 25px;
+	}
+}
