@@ -1728,12 +1728,12 @@ header.header-style-3 .header-nav .cnt-search .input-group button i {
 .breadcrumb {
   background: none;
   padding: 0;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .breadcrumb ul {
   margin: auto;
   border-bottom: 1px solid #f2f2f2;
-  padding: 20px 0 10px;
+  padding: 5px 0 0px;
 }
 .breadcrumb ul li {
   padding: 0;
@@ -2256,7 +2256,7 @@ header.header-style-3 .header-nav .cnt-search .input-group button i {
   visibility: visible;
 }
 .product {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .product .product-image-slider {
   padding-bottom: 60px;
@@ -3300,10 +3300,10 @@ header.header-style-3 .header-nav .cnt-search .input-group button i {
   }
 }
 .body-container .search-container .facets-container {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .body-container .search-container .filters-container {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .category-info {
   position: relative;
