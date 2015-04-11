@@ -289,7 +289,7 @@ body.body-style-6 .wrapper footer .links-social {
   border: 1px solid #dddddd;
 }
 .body-container .wide-banners .wide-banner {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .body-container .wide-banners .wide-banner .image img {
   width: 100%;
@@ -486,7 +486,7 @@ img[src="assets/images/blank.gif"] {
   margin-bottom: 15px;
 }
 .m-t-30 {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .m-t-60 {
   margin-top: 60px;
@@ -3619,7 +3619,11 @@ header.header-style-3 .header-nav .cnt-search .input-group button i {
 .facet-box {
   background: #f2f2f2;
   padding: 18px 25px 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.facet-box-slider {
+  margin-top:10px;
 }
 @media (max-width: 1191px) and (min-width: 992px) {
   .facet-box {

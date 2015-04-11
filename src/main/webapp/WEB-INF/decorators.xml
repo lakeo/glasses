@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>  
-<decorators defaultdir="/WEB-INF/decorators">  
-
+<decorators defaultdir="/WEB-INF/decorators">
+    <decorator name="common" page="common.ftl">
+        <pattern>/index.html</pattern>
+    </decorator>
 </decorators>  

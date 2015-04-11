@@ -15,7 +15,7 @@ public class ProductController {
         return new ModelAndView();
     }
 
-    @RequestMapping("/product_detail.html")
+    @RequestMapping({"/product_detail.html","/category.html"})
     public ModelAndView detailPage()
     {
         return new ModelAndView();
