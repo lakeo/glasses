@@ -285,7 +285,7 @@
 			</div><!-- /.filter-tabs -->
 		</div><!-- /.col -->
 		<div class="col col-md-6">
-			
+
 		</div><!-- /.col -->
 		<div class="col col-md-4 text-right">
 			<div class="pagination-container">

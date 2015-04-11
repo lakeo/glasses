@@ -71,7 +71,7 @@
                         <div class="nav-outer">
                             <ul class="nav navbar-nav">
                                 <li class="dropdown">
-                                    <a href="/index.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">首页</a>
+                                    <a href="/index.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="">首页</a>
                                 </li>
                                 <li class="dropdown yamm-fw active">
                                     <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">女款</a>
