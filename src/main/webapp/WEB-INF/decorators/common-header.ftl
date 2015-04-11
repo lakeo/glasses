@@ -302,11 +302,11 @@
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">帮助</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/index.html">Home I</a></li>
-                                        <li><a href="/category.html">Category Listing</a></li>
-                                        <li><a href="/single-product.html">Single Product</a></li>
-                                        <li><a href="/cart.html">Shopping Cart Summary</a></li>
-                                        <li><a href="/checkout.html">Checkout</a></li>
+                                        <li><a href="/index.html">首页</a></li>
+                                        <li><a href="/category.html">类别页</a></li>
+                                        <li><a href="/single-product.html">商品详情页</a></li>
+                                        <li><a href="/cart.html">购物车页</a></li>
+                                        <li><a href="/checkout.html">付款页</a></li>
                                     </ul>
                                 </li>
                             </ul><!-- /.navbar-nav -->
