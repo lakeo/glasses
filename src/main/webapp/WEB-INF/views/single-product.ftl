@@ -138,7 +138,7 @@
 									<div class="price">$360</div>
 								</div>	
 								<div class="pull-right">
-									<a href="/bohase/checkout.html" class="btn btn-upper btn-blue btn-normal">Checkout</a>	
+									<a href="/checkout.html" class="btn btn-upper btn-blue btn-normal">Checkout</a>	
 								</div>	
 								<div class="clearfix"></div>
 							</li>
@@ -153,7 +153,7 @@
 </div><!-- /.header-top -->
 <!-- ============================================== TOP MENU : END ============================================== -->
 	<!-- ============================================== NAVBAR ============================================== -->
-<div class="header-nav animate-dropdown checkout">
+<div class="header-nav animate-dropdown details">
 	<div class="yamm navbar navbar-default" role="navigation">
 		<div class="container-class container">
 			
@@ -164,9 +164,9 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	</button>
-	<a class="navbar-brand" href="/bohase/index.html">
+	<a class="navbar-brand" href="/index.html">
 		<div class="logo">
-						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="174px" height="69px" viewBox="0 0 163.822 35.572">
+						<svg version="1.1" xmlns="http:/www.w3.org/2000/svg" x="0px" y="0px" width="174px" height="69px" viewBox="0 0 163.822 35.572">
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M59.071,13.505v-0.041c0.72-0.203,1.259-0.585,1.619-1.146
 		c0.359-0.561,0.54-1.233,0.54-2.019c0-0.689-0.101-1.271-0.301-1.744C60.73,8.082,60.45,7.703,60.09,7.418
 		c-0.36-0.283-0.79-0.486-1.289-0.608c-0.5-0.122-1.043-0.183-1.63-0.183h-4.816v14.486h4.856c0.84,0,1.543-0.115,2.109-0.346
@@ -292,9 +292,9 @@
 	<div class="nav-outer">
 		<ul class="nav navbar-nav">
 			<li class="dropdown">
-				<a href="/bohase/index.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+				<a href="/index.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 				<ul class="dropdown-menu">
-					<li><a href="/bohase/index.html">Home I</a></li>
+					<li><a href="/index.html">Home I</a></li>
 				</ul>
 			</li>
 			<li class="dropdown yamm-fw ">
@@ -308,12 +308,12 @@
 			<div class="section">
 				<h3 class="title">STYLE</h3>
 				<ul class="links list-unstyled">
-					<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-					<li><a href="/bohase/single-product.html">Polos</a></li>
-					<li><a href="/bohase/single-product.html">Shirts</a></li>
-					<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-					<li><a href="/bohase/single-product.html">Outwear</a></li>
-					<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+					<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+					<li><a href="/single-product.html">Polos</a></li>
+					<li><a href="/single-product.html">Shirts</a></li>
+					<li><a href="/single-product.html">Sweatshirts</a></li>
+					<li><a href="/single-product.html">Outwear</a></li>
+					<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 				</ul>
 			</div><!-- /.section -->
 		</div><!-- /.col -->
@@ -322,12 +322,12 @@
 			<div class="section">
 				<h3 class="title">MEN</h3>
 				<ul class="links list-unstyled">
-					<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-					<li><a href="/bohase/single-product.html">Polos</a></li>
-					<li><a href="/bohase/single-product.html">Shirts</a></li>
-					<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-					<li><a href="/bohase/single-product.html">Outwear</a></li>
-					<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+					<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+					<li><a href="/single-product.html">Polos</a></li>
+					<li><a href="/single-product.html">Shirts</a></li>
+					<li><a href="/single-product.html">Sweatshirts</a></li>
+					<li><a href="/single-product.html">Outwear</a></li>
+					<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 				</ul>
 			</div><!-- /.section -->
 		</div><!-- /.col -->
@@ -336,12 +336,12 @@
 			<div class="section">
 				<h3 class="title">WOMEN</h3>
 				<ul class="links list-unstyled">
-					<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-					<li><a href="/bohase/single-product.html">Polos</a></li>
-					<li><a href="/bohase/single-product.html">Shirts</a></li>
-					<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-					<li><a href="/bohase/single-product.html">Outwear</a></li>
-					<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+					<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+					<li><a href="/single-product.html">Polos</a></li>
+					<li><a href="/single-product.html">Shirts</a></li>
+					<li><a href="/single-product.html">Sweatshirts</a></li>
+					<li><a href="/single-product.html">Outwear</a></li>
+					<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 				</ul>
 			</div><!-- /.section -->
 		</div><!-- /.col -->
@@ -350,12 +350,12 @@
 			<div class="section">
 				<h3 class="title">KIDS</h3>
 				<ul class="links list-unstyled">
-					<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-					<li><a href="/bohase/single-product.html">Polos</a></li>
-					<li><a href="/bohase/single-product.html">Shirts</a></li>
-					<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-					<li><a href="/bohase/single-product.html">Outwear</a></li>
-					<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+					<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+					<li><a href="/single-product.html">Polos</a></li>
+					<li><a href="/single-product.html">Shirts</a></li>
+					<li><a href="/single-product.html">Sweatshirts</a></li>
+					<li><a href="/single-product.html">Outwear</a></li>
+					<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 				</ul>
 			</div><!-- /.section -->
 		</div><!-- /.col -->
@@ -364,12 +364,12 @@
 			<div class="section">
 				<h3 class="title">ACCESSORIES</h3>
 				<ul class="links list-unstyled">
-					<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-					<li><a href="/bohase/single-product.html">Polos</a></li>
-					<li><a href="/bohase/single-product.html">Shirts</a></li>
-					<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-					<li><a href="/bohase/single-product.html">Outwear</a></li>
-					<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+					<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+					<li><a href="/single-product.html">Polos</a></li>
+					<li><a href="/single-product.html">Shirts</a></li>
+					<li><a href="/single-product.html">Sweatshirts</a></li>
+					<li><a href="/single-product.html">Outwear</a></li>
+					<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 				</ul>
 			</div><!-- /.section -->
 		</div><!-- /.col -->
@@ -378,12 +378,12 @@
 			<div class="section">
 				<h3 class="title">OFFERS</h3>
 				<ul class="links list-unstyled">
-					<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-					<li><a href="/bohase/single-product.html">Polos</a></li>
-					<li><a href="/bohase/single-product.html">Shirts</a></li>
-					<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-					<li><a href="/bohase/single-product.html">Outwear</a></li>
-					<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+					<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+					<li><a href="/single-product.html">Polos</a></li>
+					<li><a href="/single-product.html">Shirts</a></li>
+					<li><a href="/single-product.html">Sweatshirts</a></li>
+					<li><a href="/single-product.html">Outwear</a></li>
+					<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 				</ul>
 			</div><!-- /.section -->
 		</div><!-- /.col -->
@@ -403,12 +403,12 @@
 				<div class="section">
 					<h3 class="title">STYLE</h3>
 					<ul class="links list-unstyled">
-						<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-						<li><a href="/bohase/single-product.html">Polos</a></li>
-						<li><a href="/bohase/single-product.html">Shirts</a></li>
-						<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-						<li><a href="/bohase/single-product.html">Outwear</a></li>
-						<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+						<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+						<li><a href="/single-product.html">Polos</a></li>
+						<li><a href="/single-product.html">Shirts</a></li>
+						<li><a href="/single-product.html">Sweatshirts</a></li>
+						<li><a href="/single-product.html">Outwear</a></li>
+						<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 					</ul>
 				</div><!-- /.section -->
 			</div><!-- /.col -->
@@ -416,12 +416,12 @@
 				<div class="section">
 					<h3 class="title">WOMEN</h3>
 					<ul class="links list-unstyled">
-						<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-						<li><a href="/bohase/single-product.html">Polos</a></li>
-						<li><a href="/bohase/single-product.html">Shirts</a></li>
-						<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-						<li><a href="/bohase/single-product.html">Outwear</a></li>
-						<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+						<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+						<li><a href="/single-product.html">Polos</a></li>
+						<li><a href="/single-product.html">Shirts</a></li>
+						<li><a href="/single-product.html">Sweatshirts</a></li>
+						<li><a href="/single-product.html">Outwear</a></li>
+						<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 					</ul>
 				</div><!-- /.section -->
 			</div><!-- /.col -->
@@ -431,12 +431,12 @@
 				<div class="section">
 					<h3 class="title">MEN</h3>
 					<ul class="links list-unstyled no-border">
-						<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-						<li><a href="/bohase/single-product.html">Polos</a></li>
-						<li><a href="/bohase/single-product.html">Shirts</a></li>
-						<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-						<li><a href="/bohase/single-product.html">Outwear</a></li>
-						<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+						<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+						<li><a href="/single-product.html">Polos</a></li>
+						<li><a href="/single-product.html">Shirts</a></li>
+						<li><a href="/single-product.html">Sweatshirts</a></li>
+						<li><a href="/single-product.html">Outwear</a></li>
+						<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 					</ul>
 				</div><!-- /.section -->
 			</div><!-- /.col -->
@@ -468,12 +468,12 @@
 				<div class="section">
 					<h3 class="title">STYLE</h3>
 					<ul class="links list-unstyled">
-						<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-						<li><a href="/bohase/single-product.html">Polos</a></li>
-						<li><a href="/bohase/single-product.html">Shirts</a></li>
-						<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-						<li><a href="/bohase/single-product.html">Outwear</a></li>
-						<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+						<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+						<li><a href="/single-product.html">Polos</a></li>
+						<li><a href="/single-product.html">Shirts</a></li>
+						<li><a href="/single-product.html">Sweatshirts</a></li>
+						<li><a href="/single-product.html">Outwear</a></li>
+						<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 					</ul>
 				</div><!-- /.section -->
 			</div><!-- /.col -->
@@ -481,12 +481,12 @@
 				<div class="section">
 					<h3 class="title">WOMEN</h3>
 					<ul class="links list-unstyled">
-						<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-						<li><a href="/bohase/single-product.html">Polos</a></li>
-						<li><a href="/bohase/single-product.html">Shirts</a></li>
-						<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-						<li><a href="/bohase/single-product.html">Outwear</a></li>
-						<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+						<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+						<li><a href="/single-product.html">Polos</a></li>
+						<li><a href="/single-product.html">Shirts</a></li>
+						<li><a href="/single-product.html">Sweatshirts</a></li>
+						<li><a href="/single-product.html">Outwear</a></li>
+						<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 					</ul>
 				</div><!-- /.section -->
 			</div><!-- /.col -->
@@ -496,12 +496,12 @@
 				<div class="section">
 					<h3 class="title">MEN</h3>
 					<ul class="links list-unstyled no-border">
-						<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-						<li><a href="/bohase/single-product.html">Polos</a></li>
-						<li><a href="/bohase/single-product.html">Shirts</a></li>
-						<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-						<li><a href="/bohase/single-product.html">Outwear</a></li>
-						<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+						<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+						<li><a href="/single-product.html">Polos</a></li>
+						<li><a href="/single-product.html">Shirts</a></li>
+						<li><a href="/single-product.html">Sweatshirts</a></li>
+						<li><a href="/single-product.html">Outwear</a></li>
+						<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 					</ul>
 				</div><!-- /.section -->
 			</div><!-- /.col -->
@@ -522,15 +522,15 @@
 </div><!-- /.yamm-content -->					</li>
 				</ul>
 			</li>
-			<li><a href="/bohase/category.html">Gifts</a></li>
+			<li><a href="/category.html">Gifts</a></li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Pages</a>
 				<ul class="dropdown-menu">
-					<li><a href="/bohase/index.html">Home I</a></li>
-					<li><a href="/bohase/category.html">Category Listing</a></li>
-					<li><a href="/bohase/single-product.html">Single Product</a></li>
-					<li><a href="/bohase/cart.html">Shopping Cart Summary</a></li>
-					<li><a href="/bohase/checkout.html">Checkout</a></li>
+					<li><a href="/index.html">Home I</a></li>
+					<li><a href="/category.html">Category Listing</a></li>
+					<li><a href="/single-product.html">Single Product</a></li>
+					<li><a href="/cart.html">Shopping Cart Summary</a></li>
+					<li><a href="/checkout.html">Checkout</a></li>
 				</ul>
 			</li>
 			<li class="dropdown">
@@ -564,6 +564,7 @@
 </header>
 
 <!-- ============================================== HEADER : END ============================================== --><div class="body-container">
+
 	<div class="breadcrumb">
 		<div class="container">
 			<div class="breadcrumb-inner">
@@ -573,315 +574,593 @@
 				</ul>
 			</div>	
 		</div>		
-	</div><!-- /.breadcrumb -->
+	</div>
 
-	<div class="checkout-container">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 checkout-progress-container">
-					<div class="checkout-progress">
-						<h2>checkout progress</h2>
-						<ul class="list-unstyled">
-							<li><div>Billing Address</div></li>
-							<li><div>Shipping Address</div></li>
-							<li><div>Shipping Method</div></li>       
-							<li><div>Payment Method</div></li>
-						</ul>
-					</div>
-				</div><!-- /./bohase/checkout-progress-container -->
+	<div class="product-container">
+		<div class="container">			
+			
+			<div class="product-top product">
+				<div class="row">
+					
+					<div class="col-md-6">
+						<div class="product-image-slider">
+							<div class="col-xs-2">
+								<div class="product-image-slider">
+									<ul class="bxslider" id="prod-image-slider">
+																				<li class="active">
+											<div class="prod-image">
+												<div class="prod-image-inner">
+													<a href="#">
+																												<img src="/resources/assets/images/single-product/1.jpg" alt="">
+													</a>
+												</div>	
+												<div class="arrow"></div>
+											</div>
+										</li>
+																				<li class="">
+											<div class="prod-image">
+												<div class="prod-image-inner">
+													<a href="#">
+																												<img src="/resources/assets/images/single-product/2.jpg" alt="">
+													</a>
+												</div>	
+												<div class="arrow"></div>
+											</div>
+										</li>
+																				<li class="">
+											<div class="prod-image">
+												<div class="prod-image-inner">
+													<a href="#">
+																												<img src="/resources/assets/images/single-product/3.jpg" alt="">
+													</a>
+												</div>	
+												<div class="arrow"></div>
+											</div>
+										</li>
+																				<li class="">
+											<div class="prod-image">
+												<div class="prod-image-inner">
+													<a href="#">
+																												<img src="/resources/assets/images/single-product/4.jpg" alt="">
+													</a>
+												</div>	
+												<div class="arrow"></div>
+											</div>
+										</li>
+																				<li class="">
+											<div class="prod-image">
+												<div class="prod-image-inner">
+													<a href="#">
+																												<img src="/resources/assets/images/single-product/1.jpg" alt="">
+													</a>
+												</div>	
+												<div class="arrow"></div>
+											</div>
+										</li>
+																				<li class="">
+											<div class="prod-image">
+												<div class="prod-image-inner">
+													<a href="#">
+																												<img src="/resources/assets/images/single-product/2.jpg" alt="">
+													</a>
+												</div>	
+												<div class="arrow"></div>
+											</div>
+										</li>
+																				<li class="">
+											<div class="prod-image">
+												<div class="prod-image-inner">
+													<a href="#">
+																												<img src="/resources/assets/images/single-product/3.jpg" alt="">
+													</a>
+												</div>	
+												<div class="arrow"></div>
+											</div>
+										</li>
+																				<li class="">
+											<div class="prod-image">
+												<div class="prod-image-inner">
+													<a href="#">
+																												<img src="/resources/assets/images/single-product/4.jpg" alt="">
+													</a>
+												</div>	
+												<div class="arrow"></div>
+											</div>
+										</li>
+																				<li class="">
+											<div class="prod-image">
+												<div class="prod-image-inner">
+													<a href="#">
+																												<img src="/resources/assets/images/single-product/1.jpg" alt="">
+													</a>
+												</div>	
+												<div class="arrow"></div>
+											</div>
+										</li>
+																				<li class="">
+											<div class="prod-image">
+												<div class="prod-image-inner">
+													<a href="#">
+																												<img src="/resources/assets/images/single-product/2.jpg" alt="">
+													</a>
+												</div>	
+												<div class="arrow"></div>
+											</div>
+										</li>
+																			</ul><!-- /.bxslider -->
 
-				<div class="col-md-9 checkout-boxes-container">
+									<div class="owl-controls">
+										<a href="#" id="prod-image-next" class="owl-next"></a>
+										<a href="#" id="prod-image-prev" class="owl-prev"></a>
+									</div>
+								</div><!-- /.product-image-slider -->
+							</div><!-- /.col -->
+							<div class="col-xs-10">
+								<div class="product-image">
+									<div class="image">
+										<a id="prod-image-link" href="/resources/assets/images/single-product/1.jpg" data-lightbox="image-181476214" data-title="Nunc ullamcors">
+											<img id="prod-image" src="/resources/assets/images/single-product/1.jpg" alt="">
+										</a>
+									</div>
+									<div class="tag tag-orange"><div class="text">HOT</div></div>
+								</div>	
+							</div><!-- /.col -->
+						</div><!-- /.product-image-slider -->
+					</div><!-- /.col -->
 
-					<div class="panel-group checkout-boxes" id="accordion">
-						
-						<div class="panel panel-default checkout-box">
-							<div class="panel-heading">
-								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-										01. checkout method
-									</a>
-								</h2>
-							</div>
+					<div class="col-md-6">
+						<div class="product-info">
+							<h1 class="name">Nunc ullamcorper tellus nullas</h1>
 							
-							<div id="collapseOne" class="panel-collapse collapse content in">
-								<div class="panel-body">
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-container">
-												<h4 class="title">New Customer</h4>
-												<form role="form" class="cnt-form">
-													<div class="radio">
-														<label>
-															<input type="radio" name="voucher" id="voucher1" value="git" class="radio" checked>
-															Use Git voucher
-														</label>
-													</div>
-													<div class="radio">
-														<label>
-															<input type="radio" name="voucher" id="voucher2" value="estimate" class="radio">
-															Estimate Shipping &amp; Tax
-														</label>
-													</div>
-													<p>By creating an account you will be able to shop faste be up to date on an order's status, and keep track of the orders you have previously made.</p>
+							<div class="rating-reviews">
+								<div class="row">
+									<div class="col-sm-2">
+										<div class="rating rateit-small"></div>
+									</div>
+									<div class="col-sm-8">
+										<div class="reviews">
+											<a href="#" class="lnk">8 Review(s)</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="#" class="lnk">Add your review</a>
+										</div>
+									</div>
+								</div><!-- /.row -->		
+							</div><!-- /.rating-reviews -->
 
-													<div class="action">
-														<button class="btn btn-normal btn-blue">CONTINUE</button>
-													</div>	
-												</form>
-											</div>
-										</div><!-- /.col -->
+							<div class="stock-container info-container">
+								<div class="row">
+									<div class="col-sm-2">
+										<div class="stock-box">
+											<span class="label">Availability :</span>
+										</div>	
+									</div>
+									<div class="col-sm-9">
+										<div class="stock-box">
+											<span class="value">In Stock</span>
+										</div>	
+									</div>
+								</div><!-- /.row -->	
+							</div><!-- /.stock-container -->
 
-										<div class="col-md-6">
-											<div class="form-container no-margin">
-												<h4 class="title">Returning Customer</h4>
-												<form role="form" class="cnt-form">
-													
-													<div class="form-group">
-														<label for="exampleInputName">Your Name <span class="astk">*</span></label>
-														<input type="text" class="form-control txt" id="exampleInputName" placeholder="">
-													</div>
+							<div class="description-container">
+								Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibe ndum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus.
+							</div><!-- /.description-container -->
 
-													<div class="form-group">
-														<label for="exampleInputEmail1">Your Email <span class="astk">*</span></label>
-														<input type="email" class="form-control txt" id="exampleInputEmail1" placeholder="">
-													</div>
-													
-													<a href="#">Forgot your password!</a>
+							<div class="quantity-container info-container">
+								<div class="row">
+									
+									<div class="col-sm-2">
+										<span class="label">Quantity :</span>
+									</div>
+									
+									<div class="col-sm-2">
+										<input type="text" class="txt txt-qty" value="10">
+									</div>
 
-													<div class="action">
-														<button class="btn btn-normal btn-blue">LOGIN</button>
-													</div>	
-												</form>
-											</div>
-										</div><!-- /.col -->
-									</div><!-- /.row -->
-								</div><!-- /.panel-body -->
-							</div><!-- /.panel-collapse -->
-						</div><!-- /./bohase/checkout-box -->
+									<div class="col-sm-4">
+										<a href="#" class="btn btn-blue btn-block btn-lg">ADD TO CART</a>
+									</div>
 
-						<div class="panel panel-default checkout-box">
-							<div class="panel-heading">
-								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-										02. billing information
-									</a>
-								</h2><!-- /.panel-title -->
-							</div><!-- /.panel-heading -->
+									<div class="col-sm-3">
+										<div class="btn-options">
+											<a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a>
+											<a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a>
+										</div>	
+									</div>
+								</div><!-- /.row -->
+							</div><!-- /.quantity-container -->
 
-							<div id="collapseTwo" class="panel-collapse collapse content">
-								<div class="panel-body">
+							<div class="price-container info-container">
+								<div class="row">
+									
+									<div class="col-sm-2">
+										<div class="price-box">
+											<span class="label">Price :</span>
+										</div>
+									</div>
+
+									<div class="col-sm-3">
+										<div class="price-box">
+											<span class="price">$860.00</span>
+										</div>
+									</div>
+
+									<div class="col-sm-4">
+										<div class="price-box">
+											<span class="price-strike">$900.00</span>
+										</div>
+									</div>
+
+								</div><!-- /.row -->
+							</div><!-- /.price-container -->
+
+							<div class="social-container">
+
+							</div><!-- /.social-container -->
+
+						</div><!-- /.product-info -->
+					</div><!-- /.col -->
+
+				</div><!-- /.row -->
+			</div><!-- /.product-top -->
+				
+			<div class="product-bottom">
+				
+				<div class="product-tabs">
+
+					<ul class="nav nav-tabs nav-tab-cell" id="product-tabs">
+						<li class="active"><a href="#description" data-toggle="tab">DESCRIPTION</a></li>
+						<li><a href="#review" data-toggle="tab">REVIEW</a></li>
+						<li><a href="#tags" data-toggle="tab">TAGS</a></li>
+					</ul><!-- /.nav-tabs #product-tabs -->
+
+					<div class="tab-content">
+						
+						<div class="tab-pane in active" id="description">
+							<div class="product-tab">
+								<p class="text">Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibe ndum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibe ndum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus.</p>
+							</div>	
+						</div><!-- /.tab-pane -->
+
+						<div class="tab-pane" id="review">
+							<div class="product-tab">
+								<div class="row">
+
+									<div class="col-md-4">
+										<div class="product-reviews">
+											<h4 class="title">Customer Reviews</h4>
+
+											<div class="reviews">
+																								<div class="review">
+													<div class="review-title"><span class="summary">Best Product For me :)</span><span class="date">(06 May, 2013)</span></div>
+													<div class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam suscipit nisl in adipiscin"</div>
+													<div class="author">By : <span class="name">Xingkhaong Mao</span></div>
+												</div>
+																								<div class="review">
+													<div class="review-title"><span class="summary">Best Product For me :)</span><span class="date">(06 May, 2013)</span></div>
+													<div class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam suscipit nisl in adipiscin"</div>
+													<div class="author">By : <span class="name">Xingkhaong Mao</span></div>
+												</div>
+																								<div class="review">
+													<div class="review-title"><span class="summary">Best Product For me :)</span><span class="date">(06 May, 2013)</span></div>
+													<div class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam suscipit nisl in adipiscin"</div>
+													<div class="author">By : <span class="name">Xingkhaong Mao</span></div>
+												</div>
+																							</div><!-- /.reviews -->
+										</div><!-- /.product-reviews -->
+									</div><!-- /.col -->
+
+									<div class="col-md-8">
+										<div class="product-add-review">
+											<h4 class="title">Write your own review</h4>
+											<div class="review-table">
+												<div class="table-responsive">
+													<table class="table table-bordered">	
+														<thead>
+															<tr>
+																<th class="cell-label">&nbsp;</th>
+																<th>1 star</th>
+																<th>2 stars</th>
+																<th>3 stars</th>
+																<th>4 stars</th>
+																<th>5 stars</th>
+															</tr>
+														</thead>	
+														<tbody>
+															<tr>
+																<td class="cell-label">Quality</td>
+																<td><input type="radio" name="quality" class="radio" value="1"></td>
+																<td><input type="radio" name="quality" class="radio" value="2"></td>
+																<td><input type="radio" name="quality" class="radio" value="3"></td>
+																<td><input type="radio" name="quality" class="radio" value="4"></td>
+																<td><input type="radio" name="quality" class="radio" value="5"></td>
+															</tr>
+															<tr>
+																<td class="cell-label">Price</td>
+																<td><input type="radio" name="quality" class="radio" value="1"></td>
+																<td><input type="radio" name="quality" class="radio" value="2"></td>
+																<td><input type="radio" name="quality" class="radio" value="3"></td>
+																<td><input type="radio" name="quality" class="radio" value="4"></td>
+																<td><input type="radio" name="quality" class="radio" value="5"></td>
+															</tr>
+															<tr>
+																<td class="cell-label">Value</td>
+																<td><input type="radio" name="quality" class="radio" value="1"></td>
+																<td><input type="radio" name="quality" class="radio" value="2"></td>
+																<td><input type="radio" name="quality" class="radio" value="3"></td>
+																<td><input type="radio" name="quality" class="radio" value="4"></td>
+																<td><input type="radio" name="quality" class="radio" value="5"></td>
+															</tr>
+														</tbody>
+													</table><!-- /.table .table-bordered -->
+												</div><!-- /.table-responsive -->
+											</div><!-- /.review-table -->
+											
+											<div class="review-form">
+												<div class="form-container">
+													<form role="form" class="cnt-form">
+														
+														<div class="row">
+															<div class="col-sm-6">
+																<div class="form-group">
+																	<label for="exampleInputName">Nick Name <span class="astk">*</span></label>
+																	<input type="text" class="form-control txt" id="exampleInputName" placeholder="">
+																</div><!-- /.form-group -->
+																<div class="form-group">
+																	<label for="exampleInputSummary">Summary of your Review <span class="astk">*</span></label>
+																	<input type="text" class="form-control txt" id="exampleInputSummary" placeholder="">
+																</div><!-- /.form-group -->
+															</div>
+
+															<div class="col-md-6">
+																<div class="form-group">
+																	<label for="exampleInputReview">Review <span class="astk">*</span></label>
+																	<textarea class="form-control txt txt-review" id="exampleInputReview" placeholder=""></textarea>
+																</div><!-- /.form-group -->
+															</div>
+														</div><!-- /.row -->
+														
+														<div class="action text-right">
+															<button class="btn btn-normal btn-high btn-blue">SUBMIT REVIEW</button>
+														</div><!-- /.action -->
+
+													</form><!-- /.cnt-form -->
+												</div><!-- /.form-container -->
+											</div><!-- /.review-form -->
+
+										</div><!-- /.product-add-review -->
+									</div><!-- /.col -->
+
+								</div><!-- /.row -->
+							</div><!-- /.product-tab -->
+						</div><!-- /.tab-pane -->
+
+						<div class="tab-pane" id="tags">
+							<div class="product-tab">
+								
+								<h4 class="title">Product Tags</h4>
+								<form class="form-inline form-cnt" role="form">
 									<div class="form-container">
-										<form role="form" class="cnt-form">
-											<div class="row field-row form-group">
-						                        <div class="col-xs-12 col-sm-6">
-						                            <label>Full Name <span class="astk">*</span></label>
-						                            <input class="form-control txt">
-						                        </div>
-						                        <div class="col-xs-12 col-sm-6">
-						                            <label>Last Name <span class="astk">*</span></label>
-						                            <input class="form-control txt">
-						                        </div>
-						                    </div><!-- /.field-row -->
+							
+										<div class="form-group">
+											<label for="exampleInputTag">Add Your Tags: </label>
+											<input type="email" class="form-control txt" id="exampleInputTag">
+										</div>
 
-						                    <div class="row field-row form-group">
-						                        <div class="col-xs-12">
-						                            <label>Company Name</label>
-						                            <input class="form-control txt">
-						                        </div>
-						                    </div><!-- /.field-row -->
-
-						                    <div class="row field-row form-group">
-						                        <div class="col-xs-12 col-sm-6">
-						                            <label>Address <span class="astk">*</span></label>
-						                            <input class="form-control txt" data-placeholder="street address">
-						                        </div>
-						                        <div class="col-xs-12 col-sm-6">
-						                            <label>&nbsp;</label>
-						                            <input class="form-control txt" data-placeholder="town">
-						                        </div>
-						                    </div><!-- /.field-row -->
-
-						                    <div class="row field-row form-group">
-						                        <div class="col-xs-12 col-sm-4">
-						                            <label>Postcode / Zip <span class="astk">*</span></label>
-						                            <input class="form-control txt">
-						                        </div>
-						                        <div class="col-xs-12 col-sm-4">
-						                            <label>Email Address <span class="astk">*</span></label>
-						                            <input class="form-control txt">
-						                        </div>
-
-						                        <div class="col-xs-12 col-sm-4">
-						                            <label>Phone Number <span class="astk">*</span></label>
-						                            <input class="form-control txt">
-						                        </div>
-						                    </div><!-- /.field-row -->
-
-						                    <div class="row field-row form-group">
-						                        <div id="create-account" class="col-xs-12">
-						                            <input  class="le-checkbox big" type="checkbox"  />
-						                            <a class="simple-link bold" href="#">Create Account?</a> - you will receive email with temporary generated password after login you need to change it.
-						                        </div>
-						                    </div><!-- /.field-row -->	
-										</form><!-- /.form .cnt-form -->
+										<button type="submit" class="btn btn-normal btn-blue btn-high">ADD TAGS</button>
 									</div><!-- /.form-container -->
-								</div><!-- /.panel-body -->
-							</div><!-- /.panel-collapse -->
-						</div><!-- /./bohase/checkout-box -->
+								</form><!-- /.form-cnt -->
 
-						<div class="panel panel-default checkout-box">
-							<div class="panel-heading">
-								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-										03. Shipping Information
-									</a>
-								</h2>
-							</div>
+								<form class="form-inline form-cnt" role="form">
+									<div class="form-group">
+										<label>&nbsp;</label>
+										<span class="text">Use spaces to separate tags. Use single quotes (') for phrases.</span>
+									</div>
+								</form><!-- /.form-cnt -->
 
-							<div id="collapseThree" class="panel-collapse collapse content">
-								<div class="panel-body">
-									<div class="form-container">
-										<form role="form" class="cnt-form">
-											<div class="row field-row form-group">
-						                        <div class="col-xs-12 col-sm-6">
-						                            <label>Full Name <span class="astk">*</span></label>
-						                            <input class="form-control txt">
-						                        </div>
-						                        <div class="col-xs-12 col-sm-6">
-						                            <label>Last Name <span class="astk">*</span></label>
-						                            <input class="form-control txt">
-						                        </div>
-						                    </div><!-- /.field-row -->
+							</div><!-- /.product-tab -->
+						</div><!-- /.tab-pane -->
 
-						                    <div class="row field-row form-group">
-						                        <div class="col-xs-12">
-						                            <label>Company Name</label>
-						                            <input class="form-control txt">
-						                        </div>
-						                    </div><!-- /.field-row -->
+					</div><!-- /.tab-content -->
+				</div><!-- /.product-tabs -->
 
-						                    <div class="row field-row form-group">
-						                        <div class="col-xs-12 col-sm-6">
-						                            <label>Address <span class="astk">*</span></label>
-						                            <input class="form-control txt" data-placeholder="street address">
-						                        </div>
-						                        <div class="col-xs-12 col-sm-6">
-						                            <label>&nbsp;</label>
-						                            <input class="form-control txt" data-placeholder="town">
-						                        </div>
-						                    </div><!-- /.field-row -->
+			</div><!-- /.product-bottom -->	
+			
+			<!-- ============================================== CROSS SELLING ============================================== -->
+<section id="cross-selling" class="scroll-tabs">
+	<h3 class="title-lined"><span>You might also like</span></h3>
+	<div class="product-slider">
+		<div class="owl-carousel owl-theme prod-slider upsell-products">
+						 
+				<div class="item">
+					<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/3.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
 
-						                    <div class="row field-row form-group">
-						                        <div class="col-xs-12 col-sm-4">
-						                            <label>Postcode / Zip <span class="astk">*</span></label>
-						                            <input class="form-control txt">
-						                        </div>
-						                        <div class="col-xs-12 col-sm-4">
-						                            <label>Email Address <span class="astk">*</span></label>
-						                            <input class="form-control txt">
-						                        </div>
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->				</div>
+			 
+				<div class="item">
+					<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/11.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
 
-						                        <div class="col-xs-12 col-sm-4">
-						                            <label>Phone Number <span class="astk">*</span></label>
-						                            <input class="form-control txt">
-						                        </div>
-						                    </div><!-- /.field-row -->
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->				</div>
+			 
+				<div class="item">
+					<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/8.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
 
-						                    <div class="row field-row form-group">
-						                        <div id="create-account-2" class="col-xs-12">
-						                            <input  class="le-checkbox big" type="checkbox"  />
-						                            <a class="simple-link bold" href="#">Create Account?</a> - you will receive email with temporary generated password after login you need to change it.
-						                        </div>
-						                    </div><!-- /.field-row -->	
-										</form><!-- /.form .cnt-form -->
-									</div><!-- /.form-container -->
-								</div><!-- /.panel-body -->
-							</div><!-- /panel-collapse-->
-						</div><!-- /./bohase/checkout-box -->
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->				</div>
+			 
+				<div class="item">
+					<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/9.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
 
-						<div class="panel panel-default checkout-box">
-							<div class="panel-heading">
-								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-										04. shipping method
-									</a>
-								</h2>
-							</div>
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->				</div>
+			 
+				<div class="item">
+					<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/7.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
 
-							<div id="collapseFour" class="panel-collapse collapse content">
-								<div class="panel-body">
-									<div class="form-container">
-										<form class="form cnt-form">
-											<div class="radio">
-												<label>
-													<input type="radio" name="shipping-method" checked>
-													Normal Delivery<br/>
-													<small>2-5 Days.</small>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="shipping-method">
-													Express Delivery<br/>
-													<small>2-5 Days.</small>
-												</label>
-											</div>
-										</form><!-- /.cnt-form -->
-									</div><!-- /.form-container -->
-								</div><!-- /.panel-body -->
-							</div><!-- /panel-collapse-->
-						</div><!-- .checkout-box -->
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->				</div>
+			 
+				<div class="item">
+					<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/4.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
 
-						<div class="panel panel-default checkout-box">
-							<div class="panel-heading">
-								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-										05. payment method
-									</a>
-								</h2>
-							</div>
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->				</div>
+			 
+				<div class="item">
+					<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/12.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
 
-							<div id="collapseFive" class="panel-collapse collapse content">
-								<div class="panel-body">
-									<div class="form-container">
-										<form role="form" class="cnt-form">
-						                    <div class="radio">
-												<label>
-													<input type="radio" name="payment" checked>
-													Direct Bank Transfer<br/>
-													<small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tempus elit, vestibulum vestibulum erat ornare id.</small>
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="payment">
-													Cheque Payment
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="payment">
-													Cash on Delivery
-												</label>
-											</div>
-											<div class="radio">
-												<label>
-													<input type="radio" name="payment">
-													Pay via Paypal
-												</label>
-											</div>
-						                </form>
-									</div><!-- /.form-container -->
-								</div><!-- /.panel-body -->
-							</div><!-- /panel-collapse-->
-						</div><!-- checkout-box -->
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->				</div>
+			 
+				<div class="item">
+					<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/2.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
 
-					</div><!-- /./bohase/checkout-boxes -->
-				</div><!-- /./bohase/checkout-boxes-container -->
-
-			</div><!-- /.row -->
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->				</div>
+				
+		</div><!-- /.prod-slider -->
+	</div><!-- /.product-slider -->
+</section><!-- /.scroll-tabs -->
+<!-- ============================================== CROSS SELLING : END ============================================== -->
 		</div><!-- /.container -->
-	</div><!-- /./bohase/checkout-container -->
+	</div><!-- /.product-container -->
+
 </div><!-- /.body-container --><!-- ============================================== FOOTER ============================================== -->
 <footer>
 	

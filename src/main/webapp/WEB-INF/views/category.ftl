@@ -138,7 +138,7 @@
 									<div class="price">$360</div>
 								</div>	
 								<div class="pull-right">
-									<a href="/bohase/checkout.html" class="btn btn-upper btn-blue btn-normal">Checkout</a>	
+									<a href="/checkout.html" class="btn btn-upper btn-blue btn-normal">Checkout</a>	
 								</div>	
 								<div class="clearfix"></div>
 							</li>
@@ -153,7 +153,7 @@
 </div><!-- /.header-top -->
 <!-- ============================================== TOP MENU : END ============================================== -->
 	<!-- ============================================== NAVBAR ============================================== -->
-<div class="header-nav animate-dropdown details">
+<div class="header-nav animate-dropdown category">
 	<div class="yamm navbar navbar-default" role="navigation">
 		<div class="container-class container">
 			
@@ -164,9 +164,9 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	</button>
-	<a class="navbar-brand" href="/bohase/index.html">
+	<a class="navbar-brand" href="/index.html">
 		<div class="logo">
-						<svg version="1.1" xmlns="http:/www.w3.org/2000/svg" x="0px" y="0px" width="174px" height="69px" viewBox="0 0 163.822 35.572">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="174px" height="69px" viewBox="0 0 163.822 35.572">
 	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M59.071,13.505v-0.041c0.72-0.203,1.259-0.585,1.619-1.146
 		c0.359-0.561,0.54-1.233,0.54-2.019c0-0.689-0.101-1.271-0.301-1.744C60.73,8.082,60.45,7.703,60.09,7.418
 		c-0.36-0.283-0.79-0.486-1.289-0.608c-0.5-0.122-1.043-0.183-1.63-0.183h-4.816v14.486h4.856c0.84,0,1.543-0.115,2.109-0.346
@@ -292,12 +292,12 @@
 	<div class="nav-outer">
 		<ul class="nav navbar-nav">
 			<li class="dropdown">
-				<a href="/bohase/index.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+				<a href="/index.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 				<ul class="dropdown-menu">
-					<li><a href="/bohase/index.html">Home I</a></li>
+					<li><a href="/index.html">Home I</a></li>
 				</ul>
 			</li>
-			<li class="dropdown yamm-fw ">
+			<li class="dropdown yamm-fw active">
 				<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Women</a>
 				<ul class="dropdown-menu">
 					<li>
@@ -308,12 +308,12 @@
 			<div class="section">
 				<h3 class="title">STYLE</h3>
 				<ul class="links list-unstyled">
-					<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-					<li><a href="/bohase/single-product.html">Polos</a></li>
-					<li><a href="/bohase/single-product.html">Shirts</a></li>
-					<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-					<li><a href="/bohase/single-product.html">Outwear</a></li>
-					<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+					<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+					<li><a href="/single-product.html">Polos</a></li>
+					<li><a href="/single-product.html">Shirts</a></li>
+					<li><a href="/single-product.html">Sweatshirts</a></li>
+					<li><a href="/single-product.html">Outwear</a></li>
+					<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 				</ul>
 			</div><!-- /.section -->
 		</div><!-- /.col -->
@@ -322,12 +322,12 @@
 			<div class="section">
 				<h3 class="title">MEN</h3>
 				<ul class="links list-unstyled">
-					<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-					<li><a href="/bohase/single-product.html">Polos</a></li>
-					<li><a href="/bohase/single-product.html">Shirts</a></li>
-					<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-					<li><a href="/bohase/single-product.html">Outwear</a></li>
-					<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+					<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+					<li><a href="/single-product.html">Polos</a></li>
+					<li><a href="/single-product.html">Shirts</a></li>
+					<li><a href="/single-product.html">Sweatshirts</a></li>
+					<li><a href="/single-product.html">Outwear</a></li>
+					<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 				</ul>
 			</div><!-- /.section -->
 		</div><!-- /.col -->
@@ -336,12 +336,12 @@
 			<div class="section">
 				<h3 class="title">WOMEN</h3>
 				<ul class="links list-unstyled">
-					<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-					<li><a href="/bohase/single-product.html">Polos</a></li>
-					<li><a href="/bohase/single-product.html">Shirts</a></li>
-					<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-					<li><a href="/bohase/single-product.html">Outwear</a></li>
-					<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+					<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+					<li><a href="/single-product.html">Polos</a></li>
+					<li><a href="/single-product.html">Shirts</a></li>
+					<li><a href="/single-product.html">Sweatshirts</a></li>
+					<li><a href="/single-product.html">Outwear</a></li>
+					<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 				</ul>
 			</div><!-- /.section -->
 		</div><!-- /.col -->
@@ -350,12 +350,12 @@
 			<div class="section">
 				<h3 class="title">KIDS</h3>
 				<ul class="links list-unstyled">
-					<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-					<li><a href="/bohase/single-product.html">Polos</a></li>
-					<li><a href="/bohase/single-product.html">Shirts</a></li>
-					<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-					<li><a href="/bohase/single-product.html">Outwear</a></li>
-					<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+					<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+					<li><a href="/single-product.html">Polos</a></li>
+					<li><a href="/single-product.html">Shirts</a></li>
+					<li><a href="/single-product.html">Sweatshirts</a></li>
+					<li><a href="/single-product.html">Outwear</a></li>
+					<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 				</ul>
 			</div><!-- /.section -->
 		</div><!-- /.col -->
@@ -364,12 +364,12 @@
 			<div class="section">
 				<h3 class="title">ACCESSORIES</h3>
 				<ul class="links list-unstyled">
-					<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-					<li><a href="/bohase/single-product.html">Polos</a></li>
-					<li><a href="/bohase/single-product.html">Shirts</a></li>
-					<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-					<li><a href="/bohase/single-product.html">Outwear</a></li>
-					<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+					<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+					<li><a href="/single-product.html">Polos</a></li>
+					<li><a href="/single-product.html">Shirts</a></li>
+					<li><a href="/single-product.html">Sweatshirts</a></li>
+					<li><a href="/single-product.html">Outwear</a></li>
+					<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 				</ul>
 			</div><!-- /.section -->
 		</div><!-- /.col -->
@@ -378,12 +378,12 @@
 			<div class="section">
 				<h3 class="title">OFFERS</h3>
 				<ul class="links list-unstyled">
-					<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-					<li><a href="/bohase/single-product.html">Polos</a></li>
-					<li><a href="/bohase/single-product.html">Shirts</a></li>
-					<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-					<li><a href="/bohase/single-product.html">Outwear</a></li>
-					<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+					<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+					<li><a href="/single-product.html">Polos</a></li>
+					<li><a href="/single-product.html">Shirts</a></li>
+					<li><a href="/single-product.html">Sweatshirts</a></li>
+					<li><a href="/single-product.html">Outwear</a></li>
+					<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 				</ul>
 			</div><!-- /.section -->
 		</div><!-- /.col -->
@@ -403,12 +403,12 @@
 				<div class="section">
 					<h3 class="title">STYLE</h3>
 					<ul class="links list-unstyled">
-						<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-						<li><a href="/bohase/single-product.html">Polos</a></li>
-						<li><a href="/bohase/single-product.html">Shirts</a></li>
-						<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-						<li><a href="/bohase/single-product.html">Outwear</a></li>
-						<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+						<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+						<li><a href="/single-product.html">Polos</a></li>
+						<li><a href="/single-product.html">Shirts</a></li>
+						<li><a href="/single-product.html">Sweatshirts</a></li>
+						<li><a href="/single-product.html">Outwear</a></li>
+						<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 					</ul>
 				</div><!-- /.section -->
 			</div><!-- /.col -->
@@ -416,12 +416,12 @@
 				<div class="section">
 					<h3 class="title">WOMEN</h3>
 					<ul class="links list-unstyled">
-						<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-						<li><a href="/bohase/single-product.html">Polos</a></li>
-						<li><a href="/bohase/single-product.html">Shirts</a></li>
-						<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-						<li><a href="/bohase/single-product.html">Outwear</a></li>
-						<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+						<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+						<li><a href="/single-product.html">Polos</a></li>
+						<li><a href="/single-product.html">Shirts</a></li>
+						<li><a href="/single-product.html">Sweatshirts</a></li>
+						<li><a href="/single-product.html">Outwear</a></li>
+						<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 					</ul>
 				</div><!-- /.section -->
 			</div><!-- /.col -->
@@ -431,12 +431,12 @@
 				<div class="section">
 					<h3 class="title">MEN</h3>
 					<ul class="links list-unstyled no-border">
-						<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-						<li><a href="/bohase/single-product.html">Polos</a></li>
-						<li><a href="/bohase/single-product.html">Shirts</a></li>
-						<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-						<li><a href="/bohase/single-product.html">Outwear</a></li>
-						<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+						<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+						<li><a href="/single-product.html">Polos</a></li>
+						<li><a href="/single-product.html">Shirts</a></li>
+						<li><a href="/single-product.html">Sweatshirts</a></li>
+						<li><a href="/single-product.html">Outwear</a></li>
+						<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 					</ul>
 				</div><!-- /.section -->
 			</div><!-- /.col -->
@@ -468,12 +468,12 @@
 				<div class="section">
 					<h3 class="title">STYLE</h3>
 					<ul class="links list-unstyled">
-						<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-						<li><a href="/bohase/single-product.html">Polos</a></li>
-						<li><a href="/bohase/single-product.html">Shirts</a></li>
-						<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-						<li><a href="/bohase/single-product.html">Outwear</a></li>
-						<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+						<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+						<li><a href="/single-product.html">Polos</a></li>
+						<li><a href="/single-product.html">Shirts</a></li>
+						<li><a href="/single-product.html">Sweatshirts</a></li>
+						<li><a href="/single-product.html">Outwear</a></li>
+						<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 					</ul>
 				</div><!-- /.section -->
 			</div><!-- /.col -->
@@ -481,12 +481,12 @@
 				<div class="section">
 					<h3 class="title">WOMEN</h3>
 					<ul class="links list-unstyled">
-						<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-						<li><a href="/bohase/single-product.html">Polos</a></li>
-						<li><a href="/bohase/single-product.html">Shirts</a></li>
-						<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-						<li><a href="/bohase/single-product.html">Outwear</a></li>
-						<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+						<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+						<li><a href="/single-product.html">Polos</a></li>
+						<li><a href="/single-product.html">Shirts</a></li>
+						<li><a href="/single-product.html">Sweatshirts</a></li>
+						<li><a href="/single-product.html">Outwear</a></li>
+						<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 					</ul>
 				</div><!-- /.section -->
 			</div><!-- /.col -->
@@ -496,12 +496,12 @@
 				<div class="section">
 					<h3 class="title">MEN</h3>
 					<ul class="links list-unstyled no-border">
-						<li><a href="/bohase/single-product.html">Tanks &amp; Bras</a></li>
-						<li><a href="/bohase/single-product.html">Polos</a></li>
-						<li><a href="/bohase/single-product.html">Shirts</a></li>
-						<li><a href="/bohase/single-product.html">Sweatshirts</a></li>
-						<li><a href="/bohase/single-product.html">Outwear</a></li>
-						<li><a href="/bohase/single-product.html">Capris &amp; Pants</a></li>
+						<li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+						<li><a href="/single-product.html">Polos</a></li>
+						<li><a href="/single-product.html">Shirts</a></li>
+						<li><a href="/single-product.html">Sweatshirts</a></li>
+						<li><a href="/single-product.html">Outwear</a></li>
+						<li><a href="/single-product.html">Capris &amp; Pants</a></li>
 					</ul>
 				</div><!-- /.section -->
 			</div><!-- /.col -->
@@ -522,15 +522,15 @@
 </div><!-- /.yamm-content -->					</li>
 				</ul>
 			</li>
-			<li><a href="/bohase/category.html">Gifts</a></li>
+			<li><a href="/category.html">Gifts</a></li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Pages</a>
 				<ul class="dropdown-menu">
-					<li><a href="/bohase/index.html">Home I</a></li>
-					<li><a href="/bohase/category.html">Category Listing</a></li>
-					<li><a href="/bohase/single-product.html">Single Product</a></li>
-					<li><a href="/bohase/cart.html">Shopping Cart Summary</a></li>
-					<li><a href="/bohase/checkout.html">Checkout</a></li>
+					<li><a href="/index.html">Home I</a></li>
+					<li><a href="/category.html">Category Listing</a></li>
+					<li><a href="/single-product.html">Single Product</a></li>
+					<li><a href="/cart.html">Shopping Cart Summary</a></li>
+					<li><a href="/checkout.html">Checkout</a></li>
 				</ul>
 			</li>
 			<li class="dropdown">
@@ -572,409 +572,358 @@
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Women</a></li>
 				</ul>
-			</div>	
-		</div>		
-	</div>
+			</div><!-- /.breadcrumb-inner -->
+		</div><!-- /.container -->
+	</div><!-- /.breadcrumb -->
 
-	<div class="product-container">
-		<div class="container">			
-			
-			<div class="product-top product">
+	<div class="search-container">
+		<div class="container">
+
+			<div class="search-result-facet">
 				<div class="row">
+
+					<div class="col-md-12">
+						<div class="category-info">
+							<div class="category-details">
+								<h2 class="category-title">Women</h2>
+								<p class="category-description">Phasellus sagittis magna sem, a bibendum quam. Nunc eu aliquam turpis, vitae semper felis. Maecenas id velit eget mauris mattis facilisis a vitae diam sagittis.Nunc eu aliquam turpis, vitae semper felis. Maecenas id velit eget mauris mattis facilisis a vitae diam sagittis. In posuere quis quam quis bibendum.</p>
+							</div>
+							<img class="img-responsive" src="/resources/assets/images/category/category-image.jpg" alt="">
+						</div><!-- /.category-info -->
+					</div>
 					
-					<div class="col-md-6">
-						<div class="product-image-slider">
-							<div class="col-xs-2">
-								<div class="product-image-slider">
-									<ul class="bxslider" id="prod-image-slider">
-																				<li class="active">
-											<div class="prod-image">
-												<div class="prod-image-inner">
-													<a href="#">
-																												<img src="/resources/assets/images/single-product/1.jpg" alt="">
-													</a>
-												</div>	
-												<div class="arrow"></div>
-											</div>
-										</li>
-																				<li class="">
-											<div class="prod-image">
-												<div class="prod-image-inner">
-													<a href="#">
-																												<img src="/resources/assets/images/single-product/2.jpg" alt="">
-													</a>
-												</div>	
-												<div class="arrow"></div>
-											</div>
-										</li>
-																				<li class="">
-											<div class="prod-image">
-												<div class="prod-image-inner">
-													<a href="#">
-																												<img src="/resources/assets/images/single-product/3.jpg" alt="">
-													</a>
-												</div>	
-												<div class="arrow"></div>
-											</div>
-										</li>
-																				<li class="">
-											<div class="prod-image">
-												<div class="prod-image-inner">
-													<a href="#">
-																												<img src="/resources/assets/images/single-product/4.jpg" alt="">
-													</a>
-												</div>	
-												<div class="arrow"></div>
-											</div>
-										</li>
-																				<li class="">
-											<div class="prod-image">
-												<div class="prod-image-inner">
-													<a href="#">
-																												<img src="/resources/assets/images/single-product/1.jpg" alt="">
-													</a>
-												</div>	
-												<div class="arrow"></div>
-											</div>
-										</li>
-																				<li class="">
-											<div class="prod-image">
-												<div class="prod-image-inner">
-													<a href="#">
-																												<img src="/resources/assets/images/single-product/2.jpg" alt="">
-													</a>
-												</div>	
-												<div class="arrow"></div>
-											</div>
-										</li>
-																				<li class="">
-											<div class="prod-image">
-												<div class="prod-image-inner">
-													<a href="#">
-																												<img src="/resources/assets/images/single-product/3.jpg" alt="">
-													</a>
-												</div>	
-												<div class="arrow"></div>
-											</div>
-										</li>
-																				<li class="">
-											<div class="prod-image">
-												<div class="prod-image-inner">
-													<a href="#">
-																												<img src="/resources/assets/images/single-product/4.jpg" alt="">
-													</a>
-												</div>	
-												<div class="arrow"></div>
-											</div>
-										</li>
-																				<li class="">
-											<div class="prod-image">
-												<div class="prod-image-inner">
-													<a href="#">
-																												<img src="/resources/assets/images/single-product/1.jpg" alt="">
-													</a>
-												</div>	
-												<div class="arrow"></div>
-											</div>
-										</li>
-																				<li class="">
-											<div class="prod-image">
-												<div class="prod-image-inner">
-													<a href="#">
-																												<img src="/resources/assets/images/single-product/2.jpg" alt="">
-													</a>
-												</div>	
-												<div class="arrow"></div>
-											</div>
-										</li>
-																			</ul><!-- /.bxslider -->
+					<!-- ============================================== SIDEBAR ============================================== -->
+					<div class="col-md-3">
+						<div class="facets-container">
 
-									<div class="owl-controls">
-										<a href="#" id="prod-image-next" class="owl-next"></a>
-										<a href="#" id="prod-image-prev" class="owl-prev"></a>
-									</div>
-								</div><!-- /.product-image-slider -->
-							</div><!-- /.col -->
-							<div class="col-xs-10">
-								<div class="product-image">
-									<div class="image">
-										<a id="prod-image-link" href="/resources/assets/images/single-product/1.jpg" data-lightbox="image-181476214" data-title="Nunc ullamcors">
-											<img id="prod-image" src="/resources/assets/images/single-product/1.jpg" alt="">
-										</a>
-									</div>
-									<div class="tag tag-orange"><div class="text">HOT</div></div>
+							<div class="facet-box">
+	<h2>Filter by Categories</h2>
+	<ul class="list-unstyled list-no-dot">
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Women</span>
+					<span class="count col-xs-3">(36)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>
+			<div class="clearfix"></div>
+		</li>
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Men</span>
+					<span class="count col-xs-3">(20)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>
+			<div class="clearfix"></div>
+		</li>
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Girl</span>
+					<span class="count col-xs-3">(05)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>
+			<div class="clearfix"></div>
+		</li>
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Fashion</span>
+					<span class="count col-xs-3">(40)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>
+			<div class="clearfix"></div>
+		</li>
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Show</span>
+					<span class="count col-xs-3">(28)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>
+			<div class="clearfix"></div>
+		</li>
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Off sale</span>
+					<span class="count col-xs-3">(08)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>
+			<div class="clearfix"></div>
+		</li>
+	</ul><!-- /.list-unstyled -->
+</div><!-- /.facet-box -->							
+
+							<div class="facet-box">
+	<h2>Filter By Manufactures</h2>
+	<ul class="list-unstyled list-no-dot">
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Women</span>
+					<span class="count col-xs-3">(36)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>
+		</li>
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Men</span>
+					<span class="count col-xs-3">(20)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>
+		</li>
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Girl</span>
+					<span class="count col-xs-3">(05)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>
+		</li>
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Fashion</span>
+					<span class="count col-xs-3">(40)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>
+		</li>
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Show</span>
+					<span class="count col-xs-3">(28)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>
+		</li>
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Off sale</span>
+					<span class="count col-xs-3">(08)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>
+		</li>
+	</ul><!-- /.list-unstyled -->
+</div><!-- /.facet-box -->
+							<div class="facet-box">
+	<h2>Filter by Color</h2>
+	<ul class="list-unstyled list-no-dot">
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">White</span>
+					<span class="count col-xs-3">(36)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>			
+			<div class="clearfix"></div>
+		</li>
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Black</span>
+					<span class="count col-xs-3">(36)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>			
+			<div class="clearfix"></div>
+		</li>
+		<li>
+			<label class="filter-label">
+				<input type="checkbox" class="checkbox" value="1">
+				<span class="cnt">
+					<span class="key col-xs-9">Red</span>
+					<span class="count col-xs-3">(36)</span>
+					<span class="clearfix"></span>
+				</span>
+			</label>			
+			<div class="clearfix"></div>
+		</li>
+	</ul><!-- /.list-unstyled -->
+</div><!-- /.facet-box -->
+							<div class="facet-box">
+	<h2>compare products</h2>
+	<ul class="list-unstyled">
+		<li>
+			<div class="cnt">
+				<div class="key col-xs-9">Women</div>
+				<div class="action col-xs-3"><a href="#" class="lnk">x</a></div>
+				<div class="clearfix"></div>
+			</div>
+		</li>
+		<li>
+			<div class="cnt">
+				<div class="key col-xs-9">Men</div>
+				<div class="action col-xs-3"><a href="#" class="lnk">x</a></div>
+				<div class="clearfix"></div>
+			</div>
+		</li>
+	</ul>
+	<div class="clearfix"></div>
+	<div class="actions actions-right">
+		<a href="#" class="btn btn-blue btn-normal">Remove</a>&nbsp;<a href="#" class="btn btn-blue btn-normal">Compare</a>
+	</div>
+</div><!-- /.facet-box -->							
+							<div class="facet-box">
+	<h2>Product Tags</h2>
+	<div class="prod-tags">
+		<a href="#" class="prod-tag">Tag 1</a>
+		<a href="#" class="prod-tag">Awesome</a>
+		<a href="#" class="prod-tag">Another</a>
+		<a href="#" class="prod-tag">Tag 2</a>
+		<a href="#" class="prod-tag">Tag Four</a>
+		<a href="#" class="prod-tag">Tag 1</a>
+		<a href="#" class="prod-tag">Awesome Tag</a>
+		<a href="#" class="prod-tag">Another</a>
+		<a href="#" class="prod-tag">Tag 2</a>
+		<a href="#" class="prod-tag">Tag Four</a>
+	</div><!-- /.prod-tags -->
+	<div class="clearfix"></div>
+</div><!-- /.facet-box -->						
+							<div class="facet-box">
+	<h2>Price</h2>
+	<div class="range range-container">
+		<div id="facet-range"></div>
+		<div class="row">
+			<div class="col-xs-6"><span id="facet-range-min" class="facet-range-val"></span></div>
+			<div class="col-xs-6"><span id="facet-range-max" class="facet-range-val"></span></div>
+		</div>				
+	</div><!-- /.range .range-container -->
+	<div class="clearfix"></div>
+</div><!-- /.facet-box -->
+							<div class="wide-banner cnt-strip">
+								<div class="image">
+									<img src="/resources/assets/images/category/banner/1.jpg" alt="">
 								</div>	
-							</div><!-- /.col -->
-						</div><!-- /.product-image-slider -->
+								<div class="strip strip-more">
+									<div class="strip-inner">
+										<h5>Fashion 2016</h5>
+										<h3>For women</h3>
+									</div>	
+								</div>
+							</div><!-- /.wide-banner -->
+
+						</div><!-- /.facets-container -->
 					</div><!-- /.col -->
+					<!-- ============================================== SIDEBAR : END ============================================== -->
 
-					<div class="col-md-6">
-						<div class="product-info">
-							<h1 class="name">Nunc ullamcorper tellus nullas</h1>
-							
-							<div class="rating-reviews">
-								<div class="row">
-									<div class="col-sm-2">
-										<div class="rating rateit-small"></div>
-									</div>
-									<div class="col-sm-8">
-										<div class="reviews">
-											<a href="#" class="lnk">8 Review(s)</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="#" class="lnk">Add your review</a>
-										</div>
-									</div>
-								</div><!-- /.row -->		
-							</div><!-- /.rating-reviews -->
-
-							<div class="stock-container info-container">
-								<div class="row">
-									<div class="col-sm-2">
-										<div class="stock-box">
-											<span class="label">Availability :</span>
-										</div>	
-									</div>
-									<div class="col-sm-9">
-										<div class="stock-box">
-											<span class="value">In Stock</span>
-										</div>	
-									</div>
-								</div><!-- /.row -->	
-							</div><!-- /.stock-container -->
-
-							<div class="description-container">
-								Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibe ndum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus.
-							</div><!-- /.description-container -->
-
-							<div class="quantity-container info-container">
-								<div class="row">
-									
-									<div class="col-sm-2">
-										<span class="label">Quantity :</span>
-									</div>
-									
-									<div class="col-sm-2">
-										<input type="text" class="txt txt-qty" value="10">
-									</div>
-
-									<div class="col-sm-4">
-										<a href="#" class="btn btn-blue btn-block btn-lg">ADD TO CART</a>
-									</div>
-
-									<div class="col-sm-3">
-										<div class="btn-options">
-											<a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a>
-											<a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a>
-										</div>	
-									</div>
-								</div><!-- /.row -->
-							</div><!-- /.quantity-container -->
-
-							<div class="price-container info-container">
-								<div class="row">
-									
-									<div class="col-sm-2">
-										<div class="price-box">
-											<span class="label">Price :</span>
-										</div>
-									</div>
-
-									<div class="col-sm-3">
-										<div class="price-box">
-											<span class="price">$860.00</span>
-										</div>
-									</div>
-
-									<div class="col-sm-4">
-										<div class="price-box">
-											<span class="price-strike">$900.00</span>
-										</div>
-									</div>
-
-								</div><!-- /.row -->
-							</div><!-- /.price-container -->
-
-							<div class="social-container">
-
-							</div><!-- /.social-container -->
-
-						</div><!-- /.product-info -->
-					</div><!-- /.col -->
-
-				</div><!-- /.row -->
-			</div><!-- /.product-top -->
-				
-			<div class="product-bottom">
-				
-				<div class="product-tabs">
-
-					<ul class="nav nav-tabs nav-tab-cell" id="product-tabs">
-						<li class="active"><a href="#description" data-toggle="tab">DESCRIPTION</a></li>
-						<li><a href="#review" data-toggle="tab">REVIEW</a></li>
-						<li><a href="#tags" data-toggle="tab">TAGS</a></li>
-					</ul><!-- /.nav-tabs #product-tabs -->
-
-					<div class="tab-content">
+					<!-- ============================================== CONTENT ============================================== -->
+					<div class="col-md-9">
 						
-						<div class="tab-pane in active" id="description">
-							<div class="product-tab">
-								<p class="text">Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibe ndum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibe ndum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus.</p>
-							</div>	
-						</div><!-- /.tab-pane -->
+						<div class="filters-container">
+	<div class="row">
+		<div class="col col-md-2">
+			<div class="filter-tabs">
+				<ul class="nav nav-tabs nav-tab-box nav-tab-fa-icon" id="filter-tabs">
+					<li class="active"><a href="#grid-container" data-group="filter-tab"><i class="glyphicon glyphicon-th"></i></a></li>
+					<li><a href="#list-container" data-group="filter-tab"><i class="glyphicon glyphicon-th-list"></i></a></li>
+				</ul>
+			</div><!-- /.filter-tabs -->
+		</div><!-- /.col -->
+		<div class="col col-md-6">
+			<div class="col col-md-6">
+				<div class="lbl-cnt">
+					<span class="lbl">BY SHORT</span>
+					<div class="fld inline">
+						<div class="dropdown dropdown-small dropdown-med dropdown-white inline">
+							<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+								1 <span class="caret"></span>
+							</button>
 
-						<div class="tab-pane" id="review">
-							<div class="product-tab">
-								<div class="row">
+							<ul class="dropdown-menu" role="menu">
+																	<li role="presentation"><a href="#">1</a></li>
+																	<li role="presentation"><a href="#">2</a></li>
+																	<li role="presentation"><a href="#">3</a></li>
+																	<li role="presentation"><a href="#">4</a></li>
+																	<li role="presentation"><a href="#">5</a></li>
+																	<li role="presentation"><a href="#">6</a></li>
+																	<li role="presentation"><a href="#">7</a></li>
+																	<li role="presentation"><a href="#">8</a></li>
+																	<li role="presentation"><a href="#">9</a></li>
+																	<li role="presentation"><a href="#">10</a></li>
+															</ul>
+						</div>
+					</div><!-- /.fld -->
+				</div><!-- /.lbl-cnt -->
+			</div><!-- /.col -->
+			<div class="col col-md-6">
+				<div class="lbl-cnt">
+					<span class="lbl">SHOW</span>
+					<div class="fld inline">
+						<div class="dropdown dropdown-small dropdown-med dropdown-white inline">
+							<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+								1 <span class="caret"></span>
+							</button>
 
-									<div class="col-md-4">
-										<div class="product-reviews">
-											<h4 class="title">Customer Reviews</h4>
-
-											<div class="reviews">
-																								<div class="review">
-													<div class="review-title"><span class="summary">Best Product For me :)</span><span class="date">(06 May, 2013)</span></div>
-													<div class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam suscipit nisl in adipiscin"</div>
-													<div class="author">By : <span class="name">Xingkhaong Mao</span></div>
-												</div>
-																								<div class="review">
-													<div class="review-title"><span class="summary">Best Product For me :)</span><span class="date">(06 May, 2013)</span></div>
-													<div class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam suscipit nisl in adipiscin"</div>
-													<div class="author">By : <span class="name">Xingkhaong Mao</span></div>
-												</div>
-																								<div class="review">
-													<div class="review-title"><span class="summary">Best Product For me :)</span><span class="date">(06 May, 2013)</span></div>
-													<div class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam suscipit nisl in adipiscin"</div>
-													<div class="author">By : <span class="name">Xingkhaong Mao</span></div>
-												</div>
-																							</div><!-- /.reviews -->
-										</div><!-- /.product-reviews -->
-									</div><!-- /.col -->
-
-									<div class="col-md-8">
-										<div class="product-add-review">
-											<h4 class="title">Write your own review</h4>
-											<div class="review-table">
-												<div class="table-responsive">
-													<table class="table table-bordered">	
-														<thead>
-															<tr>
-																<th class="cell-label">&nbsp;</th>
-																<th>1 star</th>
-																<th>2 stars</th>
-																<th>3 stars</th>
-																<th>4 stars</th>
-																<th>5 stars</th>
-															</tr>
-														</thead>	
-														<tbody>
-															<tr>
-																<td class="cell-label">Quality</td>
-																<td><input type="radio" name="quality" class="radio" value="1"></td>
-																<td><input type="radio" name="quality" class="radio" value="2"></td>
-																<td><input type="radio" name="quality" class="radio" value="3"></td>
-																<td><input type="radio" name="quality" class="radio" value="4"></td>
-																<td><input type="radio" name="quality" class="radio" value="5"></td>
-															</tr>
-															<tr>
-																<td class="cell-label">Price</td>
-																<td><input type="radio" name="quality" class="radio" value="1"></td>
-																<td><input type="radio" name="quality" class="radio" value="2"></td>
-																<td><input type="radio" name="quality" class="radio" value="3"></td>
-																<td><input type="radio" name="quality" class="radio" value="4"></td>
-																<td><input type="radio" name="quality" class="radio" value="5"></td>
-															</tr>
-															<tr>
-																<td class="cell-label">Value</td>
-																<td><input type="radio" name="quality" class="radio" value="1"></td>
-																<td><input type="radio" name="quality" class="radio" value="2"></td>
-																<td><input type="radio" name="quality" class="radio" value="3"></td>
-																<td><input type="radio" name="quality" class="radio" value="4"></td>
-																<td><input type="radio" name="quality" class="radio" value="5"></td>
-															</tr>
-														</tbody>
-													</table><!-- /.table .table-bordered -->
-												</div><!-- /.table-responsive -->
-											</div><!-- /.review-table -->
-											
-											<div class="review-form">
-												<div class="form-container">
-													<form role="form" class="cnt-form">
-														
-														<div class="row">
-															<div class="col-sm-6">
-																<div class="form-group">
-																	<label for="exampleInputName">Nick Name <span class="astk">*</span></label>
-																	<input type="text" class="form-control txt" id="exampleInputName" placeholder="">
-																</div><!-- /.form-group -->
-																<div class="form-group">
-																	<label for="exampleInputSummary">Summary of your Review <span class="astk">*</span></label>
-																	<input type="text" class="form-control txt" id="exampleInputSummary" placeholder="">
-																</div><!-- /.form-group -->
-															</div>
-
-															<div class="col-md-6">
-																<div class="form-group">
-																	<label for="exampleInputReview">Review <span class="astk">*</span></label>
-																	<textarea class="form-control txt txt-review" id="exampleInputReview" placeholder=""></textarea>
-																</div><!-- /.form-group -->
-															</div>
-														</div><!-- /.row -->
-														
-														<div class="action text-right">
-															<button class="btn btn-normal btn-high btn-blue">SUBMIT REVIEW</button>
-														</div><!-- /.action -->
-
-													</form><!-- /.cnt-form -->
-												</div><!-- /.form-container -->
-											</div><!-- /.review-form -->
-
-										</div><!-- /.product-add-review -->
-									</div><!-- /.col -->
-
-								</div><!-- /.row -->
-							</div><!-- /.product-tab -->
-						</div><!-- /.tab-pane -->
-
-						<div class="tab-pane" id="tags">
-							<div class="product-tab">
-								
-								<h4 class="title">Product Tags</h4>
-								<form class="form-inline form-cnt" role="form">
-									<div class="form-container">
-							
-										<div class="form-group">
-											<label for="exampleInputTag">Add Your Tags: </label>
-											<input type="email" class="form-control txt" id="exampleInputTag">
-										</div>
-
-										<button type="submit" class="btn btn-normal btn-blue btn-high">ADD TAGS</button>
-									</div><!-- /.form-container -->
-								</form><!-- /.form-cnt -->
-
-								<form class="form-inline form-cnt" role="form">
-									<div class="form-group">
-										<label>&nbsp;</label>
-										<span class="text">Use spaces to separate tags. Use single quotes (') for phrases.</span>
-									</div>
-								</form><!-- /.form-cnt -->
-
-							</div><!-- /.product-tab -->
-						</div><!-- /.tab-pane -->
-
-					</div><!-- /.tab-content -->
-				</div><!-- /.product-tabs -->
-
-			</div><!-- /.product-bottom -->	
-			
-			<!-- ============================================== CROSS SELLING ============================================== -->
-<section id="cross-selling" class="scroll-tabs">
-	<h3 class="title-lined"><span>You might also like</span></h3>
-	<div class="product-slider">
-		<div class="owl-carousel owl-theme prod-slider upsell-products">
-						 
-				<div class="item">
-					<div class="product">
+							<ul class="dropdown-menu" role="menu">
+																	<li role="presentation"><a href="#">1</a></li>
+																	<li role="presentation"><a href="#">2</a></li>
+																	<li role="presentation"><a href="#">3</a></li>
+																	<li role="presentation"><a href="#">4</a></li>
+																	<li role="presentation"><a href="#">5</a></li>
+																	<li role="presentation"><a href="#">6</a></li>
+																	<li role="presentation"><a href="#">7</a></li>
+																	<li role="presentation"><a href="#">8</a></li>
+																	<li role="presentation"><a href="#">9</a></li>
+																	<li role="presentation"><a href="#">10</a></li>
+															</ul>
+						</div>
+					</div><!-- /.fld -->
+				</div><!-- /.lbl-cnt -->
+			</div><!-- /.col -->
+		</div><!-- /.col -->
+		<div class="col col-md-4 text-right">
+			<div class="pagination-container">
+				<ul class="list-inline list-unstyled">
+					<li class="prev"><a href="#"><i class="fa fa-angle-left"></i></a></li>
+					<li><a href="#">1</a></li>	
+					<li class="active"><a href="#">2</a></li>	
+					<li><a href="#">3</a></li>	
+					<li><a href="#">4</a></li>	
+					<li class="next"><a href="#"><i class="fa fa-angle-right"></i></a></li>
+				</ul>
+			</div><!-- /.pagination-container -->
+		</div><!-- /.col -->
+	</div><!-- /.row -->
+</div><!-- /.filters-container -->						
+						<div class="search-result-container">
+							<div class="tab-pane filter-tab" id="grid-container">
+																	<div class="row">
+																					<div class="col-md-4">
+												<div class="product">
 	<div class="product-image">
 		<div class="image">
-			<img data-echo="/resources/assets/images/products/3.jpg" src="/resources/assets/images/blank.gif" alt="">
+			<img data-echo="/resources/assets/images/products/1.jpg" src="/resources/assets/images/blank.gif" alt="">
 		</div>
 		<div class="cart">
 			<div class="action">
@@ -991,148 +940,9 @@
 		<div class="rating rateit-small"></div>
 		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 	</div><!-- /.product-info -->
-</div><!-- /.product -->				</div>
-			 
-				<div class="item">
-					<div class="product">
-	<div class="product-image">
-		<div class="image">
-			<img data-echo="/resources/assets/images/products/11.jpg" src="/resources/assets/images/blank.gif" alt="">
-		</div>
-		<div class="cart">
-			<div class="action">
-				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
-				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
-				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
-			</div>
-		</div>	
-		<div class="tag tag-orange"><div class="text">HOT</div></div>
-	</div><!-- /.product-image -->
-
-	<div class="product-info">
-		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
-		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-	</div><!-- /.product-info -->
-</div><!-- /.product -->				</div>
-			 
-				<div class="item">
-					<div class="product">
-	<div class="product-image">
-		<div class="image">
-			<img data-echo="/resources/assets/images/products/8.jpg" src="/resources/assets/images/blank.gif" alt="">
-		</div>
-		<div class="cart">
-			<div class="action">
-				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
-				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
-				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
-			</div>
-		</div>	
-		<div class="tag tag-orange"><div class="text">HOT</div></div>
-	</div><!-- /.product-image -->
-
-	<div class="product-info">
-		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
-		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-	</div><!-- /.product-info -->
-</div><!-- /.product -->				</div>
-			 
-				<div class="item">
-					<div class="product">
-	<div class="product-image">
-		<div class="image">
-			<img data-echo="/resources/assets/images/products/9.jpg" src="/resources/assets/images/blank.gif" alt="">
-		</div>
-		<div class="cart">
-			<div class="action">
-				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
-				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
-				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
-			</div>
-		</div>	
-		<div class="tag tag-orange"><div class="text">HOT</div></div>
-	</div><!-- /.product-image -->
-
-	<div class="product-info">
-		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
-		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-	</div><!-- /.product-info -->
-</div><!-- /.product -->				</div>
-			 
-				<div class="item">
-					<div class="product">
-	<div class="product-image">
-		<div class="image">
-			<img data-echo="/resources/assets/images/products/7.jpg" src="/resources/assets/images/blank.gif" alt="">
-		</div>
-		<div class="cart">
-			<div class="action">
-				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
-				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
-				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
-			</div>
-		</div>	
-		<div class="tag tag-orange"><div class="text">HOT</div></div>
-	</div><!-- /.product-image -->
-
-	<div class="product-info">
-		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
-		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-	</div><!-- /.product-info -->
-</div><!-- /.product -->				</div>
-			 
-				<div class="item">
-					<div class="product">
-	<div class="product-image">
-		<div class="image">
-			<img data-echo="/resources/assets/images/products/4.jpg" src="/resources/assets/images/blank.gif" alt="">
-		</div>
-		<div class="cart">
-			<div class="action">
-				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
-				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
-				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
-			</div>
-		</div>	
-		<div class="tag tag-orange"><div class="text">HOT</div></div>
-	</div><!-- /.product-image -->
-
-	<div class="product-info">
-		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
-		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-	</div><!-- /.product-info -->
-</div><!-- /.product -->				</div>
-			 
-				<div class="item">
-					<div class="product">
-	<div class="product-image">
-		<div class="image">
-			<img data-echo="/resources/assets/images/products/12.jpg" src="/resources/assets/images/blank.gif" alt="">
-		</div>
-		<div class="cart">
-			<div class="action">
-				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
-				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
-				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
-			</div>
-		</div>	
-		<div class="tag tag-orange"><div class="text">HOT</div></div>
-	</div><!-- /.product-image -->
-
-	<div class="product-info">
-		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
-		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-	</div><!-- /.product-info -->
-</div><!-- /.product -->				</div>
-			 
-				<div class="item">
-					<div class="product">
+</div><!-- /.product -->											</div>
+																					<div class="col-md-4">
+												<div class="product">
 	<div class="product-image">
 		<div class="image">
 			<img data-echo="/resources/assets/images/products/2.jpg" src="/resources/assets/images/blank.gif" alt="">
@@ -1152,14 +962,517 @@
 		<div class="rating rateit-small"></div>
 		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 	</div><!-- /.product-info -->
-</div><!-- /.product -->				</div>
-				
-		</div><!-- /.prod-slider -->
-	</div><!-- /.product-slider -->
-</section><!-- /.scroll-tabs -->
-<!-- ============================================== CROSS SELLING : END ============================================== -->
+</div><!-- /.product -->											</div>
+																					<div class="col-md-4">
+												<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/3.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
+
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->											</div>
+																			</div><!-- /.row -->
+																	<div class="row">
+																					<div class="col-md-4">
+												<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/4.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
+
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->											</div>
+																					<div class="col-md-4">
+												<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/5.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
+
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->											</div>
+																					<div class="col-md-4">
+												<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/6.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
+
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->											</div>
+																			</div><!-- /.row -->
+																	<div class="row">
+																					<div class="col-md-4">
+												<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/7.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
+
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->											</div>
+																					<div class="col-md-4">
+												<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/8.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
+
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->											</div>
+																					<div class="col-md-4">
+												<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/9.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
+
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->											</div>
+																			</div><!-- /.row -->
+																	<div class="row">
+																					<div class="col-md-4">
+												<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/10.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
+
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->											</div>
+																					<div class="col-md-4">
+												<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/11.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
+
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->											</div>
+																					<div class="col-md-4">
+												<div class="product">
+	<div class="product-image">
+		<div class="image">
+			<img data-echo="/resources/assets/images/products/12.jpg" src="/resources/assets/images/blank.gif" alt="">
+		</div>
+		<div class="cart">
+			<div class="action">
+				<div><a href="#" class="btn btn-dark-blue btn-small-med btn-trans">Add to Cart</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a></div>
+				<div><a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a></div>
+			</div>
+		</div>	
+		<div class="tag tag-orange"><div class="text">HOT</div></div>
+	</div><!-- /.product-image -->
+
+	<div class="product-info">
+		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
+		<div class="rating rateit-small"></div>
+		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+	</div><!-- /.product-info -->
+</div><!-- /.product -->											</div>
+																			</div><!-- /.row -->
+									
+							</div><!-- /.tab-pane #grid-container -->
+							<div class="tab-pane filter-tab" id="list-container">
+																	<div class="product-list">
+	<div class="row product-list-row">
+		<div class="col col-lg-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/1.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-lg-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcorper tellus nullas</a></h3>
+				<div class="rating rateit-small"></div>
+				<div class="description">Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget.</div>				
+				<div class="product-stats">
+					<div class="row">
+						<div class="col col-sm-5">
+							<div class="price">
+								<span class="offer">$800.00</span>
+								<span class="actual">$900.00</span>
+							</div>
+						</div><!-- /.col -->
+						<div class="col col-sm-7">
+							<div class="cart-action">
+								<a href="#" class="btn btn-trans btn-blue btn-normal btn-high">ADD TO CART</a>
+							</div>
+							<div class="sec-action">
+								<a href="#" class="lnk">+ Add to wishlist</a>
+								<a href="#" class="lnk">+ Add to compare</a>
+							</div>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.product-stats -->
+			</div><!-- /.product-info -->	
+		</div><!-- /.col -->
+	</div><!-- /.product-list-row -->
+	<div class="tag tag-orange"><div class="text">HOT</div></div>
+</div><!-- /.product-list -->																	<div class="product-list">
+	<div class="row product-list-row">
+		<div class="col col-lg-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/2.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-lg-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcorper tellus nullas</a></h3>
+				<div class="rating rateit-small"></div>
+				<div class="description">Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget.</div>				
+				<div class="product-stats">
+					<div class="row">
+						<div class="col col-sm-5">
+							<div class="price">
+								<span class="offer">$800.00</span>
+								<span class="actual">$900.00</span>
+							</div>
+						</div><!-- /.col -->
+						<div class="col col-sm-7">
+							<div class="cart-action">
+								<a href="#" class="btn btn-trans btn-blue btn-normal btn-high">ADD TO CART</a>
+							</div>
+							<div class="sec-action">
+								<a href="#" class="lnk">+ Add to wishlist</a>
+								<a href="#" class="lnk">+ Add to compare</a>
+							</div>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.product-stats -->
+			</div><!-- /.product-info -->	
+		</div><!-- /.col -->
+	</div><!-- /.product-list-row -->
+	<div class="tag tag-orange"><div class="text">HOT</div></div>
+</div><!-- /.product-list -->																	<div class="product-list">
+	<div class="row product-list-row">
+		<div class="col col-lg-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/3.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-lg-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcorper tellus nullas</a></h3>
+				<div class="rating rateit-small"></div>
+				<div class="description">Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget.</div>				
+				<div class="product-stats">
+					<div class="row">
+						<div class="col col-sm-5">
+							<div class="price">
+								<span class="offer">$800.00</span>
+								<span class="actual">$900.00</span>
+							</div>
+						</div><!-- /.col -->
+						<div class="col col-sm-7">
+							<div class="cart-action">
+								<a href="#" class="btn btn-trans btn-blue btn-normal btn-high">ADD TO CART</a>
+							</div>
+							<div class="sec-action">
+								<a href="#" class="lnk">+ Add to wishlist</a>
+								<a href="#" class="lnk">+ Add to compare</a>
+							</div>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.product-stats -->
+			</div><!-- /.product-info -->	
+		</div><!-- /.col -->
+	</div><!-- /.product-list-row -->
+	<div class="tag tag-orange"><div class="text">HOT</div></div>
+</div><!-- /.product-list -->																	<div class="product-list">
+	<div class="row product-list-row">
+		<div class="col col-lg-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/4.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-lg-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcorper tellus nullas</a></h3>
+				<div class="rating rateit-small"></div>
+				<div class="description">Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget.</div>				
+				<div class="product-stats">
+					<div class="row">
+						<div class="col col-sm-5">
+							<div class="price">
+								<span class="offer">$800.00</span>
+								<span class="actual">$900.00</span>
+							</div>
+						</div><!-- /.col -->
+						<div class="col col-sm-7">
+							<div class="cart-action">
+								<a href="#" class="btn btn-trans btn-blue btn-normal btn-high">ADD TO CART</a>
+							</div>
+							<div class="sec-action">
+								<a href="#" class="lnk">+ Add to wishlist</a>
+								<a href="#" class="lnk">+ Add to compare</a>
+							</div>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.product-stats -->
+			</div><!-- /.product-info -->	
+		</div><!-- /.col -->
+	</div><!-- /.product-list-row -->
+	<div class="tag tag-orange"><div class="text">HOT</div></div>
+</div><!-- /.product-list -->																	<div class="product-list">
+	<div class="row product-list-row">
+		<div class="col col-lg-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/5.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-lg-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcorper tellus nullas</a></h3>
+				<div class="rating rateit-small"></div>
+				<div class="description">Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget.</div>				
+				<div class="product-stats">
+					<div class="row">
+						<div class="col col-sm-5">
+							<div class="price">
+								<span class="offer">$800.00</span>
+								<span class="actual">$900.00</span>
+							</div>
+						</div><!-- /.col -->
+						<div class="col col-sm-7">
+							<div class="cart-action">
+								<a href="#" class="btn btn-trans btn-blue btn-normal btn-high">ADD TO CART</a>
+							</div>
+							<div class="sec-action">
+								<a href="#" class="lnk">+ Add to wishlist</a>
+								<a href="#" class="lnk">+ Add to compare</a>
+							</div>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.product-stats -->
+			</div><!-- /.product-info -->	
+		</div><!-- /.col -->
+	</div><!-- /.product-list-row -->
+	<div class="tag tag-orange"><div class="text">HOT</div></div>
+</div><!-- /.product-list -->																	<div class="product-list">
+	<div class="row product-list-row">
+		<div class="col col-lg-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/6.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-lg-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcorper tellus nullas</a></h3>
+				<div class="rating rateit-small"></div>
+				<div class="description">Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget.</div>				
+				<div class="product-stats">
+					<div class="row">
+						<div class="col col-sm-5">
+							<div class="price">
+								<span class="offer">$800.00</span>
+								<span class="actual">$900.00</span>
+							</div>
+						</div><!-- /.col -->
+						<div class="col col-sm-7">
+							<div class="cart-action">
+								<a href="#" class="btn btn-trans btn-blue btn-normal btn-high">ADD TO CART</a>
+							</div>
+							<div class="sec-action">
+								<a href="#" class="lnk">+ Add to wishlist</a>
+								<a href="#" class="lnk">+ Add to compare</a>
+							</div>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.product-stats -->
+			</div><!-- /.product-info -->	
+		</div><!-- /.col -->
+	</div><!-- /.product-list-row -->
+	<div class="tag tag-orange"><div class="text">HOT</div></div>
+</div><!-- /.product-list -->															</div><!-- /.tab-pane #list-container -->
+						</div><!-- /.search-result-container -->
+						
+						<div class="filters-container">
+	<div class="row">
+		<div class="col col-md-5">
+			<div class="lbl-cnt">
+				Item 01 to 09 of 125 total
+			</div>
+		</div>
+		<div class="col col-md-3">
+			<div class="lbl-cnt">
+				<span class="lbl">SHOW</span>
+				<div class="fld inline">
+					<div class="dropdown dropdown-small dropdown-med dropdown-white inline">
+						<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+							1 <span class="caret"></span>
+						</button>
+
+						<ul class="dropdown-menu" role="menu">
+															<li role="presentation"><a href="#">1</a></li>
+															<li role="presentation"><a href="#">2</a></li>
+															<li role="presentation"><a href="#">3</a></li>
+															<li role="presentation"><a href="#">4</a></li>
+															<li role="presentation"><a href="#">5</a></li>
+															<li role="presentation"><a href="#">6</a></li>
+															<li role="presentation"><a href="#">7</a></li>
+															<li role="presentation"><a href="#">8</a></li>
+															<li role="presentation"><a href="#">9</a></li>
+															<li role="presentation"><a href="#">10</a></li>
+													</ul>
+					</div>
+				</div><!-- /.fld -->
+			</div><!-- /.lbl-cnt -->
+		</div><!-- /.col -->	
+		<div class="col col-md-4 text-right">
+			<div class="pagination-container">
+				<ul class="list-inline list-unstyled">
+					<li class="prev"><a href="#"><i class="fa fa-angle-left"></i></a></li>
+					<li><a href="#">1</a></li>	
+					<li class="active"><a href="#">2</a></li>	
+					<li><a href="#">3</a></li>	
+					<li><a href="#">4</a></li>	
+					<li class="next"><a href="#"><i class="fa fa-angle-right"></i></a></li>
+				</ul>
+			</div><!-- /.pagination-container -->
+		</div><!-- /.col -->
+	</div><!-- /.row -->
+</div><!-- /.filters-container -->
+					</div><!-- /.col -->
+
+					<!-- ============================================== CONTENT : END ============================================== -->
+
+				</div><!-- /.row -->
+			</div><!-- /.search-result-facet -->
+
 		</div><!-- /.container -->
-	</div><!-- /.product-container -->
+	</div><!-- /.search-container -->
 
 </div><!-- /.body-container --><!-- ============================================== FOOTER ============================================== -->
 <footer>
