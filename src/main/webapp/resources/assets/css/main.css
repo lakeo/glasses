@@ -819,6 +819,16 @@ header.header-style-1 .header-top .cnt-cart .lnk-cart i {
 header.header-style-1 .header-nav {
   margin-top: 100px;
 }
+nav.header-navbar {
+  margin-bottom:0px;
+}
+.navbar-searchbox {
+  margin-top:15px;
+}
+.navbar-searchinput {
+  min-width: 300px;
+  width:60% !important;
+}
 @media (max-width: 1199px) {
   header.header-style-1 .header-nav {
     margin-top: 0;
@@ -1316,6 +1326,29 @@ header.header-style-3 .header-nav .cnt-search .input-group {
   border-radius: 5px;
   background: #FFF;
   width: 220px;
+}
+.numberone-box {
+  margin-left:15px;
+  margin-right:0px;
+  padding-right:0px;
+}
+.index-nav {
+  background:#c81623;
+  color:#fff;
+}
+div .index-nav {
+  height:390px;
+}
+div .index-nav ul {
+  margin-top:5px;
+}
+.index-nav a {
+  color:#fff;
+  text-align:center;
+}
+.index-nav .dropdown-menu-right {
+  left:273px;
+  top:0px;
 }
 header.header-style-3 .header-nav .cnt-search .input-group input {
   background: none;
@@ -2072,6 +2105,9 @@ header.header-style-3 .header-nav .cnt-search .input-group button i {
 .product-micro .product-micro-row .col {
   padding-left: 10px;
   padding-right: 10px;
+}
+.wide-banners {
+  margin-top:10px;
 }
 .product-micro .product-image {
   position: relative;

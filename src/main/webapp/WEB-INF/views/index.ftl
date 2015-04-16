@@ -1,7 +1,36 @@
 <div class="container">
-		
-		<div class="wide-banners">
-	<div class="row">
+
+	<div class="wide-banners numberone-box">
+
+		<div class="row">
+
+        <div class="col-md-3 m-t-30 index-nav" role="navigation">
+            <ul class="nav nav-pills nav-stacked">
+                <li  role="presentation" class="dropdown">
+					<a  class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">女款 >></a>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+						<li>
+							<div class="yamm-content">
+								<table class="table table-hover">
+									<tr>
+										<td>aaaa</td>
+										<td>aaaa</td>
+									</tr>
+								</table>
+							</div>
+						</li>
+					</ul>
+				</li>
+                <li  role="presentation" ><a href="#">女款 >></a></li>
+                <li  role="presentation" ><a href="#">女款 >></a></li>
+                <li  role="presentation" ><a href="#">女款 >></a></li>
+                <li  role="presentation" ><a href="#">女款 >></a></li>
+                <li  role="presentation" ><a href="#">女款 >></a></li>
+                <li  role="presentation" ><a href="#">女款 >></a></li>
+                <li  role="presentation" ><a href="#">女款 >></a></li>
+                <li  role="presentation" ><a href="#">女款 >></a></li>
+            </ul><!-- /.list-unstyled -->
+        </div><!-- /.col -->
 
 		<div class="col-md-9">
 			<div class="wide-slider wide-slider-pagination wide-slider-pagination-left m-t-30">
@@ -59,62 +88,6 @@
 			</div><!-- /.wide-slider -->
 		</div><!-- /.col -->
 
-		<div class="col-md-3">
-            <div class="facet-box m-t-30">
-                <h2 class="lined"><span>全部分类</span></h2>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#" class="facet">
-                            <div class="key col-xs-12">Women</div>
-                            <div class="clearfix"></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="facet">
-                            <div class="key col-xs-12">Men</div>
-                            <div class="clearfix"></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="facet">
-                            <div class="key col-xs-12">Girl</div>
-                            <div class="clearfix"></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="facet">
-                            <div class="key col-xs-12">Fashion</div>
-                            <div class="clearfix"></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="facet">
-                            <div class="key col-xs-12">Show</div>
-                            <div class="clearfix"></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="facet">
-                            <div class="key col-xs-12">Off sale</div>
-                            <div class="clearfix"></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="facet">
-                            <div class="key col-xs-12">Off sale</div>
-                            <div class="clearfix"></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="facet">
-                            <div class="key col-xs-12">Off sale</div>
-                            <div class="clearfix"></div>
-                        </a>
-                    </li>
-
-                </ul><!-- /.list-unstyled -->
-            </div><!-- /.facet-box -->
-		</div><!-- /.col -->
 
 	</div><!-- /.row -->
 </div><!-- /.wide-banners -->
