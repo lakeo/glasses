@@ -7,28 +7,645 @@
         <div class="col-md-3 m-t-30 index-nav" role="navigation">
             <ul class="nav nav-pills nav-stacked">
                 <li  role="presentation" class="dropdown">
-					<a  class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">女款 >></a>
+					<a  class="dropdown-toggle" data-toggle="dropdown" href="#">女款 >></a>
                     <ul class="dropdown-menu dropdown-menu-right" role="menu">
-						<li>
-							<div class="yamm-content">
-								<table class="table table-hover">
-									<tr>
-										<td>aaaa</td>
-										<td>aaaa</td>
-									</tr>
-								</table>
-							</div>
-						</li>
-					</ul>
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">STYLE</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">MEN</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">WOMEN</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">KIDS</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">ACCESSORIES</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">OFFERS</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                </div><!-- /.row -->
+                            </div><!-- /.yamm-content -->					</li>
+                    </ul>
 				</li>
-                <li  role="presentation" ><a href="#">女款 >></a></li>
-                <li  role="presentation" ><a href="#">女款 >></a></li>
-                <li  role="presentation" ><a href="#">女款 >></a></li>
-                <li  role="presentation" ><a href="#">女款 >></a></li>
-                <li  role="presentation" ><a href="#">女款 >></a></li>
-                <li  role="presentation" ><a href="#">女款 >></a></li>
-                <li  role="presentation" ><a href="#">女款 >></a></li>
-                <li  role="presentation" ><a href="#">女款 >></a></li>
+                <li  role="presentation" >
+					<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">女款 >></a>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <h3 class="title">STYLE</h3>
+                                                <ul class="links list-unstyled">
+                                                    <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                    <li><a href="/single-product.html">Polos</a></li>
+                                                    <li><a href="/single-product.html">Shirts</a></li>
+                                                    <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                    <li><a href="/single-product.html">Outwear</a></li>
+                                                    <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                                </ul>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <h3 class="title">WOMEN</h3>
+                                                <ul class="links list-unstyled">
+                                                    <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                    <li><a href="/single-product.html">Polos</a></li>
+                                                    <li><a href="/single-product.html">Shirts</a></li>
+                                                    <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                    <li><a href="/single-product.html">Outwear</a></li>
+                                                    <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                                </ul>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-6">
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <h3 class="title">MEN</h3>
+                                                <ul class="links list-unstyled no-border">
+                                                    <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                    <li><a href="/single-product.html">Polos</a></li>
+                                                    <li><a href="/single-product.html">Shirts</a></li>
+                                                    <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                    <li><a href="/single-product.html">Outwear</a></li>
+                                                    <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                                </ul>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <div class="nav-product product-summary">
+                                                    <div class="image">
+                                                        <img data-echo="/resources/assets/images/products-2/4.jpg" src="/resources/assets/images/blank.gif" alt="">
+                                                    </div>
+                                                    <a href="#"><h3 class="name">Habace Dress</h3></a>
+                                                    <div class="rating rateit-small"></div>
+                                                    <div class="price">$360.00</div>
+                                                </div>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                    </div><!-- /.col -->
+                                </div><!-- /.row -->
+                            </div><!-- /.yamm-content -->					</li>
+                    </ul>
+				</li>
+                <li  role="presentation" class="dropdown">
+                    <a  class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">女款 >></a>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">STYLE</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">MEN</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">WOMEN</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">KIDS</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">ACCESSORIES</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">OFFERS</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                </div><!-- /.row -->
+                            </div><!-- /.yamm-content -->					</li>
+                    </ul>
+                </li>
+                <li  role="presentation" >
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">女款 >></a>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <h3 class="title">STYLE</h3>
+                                                <ul class="links list-unstyled">
+                                                    <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                    <li><a href="/single-product.html">Polos</a></li>
+                                                    <li><a href="/single-product.html">Shirts</a></li>
+                                                    <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                    <li><a href="/single-product.html">Outwear</a></li>
+                                                    <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                                </ul>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <h3 class="title">WOMEN</h3>
+                                                <ul class="links list-unstyled">
+                                                    <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                    <li><a href="/single-product.html">Polos</a></li>
+                                                    <li><a href="/single-product.html">Shirts</a></li>
+                                                    <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                    <li><a href="/single-product.html">Outwear</a></li>
+                                                    <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                                </ul>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-6">
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <h3 class="title">MEN</h3>
+                                                <ul class="links list-unstyled no-border">
+                                                    <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                    <li><a href="/single-product.html">Polos</a></li>
+                                                    <li><a href="/single-product.html">Shirts</a></li>
+                                                    <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                    <li><a href="/single-product.html">Outwear</a></li>
+                                                    <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                                </ul>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <div class="nav-product product-summary">
+                                                    <div class="image">
+                                                        <img data-echo="/resources/assets/images/products-2/4.jpg" src="/resources/assets/images/blank.gif" alt="">
+                                                    </div>
+                                                    <a href="#"><h3 class="name">Habace Dress</h3></a>
+                                                    <div class="rating rateit-small"></div>
+                                                    <div class="price">$360.00</div>
+                                                </div>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                    </div><!-- /.col -->
+                                </div><!-- /.row -->
+                            </div><!-- /.yamm-content -->					</li>
+                    </ul>
+                </li>
+                <li  role="presentation" class="dropdown">
+                    <a  class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">女款 >></a>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">STYLE</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">MEN</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">WOMEN</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">KIDS</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">ACCESSORIES</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">OFFERS</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                </div><!-- /.row -->
+                            </div><!-- /.yamm-content -->					</li>
+                    </ul>
+                </li>
+                <li  role="presentation" >
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">女款 >></a>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <h3 class="title">STYLE</h3>
+                                                <ul class="links list-unstyled">
+                                                    <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                    <li><a href="/single-product.html">Polos</a></li>
+                                                    <li><a href="/single-product.html">Shirts</a></li>
+                                                    <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                    <li><a href="/single-product.html">Outwear</a></li>
+                                                    <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                                </ul>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <h3 class="title">WOMEN</h3>
+                                                <ul class="links list-unstyled">
+                                                    <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                    <li><a href="/single-product.html">Polos</a></li>
+                                                    <li><a href="/single-product.html">Shirts</a></li>
+                                                    <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                    <li><a href="/single-product.html">Outwear</a></li>
+                                                    <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                                </ul>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-6">
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <h3 class="title">MEN</h3>
+                                                <ul class="links list-unstyled no-border">
+                                                    <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                    <li><a href="/single-product.html">Polos</a></li>
+                                                    <li><a href="/single-product.html">Shirts</a></li>
+                                                    <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                    <li><a href="/single-product.html">Outwear</a></li>
+                                                    <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                                </ul>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <div class="nav-product product-summary">
+                                                    <div class="image">
+                                                        <img data-echo="/resources/assets/images/products-2/4.jpg" src="/resources/assets/images/blank.gif" alt="">
+                                                    </div>
+                                                    <a href="#"><h3 class="name">Habace Dress</h3></a>
+                                                    <div class="rating rateit-small"></div>
+                                                    <div class="price">$360.00</div>
+                                                </div>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                    </div><!-- /.col -->
+                                </div><!-- /.row -->
+                            </div><!-- /.yamm-content -->					</li>
+                    </ul>
+                </li>
+                <li  role="presentation" class="dropdown">
+                    <a  class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">女款 >></a>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">STYLE</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">MEN</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">WOMEN</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">KIDS</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">ACCESSORIES</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                    <div class="col-md-2">
+                                        <div class="section">
+                                            <h3 class="title">OFFERS</h3>
+                                            <ul class="links list-unstyled">
+                                                <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                <li><a href="/single-product.html">Polos</a></li>
+                                                <li><a href="/single-product.html">Shirts</a></li>
+                                                <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                <li><a href="/single-product.html">Outwear</a></li>
+                                                <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                            </ul>
+                                        </div><!-- /.section -->
+                                    </div><!-- /.col -->
+
+                                </div><!-- /.row -->
+                            </div><!-- /.yamm-content -->					</li>
+                    </ul>
+                </li>
+                <li  role="presentation" >
+                    <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">女款 >></a>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                        <li>
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <h3 class="title">STYLE</h3>
+                                                <ul class="links list-unstyled">
+                                                    <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                    <li><a href="/single-product.html">Polos</a></li>
+                                                    <li><a href="/single-product.html">Shirts</a></li>
+                                                    <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                    <li><a href="/single-product.html">Outwear</a></li>
+                                                    <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                                </ul>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <h3 class="title">WOMEN</h3>
+                                                <ul class="links list-unstyled">
+                                                    <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                    <li><a href="/single-product.html">Polos</a></li>
+                                                    <li><a href="/single-product.html">Shirts</a></li>
+                                                    <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                    <li><a href="/single-product.html">Outwear</a></li>
+                                                    <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                                </ul>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-6">
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <h3 class="title">MEN</h3>
+                                                <ul class="links list-unstyled no-border">
+                                                    <li><a href="/single-product.html">Tanks &amp; Bras</a></li>
+                                                    <li><a href="/single-product.html">Polos</a></li>
+                                                    <li><a href="/single-product.html">Shirts</a></li>
+                                                    <li><a href="/single-product.html">Sweatshirts</a></li>
+                                                    <li><a href="/single-product.html">Outwear</a></li>
+                                                    <li><a href="/single-product.html">Capris &amp; Pants</a></li>
+                                                </ul>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                        <div class="col-md-6">
+                                            <div class="section">
+                                                <div class="nav-product product-summary">
+                                                    <div class="image">
+                                                        <img data-echo="/resources/assets/images/products-2/4.jpg" src="/resources/assets/images/blank.gif" alt="">
+                                                    </div>
+                                                    <a href="#"><h3 class="name">Habace Dress</h3></a>
+                                                    <div class="rating rateit-small"></div>
+                                                    <div class="price">$360.00</div>
+                                                </div>
+                                            </div><!-- /.section -->
+                                        </div><!-- /.col -->
+                                    </div><!-- /.col -->
+                                </div><!-- /.row -->
+                            </div><!-- /.yamm-content -->					</li>
+                    </ul>
+                </li>
             </ul><!-- /.list-unstyled -->
         </div><!-- /.col -->
 
