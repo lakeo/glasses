@@ -167,6 +167,7 @@ a:focus {
 }
 .cnt-strip {
   position: relative;
+  margin-bottom: 10px;
 }
 .cnt-strip .strip {
   position: absolute;
@@ -823,12 +824,12 @@ nav.header-navbar {
   margin-bottom:0px;
 }
 .navbar-searchbox {
-  margin-top:15px;
 }
 .navbar-searchinput {
   min-width: 300px;
   width:60% !important;
 }
+
 @media (max-width: 1199px) {
   header.header-style-1 .header-nav {
     margin-top: 0;
@@ -1332,8 +1333,12 @@ header.header-style-3 .header-nav .cnt-search .input-group {
   margin-right:0px;
   padding-right:0px;
 }
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
 .index-nav {
-  background:#c81623;
+  background:lightslategrey;
   color:#fff;
 }
 div .index-nav {

@@ -296,7 +296,7 @@ $(document).ready(function(){
 /*===================================================================================*/
 
 $(document).ready(function(){
-	$('.rating').rateit({max: 5, step: 1, value : 3, resetable : false , readonly : true});
+	$('.rating').rateit({max: 5, step: 1, value : 5, resetable : false , readonly : true});
 });
 
 /*===================================================================================*/
