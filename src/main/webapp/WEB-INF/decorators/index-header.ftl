@@ -14,7 +14,7 @@
                      <div class="navbar-searchbox center-block">
                          <form class="form-inline" role="search">
                              <div class="form-group">
-                                 <input type="text" class="form-control navbar-searchinput" placeholder="...">
+                                 <input type="text" class="form-control navbar-searchinput" placeholder="search here...">
                                  <input type="submit" class="btn btn-default" value="搜索"/>
                              </div>
                          </form>
@@ -22,7 +22,7 @@
                  </div>
                  <div class="col-md-3"  >
                      <div class="pull-right">
-                        <a href＝“">关于我们</a>
+                        <a href="#">关于我们</a>
                      </div>
                  </div>
              </div>
