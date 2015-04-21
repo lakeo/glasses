@@ -2300,8 +2300,22 @@ header.header-style-3 .header-nav .cnt-search .input-group button i {
   margin-top: 10px;
 }
 .product .product-image-slider {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   position: relative;
+}
+.bottom-align {
+  position: absolute;
+  bottom: 0;
+}
+.bottom-align-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bottom-align-right {
+  position: relative;
+  bottom: 0;
+  right: 0;
 }
 .product .product-image-slider .col-xs-2,
 .product .product-image-slider .col-xs-10 {
@@ -3498,6 +3512,10 @@ header.header-style-3 .header-nav .cnt-search .input-group button i {
   line-height: 18px;
   padding: 0;
 }
+.info-container {
+  padding-top:5px;
+  padding-bottom: 5px;
+}
 .body-container .product-container .product-top .product-info .info-container .value {
   padding: 0;
 }
@@ -3536,6 +3554,19 @@ header.header-style-3 .header-nav .cnt-search .input-group button i {
   padding: 5px 10px;
   text-align: center;
 }
+.body-container .product-container .product-top .product-info .info-container .txt-qty {
+  width: 60px;
+  height: 30px;
+  border: 1px solid #f2f2f2;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: 5px 10px;
+  text-align: center;
+  margin-bottom: 5px;
+}
 .body-container .product-container .product-top .product-info .quantity-container .lnk {
   display: block;
   font-size: 12px;
@@ -3549,18 +3580,22 @@ header.header-style-3 .header-nav .cnt-search .input-group button i {
   line-height: 21px !important;
 }
 .body-container .product-container .product-top .product-info .price-container {
-  padding: 20px 0;
-  border-bottom: 1px solid #f2f2f2;
-  margin-bottom: 25px;
+  padding: 10px 0;
 }
 .body-container .product-container .product-top .product-info .price-container .label {
   line-height: 50px;
+}
+.serv-info {
+  margin-right: 3px;
+  background: #bbb;
+  color: #fff;
+  font-size: 12px;
 }
 .body-container .product-container .product-top .product-info .price-container .price {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-weight: bold;
-  color: #595959;
+  color: #E21212;
   line-height: 50px;
 }
 .body-container .product-container .product-top .product-info .price-container .price-strike {
@@ -3571,9 +3606,11 @@ header.header-style-3 .header-nav .cnt-search .input-group button i {
   line-height: 50px;
   text-decoration: line-through;
 }
-.body-container .product-container .product-bottom {
-  margin-top: 60px;
+
+.info-container .info-img {
+  width:80px;
 }
+
 .body-container .product-container .product-bottom .product-tabs .product-tab {
   margin-top: 20px;
 }

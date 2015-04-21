@@ -15,7 +15,6 @@
                          <form class="form-inline" role="search">
                              <div class="form-group">
                                  <input type="text" class="form-control navbar-searchinput" placeholder="search here...">
-                                 <input type="submit" class="btn btn-default" value="搜索"/>
                              </div>
                          </form>
                      </div>

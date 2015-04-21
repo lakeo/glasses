@@ -2,7 +2,7 @@
 <decorators defaultdir="/WEB-INF/decorators">
     <decorator name="common" page="common.ftl">
         <pattern>/category.html</pattern>
-        <pattern>/single-product.html</pattern>
+        <pattern>/product.html</pattern>
     </decorator>
     <decorator name="index" page="index.ftl">
     <pattern>/index.html</pattern>

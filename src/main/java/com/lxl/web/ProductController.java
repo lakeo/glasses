@@ -9,8 +9,8 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class ProductController {
-    @RequestMapping({"/products","/single-product.html"})
-    public ModelAndView productsPage()
+    @RequestMapping({"/product.html"})
+    public ModelAndView productPage()
     {
         return new ModelAndView();
     }

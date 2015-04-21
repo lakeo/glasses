@@ -1,15 +1,4 @@
 
-	<div class="breadcrumb">
-		<div class="container">
-			<div class="breadcrumb-inner">
-				<ul class="list-inline list-unstyled">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Women</a></li>
-				</ul>
-			</div>	
-		</div>		
-	</div>
-
 	<div class="product-container">
 		<div class="container">			
 			
@@ -136,7 +125,6 @@
 											<img id="prod-image" src="/resources/assets/images/single-product/1.jpg" alt="">
 										</a>
 									</div>
-									<div class="tag tag-orange"><div class="text">HOT</div></div>
 								</div>	
 							</div><!-- /.col -->
 						</div><!-- /.product-image-slider -->
@@ -144,91 +132,130 @@
 
 					<div class="col-md-6">
 						<div class="product-info">
-							<h1 class="name">Nunc ullamcorper tellus nullas</h1>
-							
-							<div class="rating-reviews">
+							<h3 >LOHO2015新品首发 时尚 红色 半框 女款 光学镜</h3>
+							<h4 class="name">	【预约到店体验并购买即送价值99元礼盒套装】</h4>
+
+                            <div class="price-container info-container">
+                                <div class="row">
+									<div class="col-sm-2">
+                                        <div class="price-box">
+                                            <span class="label">价格:</span>
+                                        </div>
+                                    </div>
+									<div class="col-sm-4">
+                                        <div class="price-box">
+                                            <span class="price">￥860.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-3">
+                                        <div class="price-box">
+                                            <span class="price-strike">￥900.00</span>
+                                        </div>
+                                    </div>
+
+                                </div><!-- /.row -->
+
+                            </div><!-- /.price-container -->
+							<div class="info-container">
+                                <div class="row">
+                                    <div class="col-sm-2 ">
+										评价：
+									</div>
+                                    <div class="col-sm-3 ">
+                                        <div class="rating rateit-small"></div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="reviews">
+                                            <a href="#" class="lnk">8 人评价</a>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+							<div class="info-container">
 								<div class="row">
 									<div class="col-sm-2">
-										<div class="rating rateit-small"></div>
+										承诺：
 									</div>
-									<div class="col-sm-8">
-										<div class="reviews">
-											<a href="#" class="lnk">8 Review(s)</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="#" class="lnk">Add your review</a>
-										</div>
-									</div>
-								</div><!-- /.row -->		
-							</div><!-- /.rating-reviews -->
-
-							<div class="stock-container info-container">
-								<div class="row">
-									<div class="col-sm-2">
-										<div class="stock-box">
-											<span class="label">Availability :</span>
-										</div>	
-									</div>
-									<div class="col-sm-9">
-										<div class="stock-box">
-											<span class="value">In Stock</span>
-										</div>	
-									</div>
-								</div><!-- /.row -->	
-							</div><!-- /.stock-container -->
-
-							<div class="description-container">
-								Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Suspendisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibe ndum gravida eget, lacinia id purus. Susp endisse posuere arcu diam, id accumsan eros pharetra ac. Nulla enim risus, facilisis bibendum gravida eget, lacinia id purus.
-							</div><!-- /.description-container -->
-
+                                    <div class="col-sm-9">
+										<ul class="list-unstyled ">
+											<li>
+                                                <ul class="list-unstyled list-inline">
+                                                    <li><b class="serv-info">01</b>正品保证</li>
+                                                    <li><b class="serv-info">02</b>终身保修</li>
+                                                </ul>
+											</li>
+                                            <li>
+                                                <ul class="list-unstyled list-inline">
+                                                    <li><b class="serv-info">03</b>全网低价</li>
+                                                    <li><b class="serv-info">04</b>微笑服务</li>
+                                                </ul>
+											</li>
+										</ul>
+                                    </div>
+								</div>
+							</div>
+                            <div class="info-container">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        颜色：
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <ul class="list-unstyled list-inline">
+                                            <li>
+												<a href="#">
+                                                    <img class="info-img" src="/resources/assets/images/single-product/3.jpg" alt="">
+												</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img class="info-img" src="/resources/assets/images/single-product/3.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img class="info-img" src="/resources/assets/images/single-product/3.jpg" alt="">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        材质：
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <select class="form-control">
+											<option selected>板材</option>
+                                            <option>钛合金</option>
+                                            <option>木质</option>
+										</select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-container">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        数量：
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <input type="text" class="txt txt-qty" value="10">
+                                    </div>
+                                </div>
+                            </div>
 							<div class="quantity-container info-container">
 								<div class="row">
-									
-									<div class="col-sm-2">
-										<span class="label">Quantity :</span>
-									</div>
-									
-									<div class="col-sm-2">
-										<input type="text" class="txt txt-qty" value="10">
-									</div>
+                                    <div class="col-sm-4">
+                                        <a href="#" class="btn btn-blue btn-block btn-lg">立即购买</a>
+                                    </div>
 
-									<div class="col-sm-4">
-										<a href="#" class="btn btn-blue btn-block btn-lg">ADD TO CART</a>
-									</div>
-
-									<div class="col-sm-3">
-										<div class="btn-options">
-											<a href="#" class="lnk"><i class="fa fa-heart"></i> Add to wishlist</a>
-											<a href="#" class="lnk"><i class="fa fa-exchange"></i> Add to compare</a>
-										</div>	
-									</div>
+                                    <div class="col-sm-4">
+                                        <a href="#" class="btn btn-blue btn-block btn-lg">加入购物车</a>
+                                    </div>
 								</div><!-- /.row -->
 							</div><!-- /.quantity-container -->
-
-							<div class="price-container info-container">
-								<div class="row">
-									
-									<div class="col-sm-2">
-										<div class="price-box">
-											<span class="label">Price :</span>
-										</div>
-									</div>
-
-									<div class="col-sm-3">
-										<div class="price-box">
-											<span class="price">$860.00</span>
-										</div>
-									</div>
-
-									<div class="col-sm-4">
-										<div class="price-box">
-											<span class="price-strike">$900.00</span>
-										</div>
-									</div>
-
-								</div><!-- /.row -->
-							</div><!-- /.price-container -->
-
-							<div class="social-container">
-
-							</div><!-- /.social-container -->
 
 						</div><!-- /.product-info -->
 					</div><!-- /.col -->
@@ -241,9 +268,9 @@
 				<div class="product-tabs">
 
 					<ul class="nav nav-tabs nav-tab-cell" id="product-tabs">
-						<li class="active"><a href="#description" data-toggle="tab">DESCRIPTION</a></li>
-						<li><a href="#review" data-toggle="tab">REVIEW</a></li>
-						<li><a href="#tags" data-toggle="tab">TAGS</a></li>
+						<li class="active"><a href="#description" data-toggle="tab">商品描述</a></li>
+						<li><a href="#review" data-toggle="tab">规格信息</a></li>
+						<li><a href="#tags" data-toggle="tab">评价信息</a></li>
 					</ul><!-- /.nav-tabs #product-tabs -->
 
 					<div class="tab-content">
@@ -400,7 +427,7 @@
 			
 			<!-- ============================================== CROSS SELLING ============================================== -->
 <section id="cross-selling" class="scroll-tabs">
-	<h3 class="title-lined"><span>You might also like</span></h3>
+	<h3 class="title-lined"><span>猜你喜欢</span></h3>
 	<div class="product-slider">
 		<div class="owl-carousel owl-theme prod-slider upsell-products">
 						 
