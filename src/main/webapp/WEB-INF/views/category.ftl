@@ -40,7 +40,7 @@
                                 <li class="list-group-item">
                                     <div class="container">
                                         <div class="col col-sm-1">
-                                            <span>查询条件 </span>
+                                            <span>当前>></span>
                                         </div>
                                         <div class="col col-sm-10 ">
                                             <span class="label label-default">Default&nbsp;&nbsp;<a href="#">X</a></span>
