@@ -10,15 +10,17 @@
                          </a>
                      </div>
                  </div>
-                 <div class="col-md-6">
-                     <div class="navbar-searchbox center-block">
-                         <form class="form-inline" role="search">
-                             <div class="form-group">
-                                 <input type="text" class="form-control navbar-searchinput" placeholder="search here...">
-                             </div>
-                         </form>
+                 <div class="col-md-4 col-md-offset-2">
+                     <div class="cnt-search">
+                         <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search here..." style="border-right-width: 0px;"/>
+								<span class="input-group-btn">
+					               <button class="btn btn-default" type="button" style="border-left-width: 0px; background-color: #F40835"><i class="fa fa-search"></i></button>
+				                </span>
+                         </div>
                      </div>
                  </div>
+                 <div class="col-md-3"></div>
                  <div class="col-md-3"  >
                      <div class="pull-right">
                         <a href="#">关于我们</a>
