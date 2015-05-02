@@ -173,7 +173,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -190,7 +189,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -207,7 +205,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -224,7 +221,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -244,7 +240,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -261,7 +256,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -278,7 +272,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -295,7 +288,207 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
+				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+			</div><!-- /.product-info -->
+		</div><!-- /.col -->
+	</div><!-- /.product-mini-row -->
+</div><!-- /.product-mini -->									</div>
+			 
+				<div class="item">
+										<div class="product-mini">
+	<div class="row product-mini-row">
+		<div class="col col-xs-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/12.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-xs-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
+				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+			</div><!-- /.product-info -->
+		</div><!-- /.col -->
+	</div><!-- /.product-mini-row -->
+</div><!-- /.product-mini -->										<div class="product-mini">
+	<div class="row product-mini-row">
+		<div class="col col-xs-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/11.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-xs-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
+				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+			</div><!-- /.product-info -->
+		</div><!-- /.col -->
+	</div><!-- /.product-mini-row -->
+</div><!-- /.product-mini -->										<div class="product-mini">
+	<div class="row product-mini-row">
+		<div class="col col-xs-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/9.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-xs-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
+				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+			</div><!-- /.product-info -->
+		</div><!-- /.col -->
+	</div><!-- /.product-mini-row -->
+</div><!-- /.product-mini -->										<div class="product-mini">
+	<div class="row product-mini-row">
+		<div class="col col-xs-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/5.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-xs-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
+				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+			</div><!-- /.product-info -->
+		</div><!-- /.col -->
+	</div><!-- /.product-mini-row -->
+</div><!-- /.product-mini -->									</div>
+			 
+				<div class="item">
+										<div class="product-mini">
+	<div class="row product-mini-row">
+		<div class="col col-xs-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/1.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-xs-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
+				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+			</div><!-- /.product-info -->
+		</div><!-- /.col -->
+	</div><!-- /.product-mini-row -->
+</div><!-- /.product-mini -->										<div class="product-mini">
+	<div class="row product-mini-row">
+		<div class="col col-xs-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/10.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-xs-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
+				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+			</div><!-- /.product-info -->
+		</div><!-- /.col -->
+	</div><!-- /.product-mini-row -->
+</div><!-- /.product-mini -->										<div class="product-mini">
+	<div class="row product-mini-row">
+		<div class="col col-xs-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/3.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-xs-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
+				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+			</div><!-- /.product-info -->
+		</div><!-- /.col -->
+	</div><!-- /.product-mini-row -->
+</div><!-- /.product-mini -->										<div class="product-mini">
+	<div class="row product-mini-row">
+		<div class="col col-xs-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/6.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-xs-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
+				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+			</div><!-- /.product-info -->
+		</div><!-- /.col -->
+	</div><!-- /.product-mini-row -->
+</div><!-- /.product-mini -->									</div>
+			 
+				<div class="item">
+										<div class="product-mini">
+	<div class="row product-mini-row">
+		<div class="col col-xs-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/8.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-xs-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
+				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+			</div><!-- /.product-info -->
+		</div><!-- /.col -->
+	</div><!-- /.product-mini-row -->
+</div><!-- /.product-mini -->										<div class="product-mini">
+	<div class="row product-mini-row">
+		<div class="col col-xs-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/2.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-xs-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
+				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+			</div><!-- /.product-info -->
+		</div><!-- /.col -->
+	</div><!-- /.product-mini-row -->
+</div><!-- /.product-mini -->										<div class="product-mini">
+	<div class="row product-mini-row">
+		<div class="col col-xs-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/7.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-xs-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
+				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
+			</div><!-- /.product-info -->
+		</div><!-- /.col -->
+	</div><!-- /.product-mini-row -->
+</div><!-- /.product-mini -->										<div class="product-mini">
+	<div class="row product-mini-row">
+		<div class="col col-xs-4">
+			<div class="product-image">
+				<div class="image">
+					<img data-echo="/resources/assets/images/products/4.jpg" src="/resources/assets/images/blank.gif" alt="">
+				</div>
+			</div><!-- /.product-image -->
+		</div><!-- /.col -->
+		<div class="col col-xs-8">
+			<div class="product-info">
+				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -332,7 +525,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -349,7 +541,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -366,7 +557,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -386,7 +576,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -403,7 +592,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -420,7 +608,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -437,7 +624,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -457,7 +643,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -474,7 +659,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -491,7 +675,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -508,220 +691,6 @@
 		<div class="col col-xs-8">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
-				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-			</div><!-- /.product-info -->
-		</div><!-- /.col -->
-	</div><!-- /.product-mini-row -->
-</div><!-- /.product-mini -->									</div>
-			 
-				<div class="item">
-										<div class="product-mini">
-	<div class="row product-mini-row">
-		<div class="col col-xs-4">
-			<div class="product-image">
-				<div class="image">
-					<img data-echo="/resources/assets/images/products/12.jpg" src="/resources/assets/images/blank.gif" alt="">
-				</div>
-			</div><!-- /.product-image -->
-		</div><!-- /.col -->
-		<div class="col col-xs-8">
-			<div class="product-info">
-				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
-				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-			</div><!-- /.product-info -->
-		</div><!-- /.col -->
-	</div><!-- /.product-mini-row -->
-</div><!-- /.product-mini -->										<div class="product-mini">
-	<div class="row product-mini-row">
-		<div class="col col-xs-4">
-			<div class="product-image">
-				<div class="image">
-					<img data-echo="/resources/assets/images/products/11.jpg" src="/resources/assets/images/blank.gif" alt="">
-				</div>
-			</div><!-- /.product-image -->
-		</div><!-- /.col -->
-		<div class="col col-xs-8">
-			<div class="product-info">
-				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
-				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-			</div><!-- /.product-info -->
-		</div><!-- /.col -->
-	</div><!-- /.product-mini-row -->
-</div><!-- /.product-mini -->										<div class="product-mini">
-	<div class="row product-mini-row">
-		<div class="col col-xs-4">
-			<div class="product-image">
-				<div class="image">
-					<img data-echo="/resources/assets/images/products/9.jpg" src="/resources/assets/images/blank.gif" alt="">
-				</div>
-			</div><!-- /.product-image -->
-		</div><!-- /.col -->
-		<div class="col col-xs-8">
-			<div class="product-info">
-				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
-				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-			</div><!-- /.product-info -->
-		</div><!-- /.col -->
-	</div><!-- /.product-mini-row -->
-</div><!-- /.product-mini -->										<div class="product-mini">
-	<div class="row product-mini-row">
-		<div class="col col-xs-4">
-			<div class="product-image">
-				<div class="image">
-					<img data-echo="/resources/assets/images/products/5.jpg" src="/resources/assets/images/blank.gif" alt="">
-				</div>
-			</div><!-- /.product-image -->
-		</div><!-- /.col -->
-		<div class="col col-xs-8">
-			<div class="product-info">
-				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
-				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-			</div><!-- /.product-info -->
-		</div><!-- /.col -->
-	</div><!-- /.product-mini-row -->
-</div><!-- /.product-mini -->									</div>
-			 
-				<div class="item">
-										<div class="product-mini">
-	<div class="row product-mini-row">
-		<div class="col col-xs-4">
-			<div class="product-image">
-				<div class="image">
-					<img data-echo="/resources/assets/images/products/1.jpg" src="/resources/assets/images/blank.gif" alt="">
-				</div>
-			</div><!-- /.product-image -->
-		</div><!-- /.col -->
-		<div class="col col-xs-8">
-			<div class="product-info">
-				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
-				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-			</div><!-- /.product-info -->
-		</div><!-- /.col -->
-	</div><!-- /.product-mini-row -->
-</div><!-- /.product-mini -->										<div class="product-mini">
-	<div class="row product-mini-row">
-		<div class="col col-xs-4">
-			<div class="product-image">
-				<div class="image">
-					<img data-echo="/resources/assets/images/products/10.jpg" src="/resources/assets/images/blank.gif" alt="">
-				</div>
-			</div><!-- /.product-image -->
-		</div><!-- /.col -->
-		<div class="col col-xs-8">
-			<div class="product-info">
-				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
-				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-			</div><!-- /.product-info -->
-		</div><!-- /.col -->
-	</div><!-- /.product-mini-row -->
-</div><!-- /.product-mini -->										<div class="product-mini">
-	<div class="row product-mini-row">
-		<div class="col col-xs-4">
-			<div class="product-image">
-				<div class="image">
-					<img data-echo="/resources/assets/images/products/3.jpg" src="/resources/assets/images/blank.gif" alt="">
-				</div>
-			</div><!-- /.product-image -->
-		</div><!-- /.col -->
-		<div class="col col-xs-8">
-			<div class="product-info">
-				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
-				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-			</div><!-- /.product-info -->
-		</div><!-- /.col -->
-	</div><!-- /.product-mini-row -->
-</div><!-- /.product-mini -->										<div class="product-mini">
-	<div class="row product-mini-row">
-		<div class="col col-xs-4">
-			<div class="product-image">
-				<div class="image">
-					<img data-echo="/resources/assets/images/products/6.jpg" src="/resources/assets/images/blank.gif" alt="">
-				</div>
-			</div><!-- /.product-image -->
-		</div><!-- /.col -->
-		<div class="col col-xs-8">
-			<div class="product-info">
-				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
-				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-			</div><!-- /.product-info -->
-		</div><!-- /.col -->
-	</div><!-- /.product-mini-row -->
-</div><!-- /.product-mini -->									</div>
-			 
-				<div class="item">
-										<div class="product-mini">
-	<div class="row product-mini-row">
-		<div class="col col-xs-4">
-			<div class="product-image">
-				<div class="image">
-					<img data-echo="/resources/assets/images/products/8.jpg" src="/resources/assets/images/blank.gif" alt="">
-				</div>
-			</div><!-- /.product-image -->
-		</div><!-- /.col -->
-		<div class="col col-xs-8">
-			<div class="product-info">
-				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
-				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-			</div><!-- /.product-info -->
-		</div><!-- /.col -->
-	</div><!-- /.product-mini-row -->
-</div><!-- /.product-mini -->										<div class="product-mini">
-	<div class="row product-mini-row">
-		<div class="col col-xs-4">
-			<div class="product-image">
-				<div class="image">
-					<img data-echo="/resources/assets/images/products/2.jpg" src="/resources/assets/images/blank.gif" alt="">
-				</div>
-			</div><!-- /.product-image -->
-		</div><!-- /.col -->
-		<div class="col col-xs-8">
-			<div class="product-info">
-				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
-				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-			</div><!-- /.product-info -->
-		</div><!-- /.col -->
-	</div><!-- /.product-mini-row -->
-</div><!-- /.product-mini -->										<div class="product-mini">
-	<div class="row product-mini-row">
-		<div class="col col-xs-4">
-			<div class="product-image">
-				<div class="image">
-					<img data-echo="/resources/assets/images/products/7.jpg" src="/resources/assets/images/blank.gif" alt="">
-				</div>
-			</div><!-- /.product-image -->
-		</div><!-- /.col -->
-		<div class="col col-xs-8">
-			<div class="product-info">
-				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
-				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
-			</div><!-- /.product-info -->
-		</div><!-- /.col -->
-	</div><!-- /.product-mini-row -->
-</div><!-- /.product-mini -->										<div class="product-mini">
-	<div class="row product-mini-row">
-		<div class="col col-xs-4">
-			<div class="product-image">
-				<div class="image">
-					<img data-echo="/resources/assets/images/products/4.jpg" src="/resources/assets/images/blank.gif" alt="">
-				</div>
-			</div><!-- /.product-image -->
-		</div><!-- /.col -->
-		<div class="col col-xs-8">
-			<div class="product-info">
-				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 			</div><!-- /.product-info -->
 		</div><!-- /.col -->
@@ -784,7 +753,6 @@
 
 	<div class="product-info">
 		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
 		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 	</div><!-- /.product-info -->
 </div><!-- /.product -->				</div><!-- /.item -->
@@ -807,7 +775,6 @@
 
 	<div class="product-info">
 		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
 		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 	</div><!-- /.product-info -->
 </div><!-- /.product -->				</div><!-- /.item -->
@@ -830,7 +797,6 @@
 
 	<div class="product-info">
 		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
 		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 	</div><!-- /.product-info -->
 </div><!-- /.product -->				</div><!-- /.item -->
@@ -853,7 +819,6 @@
 
 	<div class="product-info">
 		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
 		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 	</div><!-- /.product-info -->
 </div><!-- /.product -->				</div><!-- /.item -->
@@ -876,7 +841,6 @@
 
 	<div class="product-info">
 		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
 		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 	</div><!-- /.product-info -->
 </div><!-- /.product -->				</div><!-- /.item -->
@@ -899,7 +863,6 @@
 
 	<div class="product-info">
 		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
 		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 	</div><!-- /.product-info -->
 </div><!-- /.product -->				</div><!-- /.item -->
@@ -922,7 +885,6 @@
 
 	<div class="product-info">
 		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
 		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 	</div><!-- /.product-info -->
 </div><!-- /.product -->				</div><!-- /.item -->
@@ -945,7 +907,6 @@
 
 	<div class="product-info">
 		<h3 class="name"><a href="#">Elizabeth PU Swing Dress</a></h3>
-		<div class="rating rateit-small"></div>
 		<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 	</div><!-- /.product-info -->
 </div><!-- /.product -->				</div><!-- /.item -->
@@ -1168,7 +1129,6 @@
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 				<div class="action"><a href="#" class="btn btn-blue btn-trans btn-normal">ADD TO CART</a></div>
 			</div>
@@ -1191,7 +1151,6 @@
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 				<div class="action"><a href="#" class="btn btn-blue btn-trans btn-normal">ADD TO CART</a></div>
 			</div>
@@ -1214,7 +1173,6 @@
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 				<div class="action"><a href="#" class="btn btn-blue btn-trans btn-normal">ADD TO CART</a></div>
 			</div>
@@ -1240,7 +1198,6 @@
 		<div class="col col-xs-7">
 			<div class="product-info">
 				<h3 class="name"><a href="#">Nunc ullamcors</a></h3>
-				<div class="rating rateit-small"></div>
 				<div class="price"><span class="offer">$800.00</span><span class="actual">$900.00</span></div>
 				<div class="action"><a href="#" class="btn btn-blue btn-trans btn-normal">ADD TO CART</a></div>
 			</div>
