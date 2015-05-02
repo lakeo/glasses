@@ -16,10 +16,10 @@
         <io.spring.platform-version>1.1.1.RELEASE</io.spring.platform-version>
         <!-- AssertJ is not a part of Spring IO platform, so the version must be provided explicitly -->
         <assertj-core-version>1.5.0</assertj-core-version>
-        <spring.version>3.2.9.RELEASE</spring.version>
+        <spring.version>4.1.6.RELEASE</spring.version>
         <mysql.version>5.1.15</mysql.version>
         <c3p0.version>0.9.1</c3p0.version>
-        <junit.version>4.7</junit.version>
+        <junit.version>4.11</junit.version>
         <mybatis.spring.version>1.1.0</mybatis.spring.version>
     </properties>
 
@@ -183,13 +183,7 @@
             <type>jar</type>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-orm</artifactId>
-            <version>${spring.version}</version>
-            <type>jar</type>
-            <scope>compile</scope>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
@@ -207,6 +201,12 @@
             <artifactId>spring-webmvc</artifactId>
             <version>${spring.version}</version>
         </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
         <!-- View -->
         <dependency>
             <groupId>org.freemarker</groupId>
@@ -214,6 +214,12 @@
             <version>2.3.20</version>
         </dependency>
         <!-- Logging -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
         <!-- Servlet -->
         <dependency>
             <groupId>javax.servlet</groupId>
