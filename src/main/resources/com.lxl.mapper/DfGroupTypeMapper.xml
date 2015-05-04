@@ -50,7 +50,6 @@
       </if>
     </trim>
   </insert>
-
   <update id="updateByPrimaryKeySelective" parameterType="com.lxl.beans.po.DfGroupType" >
     update df_group_type
     <set >

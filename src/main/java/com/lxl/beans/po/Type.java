@@ -9,6 +9,8 @@ public class Type {
 
     private String description;
 
+    private Integer parentid;
+
     public Integer getId() {
         return id;
     }
@@ -39,5 +41,13 @@ public class Type {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Integer getParentid() {
+        return parentid;
+    }
+
+    public void setParentid(Integer parentid) {
+        this.parentid = parentid;
     }
 }

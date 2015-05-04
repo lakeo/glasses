@@ -26,25 +26,42 @@
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.lxl.dao"
                              targetProject="MAVEN"/>
         <!--对应数据库表 mysql可以加入主键自增 字段命名 忽略某字段等-->
+
         <table schema="type" tableName="type"     domainObjectName="Type"
-               enableCountByExample="true" enableUpdateByExample="false"
+               enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
         </table>
         <table schema="df_item" tableName="df_item"     domainObjectName="DfItem"
-               enableCountByExample="true" enableUpdateByExample="false"
+               enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
         </table>
         <table schema="df_group" tableName="df_group"     domainObjectName="DfGroup"
-               enableCountByExample="true" enableUpdateByExample="false"
+               enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
         </table>
         <table schema="df_group_type" tableName="df_group_type"     domainObjectName="DfGroupType"
-               enableCountByExample="true" enableUpdateByExample="false"
+               enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
         </table>
+        <table schema="df_group_item" tableName="df_group_item"     domainObjectName="DfGroupItem"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+        <table schema="product" tableName="product"     domainObjectName="Product"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+        <table schema="product_ext_info" tableName="product_ext_info"     domainObjectName="ProductExtInfo"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+
     </context>
 </generatorConfiguration>

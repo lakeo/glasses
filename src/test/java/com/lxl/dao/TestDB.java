@@ -1,5 +1,6 @@
 package com.lxl.dao;
 
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
@@ -17,6 +18,7 @@ public class TestDB {
     DfGroupMapper dfGroupMapper;
 
     @Test
+    @Ignore
     public void test()
     {
         System.out.println("hello");

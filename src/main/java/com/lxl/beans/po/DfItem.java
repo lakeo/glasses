@@ -5,8 +5,6 @@ public class DfItem {
 
     private String name;
 
-    private Integer groupid;
-
     private String description;
 
     public Integer getId() {
@@ -23,14 +21,6 @@ public class DfItem {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public Integer getGroupid() {
-        return groupid;
-    }
-
-    public void setGroupid(Integer groupid) {
-        this.groupid = groupid;
     }
 
     public String getDescription() {

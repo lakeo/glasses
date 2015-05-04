@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lxl.dao.ProductMapper" >
+  <resultMap id="BaseResultMap" type="com.lxl.beans.po.Product" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="cuser" property="cuser" jdbcType="INTEGER" />
+    <result column="ctime" property="ctime" jdbcType="INTEGER" />
+    <result column="muser" property="muser" jdbcType="INTEGER" />
+    <result column="mtime" property="mtime" jdbcType="INTEGER" />
+    <result column="type1id" property="type1id" jdbcType="INTEGER" />
+    <result column="type2id" property="type2id" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, cuser, ctime, muser, mtime, type1id, type2id
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from product
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from product
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.lxl.beans.po.Product" >
+    insert into product (id, cuser, ctime, 
+      muser, mtime, type1id, 
+      type2id)
+    values (#{id,jdbcType=INTEGER}, #{cuser,jdbcType=INTEGER}, #{ctime,jdbcType=INTEGER}, 
+      #{muser,jdbcType=INTEGER}, #{mtime,jdbcType=INTEGER}, #{type1id,jdbcType=INTEGER}, 
+      #{type2id,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.lxl.beans.po.Product" >
+    insert into product
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="cuser != null" >
+        cuser,
+      </if>
+      <if test="ctime != null" >
+        ctime,
+      </if>
+      <if test="muser != null" >
+        muser,
+      </if>
+      <if test="mtime != null" >
+        mtime,
+      </if>
+      <if test="type1id != null" >
+        type1id,
+      </if>
+      <if test="type2id != null" >
+        type2id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="cuser != null" >
+        #{cuser,jdbcType=INTEGER},
+      </if>
+      <if test="ctime != null" >
+        #{ctime,jdbcType=INTEGER},
+      </if>
+      <if test="muser != null" >
+        #{muser,jdbcType=INTEGER},
+      </if>
+      <if test="mtime != null" >
+        #{mtime,jdbcType=INTEGER},
+      </if>
+      <if test="type1id != null" >
+        #{type1id,jdbcType=INTEGER},
+      </if>
+      <if test="type2id != null" >
+        #{type2id,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.lxl.beans.po.Product" >
+    update product
+    <set >
+      <if test="cuser != null" >
+        cuser = #{cuser,jdbcType=INTEGER},
+      </if>
+      <if test="ctime != null" >
+        ctime = #{ctime,jdbcType=INTEGER},
+      </if>
+      <if test="muser != null" >
+        muser = #{muser,jdbcType=INTEGER},
+      </if>
+      <if test="mtime != null" >
+        mtime = #{mtime,jdbcType=INTEGER},
+      </if>
+      <if test="type1id != null" >
+        type1id = #{type1id,jdbcType=INTEGER},
+      </if>
+      <if test="type2id != null" >
+        type2id = #{type2id,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.lxl.beans.po.Product" >
+    update product
+    set cuser = #{cuser,jdbcType=INTEGER},
+      ctime = #{ctime,jdbcType=INTEGER},
+      muser = #{muser,jdbcType=INTEGER},
+      mtime = #{mtime,jdbcType=INTEGER},
+      type1id = #{type1id,jdbcType=INTEGER},
+      type2id = #{type2id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -4,11 +4,10 @@
   <resultMap id="BaseResultMap" type="com.lxl.beans.po.DfItem" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="name" property="name" jdbcType="VARCHAR" />
-    <result column="groupid" property="groupid" jdbcType="INTEGER" />
     <result column="description" property="description" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Base_Column_List" >
-    id, name, groupid, description
+    id, name, description
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
@@ -21,10 +20,10 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.lxl.beans.po.DfItem" >
-    insert into df_item (id, name, groupid, 
-      description)
-    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{groupid,jdbcType=INTEGER}, 
-      #{description,jdbcType=VARCHAR})
+    insert into df_item (id, name, description
+      )
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="com.lxl.beans.po.DfItem" >
     insert into df_item
@@ -34,9 +33,6 @@
       </if>
       <if test="name != null" >
         name,
-      </if>
-      <if test="groupid != null" >
-        groupid,
       </if>
       <if test="description != null" >
         description,
@@ -49,9 +45,6 @@
       <if test="name != null" >
         #{name,jdbcType=VARCHAR},
       </if>
-      <if test="groupid != null" >
-        #{groupid,jdbcType=INTEGER},
-      </if>
       <if test="description != null" >
         #{description,jdbcType=VARCHAR},
       </if>
@@ -63,9 +56,6 @@
       <if test="name != null" >
         name = #{name,jdbcType=VARCHAR},
       </if>
-      <if test="groupid != null" >
-        groupid = #{groupid,jdbcType=INTEGER},
-      </if>
       <if test="description != null" >
         description = #{description,jdbcType=VARCHAR},
       </if>
@@ -75,7 +65,6 @@
   <update id="updateByPrimaryKey" parameterType="com.lxl.beans.po.DfItem" >
     update df_item
     set name = #{name,jdbcType=VARCHAR},
-      groupid = #{groupid,jdbcType=INTEGER},
       description = #{description,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
