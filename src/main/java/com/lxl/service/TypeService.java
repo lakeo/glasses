@@ -4,6 +4,7 @@ import com.lxl.beans.po.TypePo;
 import com.lxl.beans.po.TypePoExample;
 import com.lxl.constants.EType;
 import com.lxl.dao.TypePoMapper;
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 import com.lxl.beans.vo.Type;
 
@@ -16,6 +17,8 @@ import java.util.List;
  */
 @Service
 public class TypeService {
+
+    Logger logger = Logger.getLogger(TypeService.class);
     @Resource
     TypePoMapper typePoMapper;
 
@@ -60,6 +63,7 @@ public class TypeService {
 
     public boolean addType(Type type)
     {
+        logger.info("addtype"+type.getName());
         TypePo typePo = new TypePo();
         typePo.setName(type.getName());
         typePo.setParentid(type.getParentid());
@@ -67,8 +71,9 @@ public class TypeService {
         typePo.setLevel(type.getLevel());
         try {
             this.typePoMapper.insert(typePo);
+            logger.info("add success");
         } catch (Exception e) {
-            System.out.print(e);
+            logger.info("add type false",e);
             return false;
         }
         return true;

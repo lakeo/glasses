@@ -1,6 +1,7 @@
 package com.lxl.dao;
 
-import jdk.nashorn.internal.ir.annotations.Ignore;
+import com.lxl.BaseTest;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
@@ -11,9 +12,7 @@ import javax.annotation.Resource;
 /**
  * Created by xiaolu on 15/5/2.
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"classpath*:*.xml","classpath:*.xml"})
-public class TestDB {
+public class TestDB extends BaseTest{
     @Resource
     DfGroupPoMapper dfGroupPoMapper;
 
