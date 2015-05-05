@@ -1,6 +1,6 @@
 package com.lxl.beans.po;
 
-public class DfItem {
+public class DfItemPo {
     private Integer id;
 
     private String name;

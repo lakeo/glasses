@@ -15,14 +15,14 @@ import javax.annotation.Resource;
 @ContextConfiguration({"classpath*:*.xml","classpath:*.xml"})
 public class TestDB {
     @Resource
-    DfGroupMapper dfGroupMapper;
+    DfGroupPoMapper dfGroupPoMapper;
 
     @Test
     @Ignore
     public void test()
     {
         System.out.println("hello");
-        Object o = dfGroupMapper.selectByPrimaryKey(1);
+        Object o = dfGroupPoMapper.selectByPrimaryKey(1);
         System.out.print(o);
     }
 }

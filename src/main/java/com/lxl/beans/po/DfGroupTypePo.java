@@ -1,6 +1,6 @@
 package com.lxl.beans.po;
 
-public class DfGroupType {
+public class DfGroupTypePo {
     private Integer id;
 
     private Integer groupid;

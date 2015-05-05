@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.lxl.dao.ProductMapper" >
-  <resultMap id="BaseResultMap" type="com.lxl.beans.po.Product" >
+<mapper namespace="com.lxl.dao.ProductPoMapper" >
+  <resultMap id="BaseResultMap" type="com.lxl.beans.po.ProductPo" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="cuser" property="cuser" jdbcType="INTEGER" />
     <result column="ctime" property="ctime" jdbcType="INTEGER" />
@@ -23,7 +23,7 @@
     delete from product
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.lxl.beans.po.Product" >
+  <insert id="insert" parameterType="com.lxl.beans.po.ProductPo" >
     insert into product (id, cuser, ctime, 
       muser, mtime, type1id, 
       type2id)
@@ -31,7 +31,7 @@
       #{muser,jdbcType=INTEGER}, #{mtime,jdbcType=INTEGER}, #{type1id,jdbcType=INTEGER}, 
       #{type2id,jdbcType=INTEGER})
   </insert>
-  <insert id="insertSelective" parameterType="com.lxl.beans.po.Product" >
+  <insert id="insertSelective" parameterType="com.lxl.beans.po.ProductPo" >
     insert into product
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -80,7 +80,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.lxl.beans.po.Product" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.lxl.beans.po.ProductPo" >
     update product
     <set >
       <if test="cuser != null" >
@@ -104,7 +104,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.lxl.beans.po.Product" >
+  <update id="updateByPrimaryKey" parameterType="com.lxl.beans.po.ProductPo" >
     update product
     set cuser = #{cuser,jdbcType=INTEGER},
       ctime = #{ctime,jdbcType=INTEGER},

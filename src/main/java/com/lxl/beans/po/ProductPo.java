@@ -1,6 +1,6 @@
 package com.lxl.beans.po;
 
-public class Product {
+public class ProductPo {
     private Integer id;
 
     private Integer cuser;

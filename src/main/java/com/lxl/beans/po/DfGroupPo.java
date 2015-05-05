@@ -1,15 +1,11 @@
 package com.lxl.beans.po;
 
-public class Type {
+public class DfGroupPo {
     private Integer id;
 
     private String name;
 
-    private Integer level;
-
     private String description;
-
-    private Integer parentid;
 
     public Integer getId() {
         return id;
@@ -27,27 +23,11 @@ public class Type {
         this.name = name;
     }
 
-    public Integer getLevel() {
-        return level;
-    }
-
-    public void setLevel(Integer level) {
-        this.level = level;
-    }
-
     public String getDescription() {
         return description;
     }
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public Integer getParentid() {
-        return parentid;
-    }
-
-    public void setParentid(Integer parentid) {
-        this.parentid = parentid;
     }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.lxl.dao.DfGroupMapper" >
-  <resultMap id="BaseResultMap" type="com.lxl.beans.po.DfGroup" >
+<mapper namespace="com.lxl.dao.DfItemPoMapper" >
+  <resultMap id="BaseResultMap" type="com.lxl.beans.po.DfItemPo" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="name" property="name" jdbcType="VARCHAR" />
     <result column="description" property="description" jdbcType="VARCHAR" />
@@ -12,21 +12,21 @@
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
-    from df_group
+    from df_item
     where id = #{id,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
-    delete from df_group
+    delete from df_item
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.lxl.beans.po.DfGroup" >
-    insert into df_group (id, name, description
+  <insert id="insert" parameterType="com.lxl.beans.po.DfItemPo" >
+    insert into df_item (id, name, description
       )
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.lxl.beans.po.DfGroup" >
-    insert into df_group
+  <insert id="insertSelective" parameterType="com.lxl.beans.po.DfItemPo" >
+    insert into df_item
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
         id,
@@ -50,8 +50,8 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.lxl.beans.po.DfGroup" >
-    update df_group
+  <update id="updateByPrimaryKeySelective" parameterType="com.lxl.beans.po.DfItemPo" >
+    update df_item
     <set >
       <if test="name != null" >
         name = #{name,jdbcType=VARCHAR},
@@ -62,8 +62,8 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.lxl.beans.po.DfGroup" >
-    update df_group
+  <update id="updateByPrimaryKey" parameterType="com.lxl.beans.po.DfItemPo" >
+    update df_item
     set name = #{name,jdbcType=VARCHAR},
       description = #{description,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}

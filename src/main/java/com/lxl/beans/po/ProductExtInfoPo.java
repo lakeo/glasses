@@ -1,6 +1,6 @@
 package com.lxl.beans.po;
 
-public class ProductExtInfo {
+public class ProductExtInfoPo {
     private Integer id;
 
     private Integer productid;

@@ -5,6 +5,9 @@
         <pattern>/product.html</pattern>
     </decorator>
     <decorator name="index" page="index.ftl">
-    <pattern>/index.html</pattern>
-</decorator>
+        <pattern>/index.html</pattern>
+    </decorator>
+    <decorator name="admin" page="common-admin.ftl">
+        <pattern>/admin/*</pattern>
+    </decorator>
 </decorators>  
