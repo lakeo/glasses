@@ -42,12 +42,14 @@ public class TypeService {
         example.createCriteria()
                 .andLevelEqualTo(EType.LevelTwo.getIndex())
                 .andParentidEqualTo(id);
+        example.setOrderByClause("id asc");
         return this.getTypeList(example);
     }
     public List<Type> getLevelOneTypeList()
     {
         TypePoExample example = new TypePoExample();
         example.createCriteria().andLevelEqualTo(EType.LevelOne.getIndex());
+        example.setOrderByClause("id asc");
         return this.getTypeList(example);
     }
 
