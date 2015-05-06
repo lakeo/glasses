@@ -45,6 +45,13 @@ public class TypeService {
         example.setOrderByClause("id asc");
         return this.getTypeList(example);
     }
+
+    public List<Type> getLevelTypeList()
+    {
+        TypePoExample example = new TypePoExample();
+        return this.getTypeList(example);
+    }
+
     public List<Type> getLevelOneTypeList()
     {
         TypePoExample example = new TypePoExample();

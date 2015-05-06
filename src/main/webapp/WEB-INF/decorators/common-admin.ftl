@@ -50,6 +50,7 @@
     <script src="/resources/assets/js/html5shiv.js"></script>
     <script src="/resources/assets/js/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="/resources/assets/js/jquery.min.js"></script>
 </head>
 
 <body class="cnt-home body-style-3">
@@ -134,11 +135,9 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">属性管理</a>
+                                    <a href="/admin/dynamicform/index.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">属性管理</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/index.html">首页</a></li>
-                                        <li><a href="/category.html">类别页</a></li>
-                                        <li><a href="/product.html">商品详情页</a></li>
+                                        <li><a href="/admin/dynamicform/index.html">首页</a></li>
                                     </ul>
                                 </li>
                             </ul><!-- /.navbar-nav -->
@@ -170,7 +169,6 @@ ${body}
 
 
 <!-- ============================================== FOOTER : END ============================================== -->
-<script type="text/javascript" src="/resources/assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="/resources/assets/js/jquery-ui.custom.min.js"></script>
 <script type="text/javascript" src="/resources/assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/resources/assets/js/bootstrap-hover-dropdown.min.js"></script>
@@ -184,6 +182,8 @@ ${body}
 <script type="text/javascript" src="/resources/assets/js/lightbox.min.js"></script>
 <script type="text/javascript" src="/resources/assets/js/wow.min.js"></script>
 <script type="text/javascript" src="/resources/assets/js/scripts.js"></script>
+<script type="text/javascript" src="/resources/assets/js/underscore-min.js"></script>
+<script type="text/javascript" src="/resources/assets/js/backbone-min.js"></script>
 <script>
     echo.init({
         offset: 100,
