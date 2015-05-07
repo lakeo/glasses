@@ -40,7 +40,7 @@ public class Message implements java.io.Serializable {
 	public Message()
 	{
 		this.message = "404";
-		this.type = Type.INFO.getIndex();
+		this.type = Type.SUCCESS.getIndex();
 		this.args = new HashMap();
 	}
 	public Message(String message, Type type) {

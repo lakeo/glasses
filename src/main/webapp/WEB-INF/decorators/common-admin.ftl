@@ -137,7 +137,8 @@
                                 <li class="dropdown">
                                     <a href="/admin/dynamicform/index.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">属性管理</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="/admin/dynamicform/index.html">首页</a></li>
+                                        <li><a href="/admin/dynamicform/index.html">属性组-属性管理</a></li>
+                                        <li><a href="/admin/dynamicform/itemmanager.html">类目-属性组关系管理</a></li>
                                     </ul>
                                 </li>
                             </ul><!-- /.navbar-nav -->

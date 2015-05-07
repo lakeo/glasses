@@ -26,33 +26,35 @@
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.lxl.dao"
                              targetProject="MAVEN"/>
         <!--对应数据库表 mysql可以加入主键自增 字段命名 忽略某字段等-->
-
+<!--
         <table schema="type" tableName="type"     domainObjectName="TypePo"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
         </table>
-        <!--
+        -->
+
         <table schema="df_item" tableName="df_item"     domainObjectName="DfItemPo"
-               enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="false"
+               enableCountByExample="true" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
         </table>
         <table schema="df_group" tableName="df_group"     domainObjectName="DfGroupPo"
-               enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="false"
+               enableCountByExample="true" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
         </table>
         <table schema="df_group_type" tableName="df_group_type"     domainObjectName="DfGroupTypePo"
-               enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="false"
+               enableCountByExample="true" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
         </table>
         <table schema="df_group_item" tableName="df_group_item"     domainObjectName="DfGroupItemPo"
-               enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="false"
+               enableCountByExample="true" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
         </table>
+        <!--
         <table schema="product" tableName="product"     domainObjectName="ProductPo"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
