@@ -1,11 +1,9 @@
 package com.lxl.web.admin;
 
-import com.lxl.beans.po.TypePoExample;
 import com.lxl.beans.vo.Type;
 import com.lxl.service.TypeService;
 import com.lxl.web.util.Message;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -47,6 +45,21 @@ public class TypeController {
         Message message = new Message();
         try{
             message.putData(this.typeService.getLevelOneTypeList());
+            message.setType(Message.Type.SUCCESS);
+        }catch (Exception e) {
+            message.setType(Message.Type.DANGER);
+            message.putError(e);
+        }
+        return message;
+    }
+
+    @RequestMapping("/all")
+    @ResponseBody
+    public Message getall()
+    {
+        Message message = new Message();
+        try{
+            message.putData(this.typeService.getLevelTypeList());
             message.setType(Message.Type.SUCCESS);
         }catch (Exception e) {
             message.setType(Message.Type.DANGER);

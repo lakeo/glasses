@@ -1,11 +1,13 @@
 package com.lxl.web.util;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * A message to be displayed in web context. Depending on the type, different style will be applied.
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Message implements java.io.Serializable {
     /**
      * Name of the flash attribute.
@@ -16,45 +18,53 @@ public class Message implements java.io.Serializable {
      * The type of the message to be displayed. The type is used to show message in a different style.
      */
 	public static enum Type {
-        DANGER, WARNING, INFO, SUCCESS;
+        DANGER(2), WARNING(1), INFO(3), SUCCESS(0);
+		private int index;
+		Type(int index){
+			this.index = index;
+		}
+
+		public int getIndex() {
+			return index;
+		}
+
+		public void setIndex(int index) {
+			this.index = index;
+		}
 	}
 
 	private String message;
-	private Type type;
+	private int type;
 	private HashMap args;
 
 	public Message()
 	{
 		this.message = "404";
-		this.type = Type.INFO;
+		this.type = Type.SUCCESS.getIndex();
 		this.args = new HashMap();
 	}
 	public Message(String message, Type type) {
 		this.message = message;
-		this.type = type;
+		this.type = type.getIndex();
 		this.args = new HashMap();
 	}
 	
 	public Message(String message, Type type, HashMap args) {
 		this.message = message;
-		this.type = type;
+		this.type = type.getIndex();
 		this.args = args;
 	}
 
-	public void putData(Object o)
-	{
-		this.args.put("data",o);
+	public void setType(int type) {
+		this.type = type;
 	}
-	public void putError(Object o)
-	{
-		this.args.put("error",o);
-	}
+
 	public void setMessage(String message) {
 		this.message = message;
 	}
 
 	public void setType(Type type) {
-		this.type = type;
+		this.type = type.getIndex();
 	}
 
 	public void setArgs(HashMap  args) {
@@ -65,11 +75,20 @@ public class Message implements java.io.Serializable {
 		return message;
 	}
 
-	public Type getType() {
+	public int getType() {
 		return type;
 	}
 
 	public HashMap getArgs() {
 		return args;
+	}
+
+	public void putData(Object o)
+	{
+		this.args.put("data",o);
+	}
+	public void putError(Object o)
+	{
+		this.args.put("error",o);
 	}
 }
