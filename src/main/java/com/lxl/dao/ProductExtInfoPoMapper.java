@@ -1,6 +1,9 @@
 package com.lxl.dao;
 
 import com.lxl.beans.po.ProductExtInfoPo;
+import com.lxl.beans.po.ProductExtInfoPoExample;
+
+import java.util.List;
 
 public interface ProductExtInfoPoMapper {
     int deleteByPrimaryKey(Integer id);
@@ -8,6 +11,10 @@ public interface ProductExtInfoPoMapper {
     int insert(ProductExtInfoPo record);
 
     int insertSelective(ProductExtInfoPo record);
+
+    List<ProductExtInfoPo> selectByExampleWithBLOBs(ProductExtInfoPoExample example);
+
+    List<ProductExtInfoPo> selectByExample(ProductExtInfoPoExample example);
 
     ProductExtInfoPo selectByPrimaryKey(Integer id);
 

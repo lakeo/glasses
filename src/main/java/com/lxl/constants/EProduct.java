@@ -4,12 +4,12 @@ package com.lxl.constants;
  * Created by xiaolu on 15/5/8.
  */
 public enum EProduct {
-    online(0,"正在线上"),
-    deleted(1,"被删除"),
+    deleted(0,"被删除"),
+    online(1,"正在线上"),
     offline(2,"下线状态"),
-    created(3,"刚被创建"),
-    waitingProcess(4,"待完善");
-    
+    waitingProcess(3,"待完善"),
+    waitingApproved(4,"待审核");
+
     private int index;
     private String description;
     EProduct(int index, String description) {

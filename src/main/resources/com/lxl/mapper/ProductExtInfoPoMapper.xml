@@ -3,18 +3,79 @@
 <mapper namespace="com.lxl.dao.ProductExtInfoPoMapper" >
   <resultMap id="BaseResultMap" type="com.lxl.beans.po.ProductExtInfoPo" >
     <id column="id" property="id" jdbcType="INTEGER" />
-    <result column="productid" property="productid" jdbcType="INTEGER" />
+    <result column="productid" property="productid" jdbcType="BIGINT" />
     <result column="itemid" property="itemid" jdbcType="INTEGER" />
   </resultMap>
   <resultMap id="ResultMapWithBLOBs" type="com.lxl.beans.po.ProductExtInfoPo" extends="BaseResultMap" >
     <result column="value" property="value" jdbcType="LONGVARCHAR" />
   </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
   <sql id="Base_Column_List" >
     id, productid, itemid
   </sql>
   <sql id="Blob_Column_List" >
     value
   </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.lxl.beans.po.ProductExtInfoPoExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from product_ext_info
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.lxl.beans.po.ProductExtInfoPoExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from product_ext_info
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
   <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
@@ -30,7 +91,7 @@
   <insert id="insert" parameterType="com.lxl.beans.po.ProductExtInfoPo" >
     insert into product_ext_info (id, productid, itemid, 
       value)
-    values (#{id,jdbcType=INTEGER}, #{productid,jdbcType=INTEGER}, #{itemid,jdbcType=INTEGER}, 
+    values (#{id,jdbcType=INTEGER}, #{productid,jdbcType=BIGINT}, #{itemid,jdbcType=INTEGER}, 
       #{value,jdbcType=LONGVARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.lxl.beans.po.ProductExtInfoPo" >
@@ -54,7 +115,7 @@
         #{id,jdbcType=INTEGER},
       </if>
       <if test="productid != null" >
-        #{productid,jdbcType=INTEGER},
+        #{productid,jdbcType=BIGINT},
       </if>
       <if test="itemid != null" >
         #{itemid,jdbcType=INTEGER},
@@ -68,7 +129,7 @@
     update product_ext_info
     <set >
       <if test="productid != null" >
-        productid = #{productid,jdbcType=INTEGER},
+        productid = #{productid,jdbcType=BIGINT},
       </if>
       <if test="itemid != null" >
         itemid = #{itemid,jdbcType=INTEGER},
@@ -81,14 +142,14 @@
   </update>
   <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.lxl.beans.po.ProductExtInfoPo" >
     update product_ext_info
-    set productid = #{productid,jdbcType=INTEGER},
+    set productid = #{productid,jdbcType=BIGINT},
       itemid = #{itemid,jdbcType=INTEGER},
       value = #{value,jdbcType=LONGVARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.lxl.beans.po.ProductExtInfoPo" >
     update product_ext_info
-    set productid = #{productid,jdbcType=INTEGER},
+    set productid = #{productid,jdbcType=BIGINT},
       itemid = #{itemid,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
