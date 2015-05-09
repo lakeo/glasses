@@ -17,7 +17,6 @@ public class TestDB extends BaseTest{
     DfGroupPoMapper dfGroupPoMapper;
 
     @Test
-    @Ignore
     public void test()
     {
         System.out.println("hello");

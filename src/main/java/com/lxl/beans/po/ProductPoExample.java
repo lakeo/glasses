@@ -304,52 +304,52 @@ public class ProductPoExample {
             return (Criteria) this;
         }
 
-        public Criteria andCtimeEqualTo(Integer value) {
+        public Criteria andCtimeEqualTo(Long value) {
             addCriterion("ctime =", value, "ctime");
             return (Criteria) this;
         }
 
-        public Criteria andCtimeNotEqualTo(Integer value) {
+        public Criteria andCtimeNotEqualTo(Long value) {
             addCriterion("ctime <>", value, "ctime");
             return (Criteria) this;
         }
 
-        public Criteria andCtimeGreaterThan(Integer value) {
+        public Criteria andCtimeGreaterThan(Long value) {
             addCriterion("ctime >", value, "ctime");
             return (Criteria) this;
         }
 
-        public Criteria andCtimeGreaterThanOrEqualTo(Integer value) {
+        public Criteria andCtimeGreaterThanOrEqualTo(Long value) {
             addCriterion("ctime >=", value, "ctime");
             return (Criteria) this;
         }
 
-        public Criteria andCtimeLessThan(Integer value) {
+        public Criteria andCtimeLessThan(Long value) {
             addCriterion("ctime <", value, "ctime");
             return (Criteria) this;
         }
 
-        public Criteria andCtimeLessThanOrEqualTo(Integer value) {
+        public Criteria andCtimeLessThanOrEqualTo(Long value) {
             addCriterion("ctime <=", value, "ctime");
             return (Criteria) this;
         }
 
-        public Criteria andCtimeIn(List<Integer> values) {
+        public Criteria andCtimeIn(List<Long> values) {
             addCriterion("ctime in", values, "ctime");
             return (Criteria) this;
         }
 
-        public Criteria andCtimeNotIn(List<Integer> values) {
+        public Criteria andCtimeNotIn(List<Long> values) {
             addCriterion("ctime not in", values, "ctime");
             return (Criteria) this;
         }
 
-        public Criteria andCtimeBetween(Integer value1, Integer value2) {
+        public Criteria andCtimeBetween(Long value1, Long value2) {
             addCriterion("ctime between", value1, value2, "ctime");
             return (Criteria) this;
         }
 
-        public Criteria andCtimeNotBetween(Integer value1, Integer value2) {
+        public Criteria andCtimeNotBetween(Long value1, Long value2) {
             addCriterion("ctime not between", value1, value2, "ctime");
             return (Criteria) this;
         }
@@ -424,52 +424,52 @@ public class ProductPoExample {
             return (Criteria) this;
         }
 
-        public Criteria andMtimeEqualTo(Integer value) {
+        public Criteria andMtimeEqualTo(Long value) {
             addCriterion("mtime =", value, "mtime");
             return (Criteria) this;
         }
 
-        public Criteria andMtimeNotEqualTo(Integer value) {
+        public Criteria andMtimeNotEqualTo(Long value) {
             addCriterion("mtime <>", value, "mtime");
             return (Criteria) this;
         }
 
-        public Criteria andMtimeGreaterThan(Integer value) {
+        public Criteria andMtimeGreaterThan(Long value) {
             addCriterion("mtime >", value, "mtime");
             return (Criteria) this;
         }
 
-        public Criteria andMtimeGreaterThanOrEqualTo(Integer value) {
+        public Criteria andMtimeGreaterThanOrEqualTo(Long value) {
             addCriterion("mtime >=", value, "mtime");
             return (Criteria) this;
         }
 
-        public Criteria andMtimeLessThan(Integer value) {
+        public Criteria andMtimeLessThan(Long value) {
             addCriterion("mtime <", value, "mtime");
             return (Criteria) this;
         }
 
-        public Criteria andMtimeLessThanOrEqualTo(Integer value) {
+        public Criteria andMtimeLessThanOrEqualTo(Long value) {
             addCriterion("mtime <=", value, "mtime");
             return (Criteria) this;
         }
 
-        public Criteria andMtimeIn(List<Integer> values) {
+        public Criteria andMtimeIn(List<Long> values) {
             addCriterion("mtime in", values, "mtime");
             return (Criteria) this;
         }
 
-        public Criteria andMtimeNotIn(List<Integer> values) {
+        public Criteria andMtimeNotIn(List<Long> values) {
             addCriterion("mtime not in", values, "mtime");
             return (Criteria) this;
         }
 
-        public Criteria andMtimeBetween(Integer value1, Integer value2) {
+        public Criteria andMtimeBetween(Long value1, Long value2) {
             addCriterion("mtime between", value1, value2, "mtime");
             return (Criteria) this;
         }
 
-        public Criteria andMtimeNotBetween(Integer value1, Integer value2) {
+        public Criteria andMtimeNotBetween(Long value1, Long value2) {
             addCriterion("mtime not between", value1, value2, "mtime");
             return (Criteria) this;
         }

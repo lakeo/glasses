@@ -1,6 +1,7 @@
 package com.lxl.beans.vo;
 
 import com.lxl.beans.po.DfItemPo;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 
 /**
  * Created by xiaolu on 15/5/4.
@@ -46,5 +47,9 @@ public class DfItem {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String toString() {
+        return ToStringBuilder.reflectionToString(this);
     }
 }

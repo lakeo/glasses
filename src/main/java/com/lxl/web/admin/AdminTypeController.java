@@ -11,14 +11,13 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
 
 /**
  * Created by xiaolu on 15/4/29.
  */
 @RequestMapping("/admin/type")
 @Controller
-public class TypeController {
+public class AdminTypeController {
 
     @Resource
     TypeService typeService;

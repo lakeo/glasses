@@ -7,11 +7,11 @@ public class ProductPo {
 
     private Integer cuser;
 
-    private Integer ctime;
+    private Long ctime;
 
     private Integer muser;
 
-    private Integer mtime;
+    private Long mtime;
 
     private Integer type1id;
 
@@ -45,11 +45,11 @@ public class ProductPo {
         this.cuser = cuser;
     }
 
-    public Integer getCtime() {
+    public Long getCtime() {
         return ctime;
     }
 
-    public void setCtime(Integer ctime) {
+    public void setCtime(Long ctime) {
         this.ctime = ctime;
     }
 
@@ -61,11 +61,11 @@ public class ProductPo {
         this.muser = muser;
     }
 
-    public Integer getMtime() {
+    public Long getMtime() {
         return mtime;
     }
 
-    public void setMtime(Integer mtime) {
+    public void setMtime(Long mtime) {
         this.mtime = mtime;
     }
 

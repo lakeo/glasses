@@ -38,6 +38,9 @@
     <!-- Demo Purpose Only. Should be removed in production -->
     <link rel="stylesheet" href="/resources/assets/css/config.css">
 
+    <!-- dynamic form  -->
+    <link rel="stylesheet" href="/resources/assets/css/df.css">
+
     <link href="/resources/assets/css/green.css" rel="alternate stylesheet" title="Green color">
     <link href="/resources/assets/css/blue.css" rel="alternate stylesheet" title="Blue color">
     <link href="/resources/assets/css/red.css" rel="alternate stylesheet" title="Red color">
@@ -141,6 +144,13 @@
                                         <li><a href="/admin/dynamicform/typegroup.html">类目-属性组关系管理</a></li>
                                     </ul>
                                 </li>
+                                <li class="dropdown">
+                                    <a href="/admin/product/index.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">方案管理</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/admin/product/index.html">方案列表</a></li>
+                                        <li><a href="/admin/product/create.html">方案创建</a></li>
+                                    </ul>
+                                </li>
                             </ul><!-- /.navbar-nav -->
 
                             <div class="cnt-search">
@@ -185,6 +195,7 @@ ${body}
 <script type="text/javascript" src="/resources/assets/js/scripts.js"></script>
 <script type="text/javascript" src="/resources/assets/js/underscore-min.js"></script>
 <script type="text/javascript" src="/resources/assets/js/backbone-min.js"></script>
+<script type="text/javascript" src="/resources/assets/js/admin/df/df.js"></script>
 <script>
     echo.init({
         offset: 100,
@@ -193,6 +204,22 @@ ${body}
     });
 </script>
 
+<!-- page default files-->
+<script>
+    /*
+    if(!MYJS_FILES) {
+        $(document).ready(function (loadfiles) {
+            if ($.isEmptyObject(loadfiles))
+                return;
+            $.each(loadfiles, function (index, file) {
+                $.getScript(file, function (data, textStatus, jqxhr) {
+                    console.log("Load was performed.", file);
+                });
+            });
+        }(MYJS_FILES));
+        ;
+    }*/
+</script>
 <!-- For demo purposes – can be removed on production -->
 
 <script src="/resources/switchstylesheet/switchstylesheet.js"></script>
