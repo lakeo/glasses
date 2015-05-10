@@ -5,7 +5,11 @@ public class DfGroupPo {
 
     private String name;
 
+    private Integer type;
+
     private String description;
+
+    private String comment;
 
     public Integer getId() {
         return id;
@@ -23,11 +27,27 @@ public class DfGroupPo {
         this.name = name;
     }
 
+    public Integer getType() {
+        return type;
+    }
+
+    public void setType(Integer type) {
+        this.type = type;
+    }
+
     public String getDescription() {
         return description;
     }
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
     }
 }

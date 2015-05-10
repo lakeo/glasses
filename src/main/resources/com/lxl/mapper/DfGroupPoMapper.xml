@@ -4,7 +4,9 @@
   <resultMap id="BaseResultMap" type="com.lxl.beans.po.DfGroupPo" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="INTEGER" />
     <result column="description" property="description" jdbcType="VARCHAR" />
+    <result column="comment" property="comment" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -36,7 +38,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    id, name, description
+    id, name, type, description, comment
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.lxl.beans.po.DfGroupPoExample" >
     select
@@ -64,10 +66,10 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.lxl.beans.po.DfGroupPo" >
-    insert into df_group (id, name, description
-      )
-    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{description,jdbcType=VARCHAR}
-      )
+    insert into df_group (id, name, type, 
+      description, comment)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{type,jdbcType=INTEGER}, 
+      #{description,jdbcType=VARCHAR}, #{comment,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.lxl.beans.po.DfGroupPo" >
     insert into df_group
@@ -78,8 +80,14 @@
       <if test="name != null" >
         name,
       </if>
+      <if test="type != null" >
+        type,
+      </if>
       <if test="description != null" >
         description,
+      </if>
+      <if test="comment != null" >
+        comment,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
@@ -89,8 +97,14 @@
       <if test="name != null" >
         #{name,jdbcType=VARCHAR},
       </if>
+      <if test="type != null" >
+        #{type,jdbcType=INTEGER},
+      </if>
       <if test="description != null" >
         #{description,jdbcType=VARCHAR},
+      </if>
+      <if test="comment != null" >
+        #{comment,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -106,8 +120,14 @@
       <if test="name != null" >
         name = #{name,jdbcType=VARCHAR},
       </if>
+      <if test="type != null" >
+        type = #{type,jdbcType=INTEGER},
+      </if>
       <if test="description != null" >
         description = #{description,jdbcType=VARCHAR},
+      </if>
+      <if test="comment != null" >
+        comment = #{comment,jdbcType=VARCHAR},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
@@ -115,7 +135,9 @@
   <update id="updateByPrimaryKey" parameterType="com.lxl.beans.po.DfGroupPo" >
     update df_group
     set name = #{name,jdbcType=VARCHAR},
-      description = #{description,jdbcType=VARCHAR}
+      type = #{type,jdbcType=INTEGER},
+      description = #{description,jdbcType=VARCHAR},
+      comment = #{comment,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>

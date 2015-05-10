@@ -26,7 +26,7 @@
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.lxl.dao"
                              targetProject="MAVEN"/>
         <!--对应数据库表 mysql可以加入主键自增 字段命名 忽略某字段等-->
-<!--
+
         <table schema="type" tableName="type"     domainObjectName="TypePo"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
@@ -54,7 +54,7 @@
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
         </table>
-         -->
+
 
         <table schema="product" tableName="product"     domainObjectName="ProductPo"
                enableCountByExample="true" enableUpdateByExample="false"
@@ -62,12 +62,12 @@
                selectByExampleQueryId="false">
             <generatedKey column="id" sqlStatement="MySql" />
         </table>
-        <!--
+
         <table schema="product_ext_info" tableName="product_ext_info"     domainObjectName="ProductExtInfoPo"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
         </table>
--->
+
     </context>
 </generatorConfiguration>

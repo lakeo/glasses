@@ -8,6 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
  * Created by lan on 15/4/5.
  */
 @Controller
+@RequestMapping("/product")
 public class ProductController {
     @RequestMapping({"/product.html"})
     public ModelAndView productPage()
