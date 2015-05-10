@@ -33,7 +33,7 @@
                selectByExampleQueryId="false">
         </table>
 
-
+<!--
         <table schema="df_item" tableName="df_item"     domainObjectName="DfItemPo"
                enableCountByExample="true" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
@@ -49,13 +49,15 @@
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
         </table>
+        -->
+
         <table schema="df_group_item" tableName="df_group_item"     domainObjectName="DfGroupItemPo"
                enableCountByExample="true" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
         </table>
 
-
+<!--
         <table schema="product" tableName="product"     domainObjectName="ProductPo"
                enableCountByExample="true" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
@@ -68,6 +70,6 @@
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
         </table>
-
+-->
     </context>
 </generatorConfiguration>

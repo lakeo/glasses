@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lxl.dao.ProductExtInfoItemMapper" >
+  <select id="selectByProductId" resultType="com.lxl.beans.vo.ProductExtInfoItem" parameterType="long" >
+      SELECT  pxt.id AS id,
+              pxt.productid AS productId,
+              pxt.itemid AS  itemId,
+              dfi.name AS name,
+              dfi.description AS description,
+              pxt.value AS  value,
+              dfg.id AS  groupId,
+              dfg.type AS  groupType
+      FROM  product_ext_info AS pxt
+            JOIN df_item AS dfi ON dfi.id = pxt.itemid
+            JOIN df_group_item AS dfgi ON  dfgi.itemid = dfi.id
+            JOIN df_group AS dfg ON  dfg.id = dfgi.groupid where productid = #{productId} order by pxt.id;
+  </select>
+</mapper>

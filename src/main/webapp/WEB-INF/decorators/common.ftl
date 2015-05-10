@@ -50,6 +50,7 @@
     <script src="/resources/assets/js/html5shiv.js"></script>
     <script src="/resources/assets/js/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="/resources/assets/js/jquery.min.js"></script>
 </head>
 
 <body class="cnt-home body-style-3">
@@ -318,7 +319,7 @@
     <div class="copyright">&copy; <a href="#">LEEBROSUS</a> | ALL RIGHTS RESERVED.</div>
 </footer>
 <!-- ============================================== FOOTER : END ============================================== -->
-<script type="text/javascript" src="/resources/assets/js/jquery.min.js"></script>
+
 <script type="text/javascript" src="/resources/assets/js/jquery-ui.custom.min.js"></script>
 <script type="text/javascript" src="/resources/assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/resources/assets/js/bootstrap-hover-dropdown.min.js"></script>

@@ -4,8 +4,12 @@ import com.lxl.beans.po.DfGroupItemPoExample;
 import com.lxl.beans.po.ProductPo;
 import com.lxl.beans.po.ProductPoExample;
 import com.lxl.beans.vo.Product;
+import com.lxl.beans.vo.ProductExtInfo;
+import com.lxl.beans.vo.ProductExtInfoItem;
 import com.lxl.beans.vo.SearchParam;
+import com.lxl.constants.EDfGroup;
 import com.lxl.constants.EProduct;
+import com.lxl.dao.ProductExtInfoItemMapper;
 import com.lxl.dao.ProductPoMapper;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
@@ -26,6 +30,9 @@ public class ProductService {
 
     @Resource
     ProductPoMapper productPoMapper;
+
+    @Resource
+    ProductExtInfoItemMapper productExtInfoItemMapper;
 
     ProductPoExample convertSearchParam(SearchParam searchParam)
     {
@@ -97,6 +104,21 @@ public class ProductService {
 
     public Product getProductById(Long productid)
     {
-        return new Product(this.productPoMapper.selectByPrimaryKey(productid));
+        ProductPo productPo = this.productPoMapper.selectByPrimaryKey(productid);
+        if(productPo != null) {
+            return new Product(productPo);
+        }
+        return new Product();
     }
+
+    public ProductExtInfo getProdutExtInfoByProductId(Long productId)
+    {
+        ProductExtInfo productExtInfo = new ProductExtInfo();
+        List<ProductExtInfoItem> itemlist = this.productExtInfoItemMapper.selectByProductId(productId);
+        for(ProductExtInfoItem item : itemlist) {
+            productExtInfo.addItem(item);
+        }
+        return productExtInfo;
+    }
+
 }
