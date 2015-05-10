@@ -2,40 +2,96 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.lxl.dao.ProductPoMapper" >
   <resultMap id="BaseResultMap" type="com.lxl.beans.po.ProductPo" >
-    <id column="id" property="id" jdbcType="INTEGER" />
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
     <result column="cuser" property="cuser" jdbcType="INTEGER" />
-    <result column="ctime" property="ctime" jdbcType="INTEGER" />
+    <result column="ctime" property="ctime" jdbcType="BIGINT" />
     <result column="muser" property="muser" jdbcType="INTEGER" />
-    <result column="mtime" property="mtime" jdbcType="INTEGER" />
+    <result column="mtime" property="mtime" jdbcType="BIGINT" />
     <result column="type1id" property="type1id" jdbcType="INTEGER" />
     <result column="type2id" property="type2id" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="description" property="description" jdbcType="VARCHAR" />
   </resultMap>
-  <sql id="Base_Column_List" >
-    id, cuser, ctime, muser, mtime, type1id, type2id
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
   </sql>
-  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+  <sql id="Base_Column_List" >
+    id, name, cuser, ctime, muser, mtime, type1id, type2id, status, description
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.lxl.beans.po.ProductPoExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    'false' as QUERYID,
+    <include refid="Base_Column_List" />
+    from product
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
     select 
     <include refid="Base_Column_List" />
     from product
-    where id = #{id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
     delete from product
-    where id = #{id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
   </delete>
   <insert id="insert" parameterType="com.lxl.beans.po.ProductPo" >
-    insert into product (id, cuser, ctime, 
-      muser, mtime, type1id, 
-      type2id)
-    values (#{id,jdbcType=INTEGER}, #{cuser,jdbcType=INTEGER}, #{ctime,jdbcType=INTEGER}, 
-      #{muser,jdbcType=INTEGER}, #{mtime,jdbcType=INTEGER}, #{type1id,jdbcType=INTEGER}, 
-      #{type2id,jdbcType=INTEGER})
+    <selectKey resultType="java.lang.Long" keyProperty="id" order="BEFORE" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into product (id, name, cuser, 
+      ctime, muser, mtime, 
+      type1id, type2id, status, 
+      description)
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{cuser,jdbcType=INTEGER}, 
+      #{ctime,jdbcType=BIGINT}, #{muser,jdbcType=INTEGER}, #{mtime,jdbcType=BIGINT}, 
+      #{type1id,jdbcType=INTEGER}, #{type2id,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, 
+      #{description,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.lxl.beans.po.ProductPo" >
+    <selectKey resultType="java.lang.Long" keyProperty="id" order="BEFORE" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
     insert into product
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        id,
+      id,
+      <if test="name != null" >
+        name,
       </if>
       <if test="cuser != null" >
         cuser,
@@ -55,22 +111,29 @@
       <if test="type2id != null" >
         type2id,
       </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="description != null" >
+        description,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        #{id,jdbcType=INTEGER},
+      #{id,jdbcType=BIGINT},
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
       </if>
       <if test="cuser != null" >
         #{cuser,jdbcType=INTEGER},
       </if>
       <if test="ctime != null" >
-        #{ctime,jdbcType=INTEGER},
+        #{ctime,jdbcType=BIGINT},
       </if>
       <if test="muser != null" >
         #{muser,jdbcType=INTEGER},
       </if>
       <if test="mtime != null" >
-        #{mtime,jdbcType=INTEGER},
+        #{mtime,jdbcType=BIGINT},
       </if>
       <if test="type1id != null" >
         #{type1id,jdbcType=INTEGER},
@@ -78,22 +141,37 @@
       <if test="type2id != null" >
         #{type2id,jdbcType=INTEGER},
       </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="description != null" >
+        #{description,jdbcType=VARCHAR},
+      </if>
     </trim>
   </insert>
+  <select id="countByExample" parameterType="com.lxl.beans.po.ProductPoExample" resultType="java.lang.Integer" >
+    select count(*) from product
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
   <update id="updateByPrimaryKeySelective" parameterType="com.lxl.beans.po.ProductPo" >
     update product
     <set >
+      <if test="name != null" >
+        name = #{name,jdbcType=VARCHAR},
+      </if>
       <if test="cuser != null" >
         cuser = #{cuser,jdbcType=INTEGER},
       </if>
       <if test="ctime != null" >
-        ctime = #{ctime,jdbcType=INTEGER},
+        ctime = #{ctime,jdbcType=BIGINT},
       </if>
       <if test="muser != null" >
         muser = #{muser,jdbcType=INTEGER},
       </if>
       <if test="mtime != null" >
-        mtime = #{mtime,jdbcType=INTEGER},
+        mtime = #{mtime,jdbcType=BIGINT},
       </if>
       <if test="type1id != null" >
         type1id = #{type1id,jdbcType=INTEGER},
@@ -101,17 +179,26 @@
       <if test="type2id != null" >
         type2id = #{type2id,jdbcType=INTEGER},
       </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="description != null" >
+        description = #{description,jdbcType=VARCHAR},
+      </if>
     </set>
-    where id = #{id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.lxl.beans.po.ProductPo" >
     update product
-    set cuser = #{cuser,jdbcType=INTEGER},
-      ctime = #{ctime,jdbcType=INTEGER},
+    set name = #{name,jdbcType=VARCHAR},
+      cuser = #{cuser,jdbcType=INTEGER},
+      ctime = #{ctime,jdbcType=BIGINT},
       muser = #{muser,jdbcType=INTEGER},
-      mtime = #{mtime,jdbcType=INTEGER},
+      mtime = #{mtime,jdbcType=BIGINT},
       type1id = #{type1id,jdbcType=INTEGER},
-      type2id = #{type2id,jdbcType=INTEGER}
-    where id = #{id,jdbcType=INTEGER}
+      type2id = #{type2id,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER},
+      description = #{description,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>

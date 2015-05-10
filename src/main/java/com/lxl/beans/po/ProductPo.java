@@ -1,26 +1,40 @@
 package com.lxl.beans.po;
 
 public class ProductPo {
-    private Integer id;
+    private Long id;
+
+    private String name;
 
     private Integer cuser;
 
-    private Integer ctime;
+    private Long ctime;
 
     private Integer muser;
 
-    private Integer mtime;
+    private Long mtime;
 
     private Integer type1id;
 
     private Integer type2id;
 
-    public Integer getId() {
+    private Integer status;
+
+    private String description;
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Integer getCuser() {
@@ -31,11 +45,11 @@ public class ProductPo {
         this.cuser = cuser;
     }
 
-    public Integer getCtime() {
+    public Long getCtime() {
         return ctime;
     }
 
-    public void setCtime(Integer ctime) {
+    public void setCtime(Long ctime) {
         this.ctime = ctime;
     }
 
@@ -47,11 +61,11 @@ public class ProductPo {
         this.muser = muser;
     }
 
-    public Integer getMtime() {
+    public Long getMtime() {
         return mtime;
     }
 
-    public void setMtime(Integer mtime) {
+    public void setMtime(Long mtime) {
         this.mtime = mtime;
     }
 
@@ -69,5 +83,21 @@ public class ProductPo {
 
     public void setType2id(Integer type2id) {
         this.type2id = type2id;
+    }
+
+    public Integer getStatus() {
+        return status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

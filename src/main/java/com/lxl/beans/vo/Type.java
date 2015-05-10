@@ -1,6 +1,7 @@
 package com.lxl.beans.vo;
 
 import com.lxl.beans.po.TypePo;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 
 /**
  * Created by xiaolu on 15/5/4.
@@ -64,5 +65,8 @@ public class Type {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+    public String toString() {
+        return ToStringBuilder.reflectionToString(this);
     }
 }

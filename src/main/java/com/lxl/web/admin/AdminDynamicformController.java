@@ -7,12 +7,15 @@ import com.lxl.beans.vo.DfItem;
 import com.lxl.service.GroupAndItemService;
 import com.lxl.service.TypeService;
 import com.lxl.web.util.Message;
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -20,8 +23,10 @@ import java.util.List;
  */
 @RequestMapping("/admin/dynamicform")
 @Controller
-public class DynamicformController
+public class AdminDynamicformController
 {
+    Logger logger = Logger.getLogger(AdminDynamicformController.class);
+
     @Resource
     GroupAndItemService groupAndItemService;
 
@@ -52,7 +57,7 @@ public class DynamicformController
         ModelAndView view = new ModelAndView();
         view.addObject("relations",this.typeService.getGroupTypeByTypeid(typeid));
         view.addObject("groups",this.groupAndItemService.getAllGroup());
-        view.addObject("typeid",typeid);
+        view.addObject("typeid", typeid);
         return view;
     }
 
@@ -102,6 +107,33 @@ public class DynamicformController
         ModelAndView view = new ModelAndView("redirect:/admin/dynamicform/index.html");
         this.groupAndItemService.editDfGroupItem(dfGroupItem);
         return view;
+    }
+
+    @RequestMapping("/product/data/{productid}")
+    @ResponseBody
+    public Message getProductItemData(@PathVariable long productid)
+    {
+        Message message = new Message();
+        List<String> list = new ArrayList<String>();
+        list.add("");
+        message.putData(list);
+        logger.info("get prodcut data");
+        return message;
+    }
+
+    /*
+    items:[{id,name,description,showData,isRequire,}..]
+    * */
+    @RequestMapping("/product/show/{type2id}")
+    @ResponseBody
+    public Message getItemDataByTypeId(@PathVariable int type2id)
+    {
+        Message message = new Message();
+        List<String> list = new ArrayList<String>();
+        list.add("{id:3,name:'文案信息',description:'用于展示',type:'group',data:[{id:4, name:'title1', description:'用于详情页展示', type:'text', showData:'', isRequire:1}]}");
+        message.putData(list);
+        logger.info("get show");
+        return message;
     }
 
 }

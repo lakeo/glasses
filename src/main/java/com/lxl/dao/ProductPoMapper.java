@@ -1,15 +1,22 @@
 package com.lxl.dao;
 
 import com.lxl.beans.po.ProductPo;
+import com.lxl.beans.po.ProductPoExample;
+
+import java.util.List;
 
 public interface ProductPoMapper {
-    int deleteByPrimaryKey(Integer id);
+    int countByExample(ProductPoExample example);
+
+    int deleteByPrimaryKey(Long id);
 
     int insert(ProductPo record);
 
     int insertSelective(ProductPo record);
 
-    ProductPo selectByPrimaryKey(Integer id);
+    List<ProductPo> selectByExample(ProductPoExample example);
+
+    ProductPo selectByPrimaryKey(Long id);
 
     int updateByPrimaryKeySelective(ProductPo record);
 

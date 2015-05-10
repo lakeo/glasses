@@ -18,14 +18,12 @@ public class ServiceTest extends BaseTest {
     GroupAndItemService groupAndItemService;
 
     @Test
-    @Ignore
     public void testGroupAndItem()
     {
         logger.info(this.groupAndItemService.getAllGroup());
     }
 
     @Test
-    @Ignore
     public void testAddGroup()
     {
         //add
