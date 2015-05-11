@@ -37,6 +37,8 @@ public class GroupAndItemService {
             return false;
         } else if(!StringUtils.isNotBlank(dfGroup.getDescription())) {
             return false;
+        } else if (dfGroup.getType() == null) {
+            return false;
         }
         return true;
     }
@@ -48,6 +50,8 @@ public class GroupAndItemService {
         } else if(!StringUtils.isNotBlank(dfGroup.getDescription())) {
             return false;
         } else if (dfGroup.getId() == null || dfGroup.getId() <=0) {
+            return false;
+        } else if (dfGroup.getType() == null) {
             return false;
         }
         return true;
@@ -111,6 +115,8 @@ public class GroupAndItemService {
         dfGroupPo.setId(dfgroup.getId());
         dfGroupPo.setName(dfgroup.getName());
         dfGroupPo.setDescription(dfgroup.getDescription());
+        dfGroupPo.setType(dfgroup.getType());
+        dfGroupPo.setComment(dfgroup.getComment());
         //add
         if (dfgroup.getId() == null || dfgroup.getId() <= 0) {
             if (!this.validGroupForAdd(dfgroup)) {
@@ -191,6 +197,7 @@ public class GroupAndItemService {
         dfItemPo.setId(dfitem.getId());
         dfItemPo.setName(dfitem.getName());
         dfItemPo.setDescription(dfitem.getDescription());
+        dfItemPo.setComment(dfitem.getComment());
         //add
         if(dfitem.getId() == null || dfitem.getId() <= 0) {
             if(!this.validItemForAdd(dfitem)) {

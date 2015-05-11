@@ -6,7 +6,9 @@
                 <tr>
                     <th>id</th>
                     <th>name</th>
+                    <th>type</th>
                     <th>description</th>
+                    <th>comment</th>
                 </tr>
             </thead>
             <tbody>
@@ -14,7 +16,9 @@
                     <tr>
                         <td>${group.id}</td>
                         <td>${group.name}</td>
+                        <td>${group.type}</td>
                         <td>${group.description}</td>
+                        <td>${group.comment!''}</td>
                     </tr>
                 </#list>
             </tbody>
@@ -34,8 +38,16 @@
                 <input id="name" name="name" type="text" class="form-control" />
             </div>
             <div class="form-group">
+                <label for="type">type</label>
+                <input id="type" name="type" type="text" class="form-control" />
+            </div>
+            <div class="form-group">
                 <label for="description">description</label>
                 <input id="description" name="description" type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="comment">comment</label>
+                <input id="comment" name="comment" type="text" class="form-control" />
             </div>
             <button type="submit" class="btn btn-default">submit</button>
         </form>
@@ -52,6 +64,7 @@
                 <th>id</th>
                 <th>name</th>
                 <th>description</th>
+                <th>comment</th>
             </tr>
             </thead>
             <tbody>
@@ -60,6 +73,7 @@
                 <td>${item.id}</td>
                 <td>${item.name}</td>
                 <td>${item.description}</td>
+                <td>${item.comment!''}</td>
             </tr>
             </#list>
             </tbody>
@@ -80,6 +94,10 @@
             <div class="form-group">
                 <label for="description">description</label>
                 <input id="description" name="description" type="text" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="comment">comment</label>
+                <input id="comment" name="comment" type="text" class="form-control" />
             </div>
             <button type="submit" class="btn btn-default">submit</button>
         </form>
@@ -108,7 +126,7 @@
                     <td>${r.itemid}</td>
                     <td>${r.type}</td>
                     <td>${r.showData!''}</td>
-                    <td>${r.isRequire!''}</td>
+                    <td>${r.isRequire!}</td>
                 </tr>
                 </#list>
             </tbody>
@@ -136,6 +154,7 @@
                 <select id="type" name="type" class="form-control">
                     <option value="text">text</option>
                     <option value="selector">selector</option>
+                    <option value="image">image</option>
                 </select>
             </div>
             <div class="form-group">

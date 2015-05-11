@@ -13,6 +13,8 @@ public class DfItem {
 
     private String description;
 
+    private String comment;
+
     public DfItem()
     {
 
@@ -23,6 +25,15 @@ public class DfItem {
         this.id =  po.getId();
         this.name = po.getName();
         this.description = po.getDescription();
+        this.comment = po.getComment();
+    }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
     }
 
     public Integer getId() {
