@@ -1,7 +1,7 @@
 <div class="row" id="create_div">
     <h3>方案编辑</h3>
     <div class="col-md-10">
-    <form class="form form-horizontal" action="" method="post" id="test_form">
+    <form class="form form-horizontal" action="" method="">
         <div class="container-fluid df-form-container">
             <h4>基本信息</h4>
             <div class="form-group">
@@ -36,6 +36,9 @@
             </div>
         </div>
     </form>
+        <form class="form form-horizontal" action="" method="post" id="test_form">
+            <input type="text" hidden name="productid" id="productid" value="${product.id}" readonly>
+        </form>
     </div>
 </div>
 
@@ -61,8 +64,8 @@
     $(function(){
         var form = MyDynamicForm.create({
             el:'#test_form',
-            dataurl:'/admin/dynamicform/product/data/1',
-            showurl:'/admin/dynamicform/product/show/2'
+            dataurl:'/admin/dynamicform/product/data/${product.id}',
+            showurl:'/admin/dynamicform/product/show/${product.type2id}'
         });
     });
 </script>

@@ -109,15 +109,12 @@ public class AdminDynamicformController
         return view;
     }
 
-    @RequestMapping("/product/data/{productid}")
+    @RequestMapping("/product/data/{productId}")
     @ResponseBody
-    public Message getProductItemData(@PathVariable long productid)
+    public Message getProductItemData(@PathVariable long productId)
     {
         Message message = new Message();
-        List<String> list = new ArrayList<String>();
-        list.add("");
-        message.putData(list);
-        logger.info("get prodcut data");
+        message.putData(this.groupAndItemService.getItemDataByProductId(productId));
         return message;
     }
 
@@ -129,10 +126,7 @@ public class AdminDynamicformController
     public Message getItemDataByTypeId(@PathVariable int type2id)
     {
         Message message = new Message();
-        List<String> list = new ArrayList<String>();
-        list.add("{id:3,name:'文案信息',description:'用于展示',type:'group',data:[{id:4, name:'title1', description:'用于详情页展示', type:'text', showData:'', isRequire:1}]}");
-        message.putData(list);
-        logger.info("get show");
+        message.putData(this.groupAndItemService.getShowGroupByType2id(type2id));
         return message;
     }
 

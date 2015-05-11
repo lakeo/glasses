@@ -1,5 +1,6 @@
 package com.lxl.beans.vo;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.lxl.beans.po.DfItemPo;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
@@ -15,6 +16,14 @@ public class DfItem {
 
     private String comment;
 
+    private String type;
+
+    private String showData;
+
+    private int isRequire;
+
+    private String value;
+
     public DfItem()
     {
 
@@ -26,6 +35,38 @@ public class DfItem {
         this.name = po.getName();
         this.description = po.getDescription();
         this.comment = po.getComment();
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getShowData() {
+        return showData;
+    }
+
+    public void setShowData(String showData) {
+        this.showData = showData;
+    }
+
+    public int getIsRequire() {
+        return isRequire;
+    }
+
+    public void setIsRequire(int isRequire) {
+        this.isRequire = isRequire;
     }
 
     public String getComment() {
@@ -61,6 +102,10 @@ public class DfItem {
     }
 
     public String toString() {
-        return ToStringBuilder.reflectionToString(this);
+        try {
+            return new ObjectMapper().writer().withDefaultPrettyPrinter().writeValueAsString(this);
+        }catch (Exception e) {
+            return "";
+        }
     }
 }

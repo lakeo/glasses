@@ -40,7 +40,9 @@
         $(el).append(utils.getItemDOM(item));
     }
     utils.setdata = function(el,data) {
-        console.log(data);
+        $.each(data, function(index, item) {
+            $(el).find('input[name="'+item.name+'"]').val(item.value);
+        });
     }
     utils.addSubmitBtn = function(el) {
         $(el).append('<div class="form-group"><div class="col-sm-offset-2 col-sm-10"> <input type="submit" value="修改" class="btn btn-default"> </div> </div>');
@@ -88,16 +90,16 @@
             showform:function(e) {
                 items = this.showModel.get('data');
                 el = this.el;
-                items = ['{"id":"3","name":"文案信息","description":"文案信息","type":"group","data":[{"id":"4", "name":"title1", "description":"标题1", "type":"text", "showData":"", "isRequire":"1"},{"id":"4", "name":"title1", "description":"标题1", "type":"text", "showData":"", "isRequire":"1"}]}','{"id":"3","name":"文案信息","description":"文案信息","type":"group","data":[{"id":"4", "name":"title1", "description":"标题1", "type":"text", "showData":"", "isRequire":"1"}]}']
                 $.each(items,function(index,item) {
-                    item = $.parseJSON(item);
                     mdf.utils.addDom(el,item);
                 });
                 mdf.utils.addSubmitBtn(el);
             },
+
             setformdata:function(e) {
                 mdf.utils.setdata(this.el, this.dataModel.get('data'));
             },
+
             getdata:function(e) {
                 //this here stand for datamodel
                 this.fetch({

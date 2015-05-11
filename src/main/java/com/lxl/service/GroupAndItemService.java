@@ -4,9 +4,8 @@ import com.lxl.beans.po.*;
 import com.lxl.beans.vo.DfGroup;
 import com.lxl.beans.vo.DfGroupItem;
 import com.lxl.beans.vo.DfItem;
-import com.lxl.dao.DfGroupItemPoMapper;
-import com.lxl.dao.DfGroupPoMapper;
-import com.lxl.dao.DfItemPoMapper;
+import com.lxl.dao.*;
+import com.lxl.web.util.DfGroupVo;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 import org.apache.commons.lang3.StringUtils;
@@ -30,6 +29,12 @@ public class GroupAndItemService {
 
     @Resource
     DfGroupItemPoMapper dfGroupItemPoMapper;
+
+    @Resource
+    DfGroupTypePoMapper dfGroupTypePoMapper;
+
+    @Resource
+    MyGroupAndItemMapper myGroupAndItemMapper;
 
     private boolean validGroupForAdd(DfGroup dfGroup)
     {
@@ -270,5 +275,28 @@ public class GroupAndItemService {
             target.add(new DfGroupItem(po));
         }
         return target;
+    }
+
+    public List<DfItem> getItemDataByProductId(long productId)
+    {
+        return this.myGroupAndItemMapper.selectItemsByProductId(productId);
+    }
+    public List<DfGroupVo> getShowGroupByType2id(int type2id)
+    {
+        List<DfGroupVo> list = new ArrayList<>();
+
+        //get groups
+        DfGroupTypePoExample example = new DfGroupTypePoExample();
+        example.createCriteria().andTypeidEqualTo(type2id);
+        List<DfGroup> groups = this.myGroupAndItemMapper.selectGroupByType2Id(type2id);
+        for(DfGroup g : groups) {
+            list.add(new DfGroupVo(g));
+        }
+
+        //get items
+        for(DfGroupVo g : list) {
+            g.setData(this.myGroupAndItemMapper.selectItemsByGroupId(g.getId()));
+        }
+        return list;
     }
 }
