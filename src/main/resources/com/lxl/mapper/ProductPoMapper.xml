@@ -71,25 +71,24 @@
     where id = #{id,jdbcType=BIGINT}
   </delete>
   <insert id="insert" parameterType="com.lxl.beans.po.ProductPo" >
-    <selectKey resultType="java.lang.Long" keyProperty="id" order="BEFORE" >
+    <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER" >
       SELECT LAST_INSERT_ID()
     </selectKey>
-    insert into product (id, name, cuser, 
-      ctime, muser, mtime, 
-      type1id, type2id, status, 
-      description)
-    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{cuser,jdbcType=INTEGER}, 
-      #{ctime,jdbcType=BIGINT}, #{muser,jdbcType=INTEGER}, #{mtime,jdbcType=BIGINT}, 
-      #{type1id,jdbcType=INTEGER}, #{type2id,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, 
-      #{description,jdbcType=VARCHAR})
+    insert into product (name, cuser, ctime, 
+      muser, mtime, type1id, 
+      type2id, status, description
+      )
+    values (#{name,jdbcType=VARCHAR}, #{cuser,jdbcType=INTEGER}, #{ctime,jdbcType=BIGINT}, 
+      #{muser,jdbcType=INTEGER}, #{mtime,jdbcType=BIGINT}, #{type1id,jdbcType=INTEGER}, 
+      #{type2id,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, #{description,jdbcType=VARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="com.lxl.beans.po.ProductPo" >
-    <selectKey resultType="java.lang.Long" keyProperty="id" order="BEFORE" >
+    <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER" >
       SELECT LAST_INSERT_ID()
     </selectKey>
     insert into product
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      id,
       <if test="name != null" >
         name,
       </if>
@@ -119,7 +118,6 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      #{id,jdbcType=BIGINT},
       <if test="name != null" >
         #{name,jdbcType=VARCHAR},
       </if>

@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.lxl.dao.ProductExtInfoPoMapper" >
   <resultMap id="BaseResultMap" type="com.lxl.beans.po.ProductExtInfoPo" >
-    <id column="id" property="id" jdbcType="INTEGER" />
+    <id column="id" property="id" jdbcType="BIGINT" />
     <result column="productid" property="productid" jdbcType="BIGINT" />
     <result column="itemid" property="itemid" jdbcType="INTEGER" />
   </resultMap>
@@ -76,30 +76,33 @@
       order by ${orderByClause}
     </if>
   </select>
-  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Long" >
     select 
     <include refid="Base_Column_List" />
     ,
     <include refid="Blob_Column_List" />
     from product_ext_info
-    where id = #{id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
     delete from product_ext_info
-    where id = #{id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
   </delete>
   <insert id="insert" parameterType="com.lxl.beans.po.ProductExtInfoPo" >
-    insert into product_ext_info (id, productid, itemid, 
-      value)
-    values (#{id,jdbcType=INTEGER}, #{productid,jdbcType=BIGINT}, #{itemid,jdbcType=INTEGER}, 
-      #{value,jdbcType=LONGVARCHAR})
+    <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into product_ext_info (productid, itemid, value
+      )
+    values (#{productid,jdbcType=BIGINT}, #{itemid,jdbcType=INTEGER}, #{value,jdbcType=LONGVARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="com.lxl.beans.po.ProductExtInfoPo" >
+    <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
     insert into product_ext_info
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        id,
-      </if>
       <if test="productid != null" >
         productid,
       </if>
@@ -111,9 +114,6 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        #{id,jdbcType=INTEGER},
-      </if>
       <if test="productid != null" >
         #{productid,jdbcType=BIGINT},
       </if>
@@ -138,19 +138,19 @@
         value = #{value,jdbcType=LONGVARCHAR},
       </if>
     </set>
-    where id = #{id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
   </update>
   <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.lxl.beans.po.ProductExtInfoPo" >
     update product_ext_info
     set productid = #{productid,jdbcType=BIGINT},
       itemid = #{itemid,jdbcType=INTEGER},
       value = #{value,jdbcType=LONGVARCHAR}
-    where id = #{id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.lxl.beans.po.ProductExtInfoPo" >
     update product_ext_info
     set productid = #{productid,jdbcType=BIGINT},
       itemid = #{itemid,jdbcType=INTEGER}
-    where id = #{id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
   </update>
 </mapper>

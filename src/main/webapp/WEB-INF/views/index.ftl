@@ -7,7 +7,7 @@
         <div class="col-md-3 index-nav" role="navigation">
             <ul class="nav nav-pills nav-stacked">
                 <li  role="presentation">
-					<a  href="/category.html">经典女款 >></a>
+					<a  href="/product/category/index/women.html">经典女款 >></a>
 				</li>
                 <li  role="presentation">
                     <a  href="/category.html">经典男款 >></a>

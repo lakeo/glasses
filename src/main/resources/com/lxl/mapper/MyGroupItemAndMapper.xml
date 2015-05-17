@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lxl.dao.MyGroupAndItemMapper" >
+      <select id="selectGroupByType2Id" resultType="com.lxl.beans.vo.DfGroup" parameterType="long" >
+          SELECT  dfg.id, dfg.name, dfg.type, dfg.description, dfg.comment FROM df_group_type dgt JOIN df_group dfg ON  dfg.id = dgt.groupid WHERE  dgt.typeid = #{typeid}
+      </select>
+
+      <select id="selectItemsByGroupId" resultType="com.lxl.beans.vo.DfItem" parameterType="int" >
+            SELECT  di.id, di.name, di.description, di.comment, dgi.type, dgi.show_data showData, dgi.is_require isRequire FROM  df_group_item dgi JOIN df_item di ON  di.id = dgi.itemid WHERE  dgi.groupid = #{groupid}
+      </select>
+
+      <select id="selectItemsByProductId" resultType="com.lxl.beans.vo.DfItem" parameterType="int" >
+            SELECT  di.id, di.name, di.description, di.comment, pei.value FROM  product_ext_info pei JOIN df_item di ON  di.id = pei.itemid WHERE  pei.productid = #{productId}
+      </select>
+</mapper>

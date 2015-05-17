@@ -4,6 +4,7 @@ import com.lxl.beans.po.ProductPo;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by xiaolu on 15/5/4.
@@ -29,6 +30,10 @@ public class Product {
 
     private String description;
 
+    private String data;
+
+    private List<ProductExtInfoItem> items;
+
     public Product()
     {
 
@@ -44,6 +49,22 @@ public class Product {
         this.type2id = po.getType2id();
         this.status = po.getStatus();
         this.description = po.getDescription();
+    }
+
+    public List<ProductExtInfoItem> getItems() {
+        return items;
+    }
+
+    public void setItems(List<ProductExtInfoItem> items) {
+        this.items = items;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
     }
 
     public Long getId() {

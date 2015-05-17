@@ -4,9 +4,8 @@ import com.lxl.beans.po.*;
 import com.lxl.beans.vo.DfGroup;
 import com.lxl.beans.vo.DfGroupItem;
 import com.lxl.beans.vo.DfItem;
-import com.lxl.dao.DfGroupItemPoMapper;
-import com.lxl.dao.DfGroupPoMapper;
-import com.lxl.dao.DfItemPoMapper;
+import com.lxl.dao.*;
+import com.lxl.web.util.DfGroupVo;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 import org.apache.commons.lang3.StringUtils;
@@ -31,11 +30,19 @@ public class GroupAndItemService {
     @Resource
     DfGroupItemPoMapper dfGroupItemPoMapper;
 
+    @Resource
+    DfGroupTypePoMapper dfGroupTypePoMapper;
+
+    @Resource
+    MyGroupAndItemMapper myGroupAndItemMapper;
+
     private boolean validGroupForAdd(DfGroup dfGroup)
     {
         if(!StringUtils.isNotBlank(dfGroup.getName())) {
             return false;
         } else if(!StringUtils.isNotBlank(dfGroup.getDescription())) {
+            return false;
+        } else if (dfGroup.getType() == null) {
             return false;
         }
         return true;
@@ -48,6 +55,8 @@ public class GroupAndItemService {
         } else if(!StringUtils.isNotBlank(dfGroup.getDescription())) {
             return false;
         } else if (dfGroup.getId() == null || dfGroup.getId() <=0) {
+            return false;
+        } else if (dfGroup.getType() == null) {
             return false;
         }
         return true;
@@ -111,6 +120,8 @@ public class GroupAndItemService {
         dfGroupPo.setId(dfgroup.getId());
         dfGroupPo.setName(dfgroup.getName());
         dfGroupPo.setDescription(dfgroup.getDescription());
+        dfGroupPo.setType(dfgroup.getType());
+        dfGroupPo.setComment(dfgroup.getComment());
         //add
         if (dfgroup.getId() == null || dfgroup.getId() <= 0) {
             if (!this.validGroupForAdd(dfgroup)) {
@@ -191,6 +202,7 @@ public class GroupAndItemService {
         dfItemPo.setId(dfitem.getId());
         dfItemPo.setName(dfitem.getName());
         dfItemPo.setDescription(dfitem.getDescription());
+        dfItemPo.setComment(dfitem.getComment());
         //add
         if(dfitem.getId() == null || dfitem.getId() <= 0) {
             if(!this.validItemForAdd(dfitem)) {
@@ -264,4 +276,42 @@ public class GroupAndItemService {
         }
         return target;
     }
+
+    public List<DfItem> getItemDataByProductId(long productId)
+    {
+        return this.myGroupAndItemMapper.selectItemsByProductId(productId);
+    }
+    public List<DfGroupVo> getShowGroupByType2id(int type2id)
+    {
+        List<DfGroupVo> list = new ArrayList<>();
+
+        //get groups
+        DfGroupTypePoExample example = new DfGroupTypePoExample();
+        example.createCriteria().andTypeidEqualTo(type2id);
+        List<DfGroup> groups = this.myGroupAndItemMapper.selectGroupByType2Id(type2id);
+        for(DfGroup g : groups) {
+            list.add(new DfGroupVo(g));
+        }
+
+        //get items
+        for(DfGroupVo g : list) {
+            g.setData(this.myGroupAndItemMapper.selectItemsByGroupId(g.getId()));
+        }
+        return list;
+    }
+
+    public DfItemPo getItemByName(String name) {
+        if(!StringUtils.isNotBlank(name)) {
+            return null;
+        }
+        DfItemPoExample example = new DfItemPoExample();
+        example.createCriteria().andNameEqualTo(name);
+        List<DfItemPo> items = this.dfItemPoMapper.selectByExample(example);
+        if(items.isEmpty()) {
+            return null;
+        }else  {
+            return items.get(0);
+        }
+    }
+
 }

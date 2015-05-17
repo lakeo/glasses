@@ -3,6 +3,7 @@
     <decorator name="common" page="common.ftl">
         <pattern>/category.html</pattern>
         <pattern>/product.html</pattern>
+        <pattern>/product/*</pattern>
     </decorator>
     <decorator name="index" page="index.ftl">
         <pattern>/index.html</pattern>

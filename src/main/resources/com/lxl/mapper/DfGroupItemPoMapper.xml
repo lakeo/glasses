@@ -91,19 +91,20 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.lxl.beans.po.DfGroupItemPo" >
-    insert into df_group_item (id, groupid, itemid, 
-      type, is_require, show_data
-      )
-    values (#{id,jdbcType=INTEGER}, #{groupid,jdbcType=INTEGER}, #{itemid,jdbcType=INTEGER}, 
-      #{type,jdbcType=VARCHAR}, #{isRequire,jdbcType=INTEGER}, #{showData,jdbcType=LONGVARCHAR}
-      )
+    <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into df_group_item (groupid, itemid, type, 
+      is_require, show_data)
+    values (#{groupid,jdbcType=INTEGER}, #{itemid,jdbcType=INTEGER}, #{type,jdbcType=VARCHAR}, 
+      #{isRequire,jdbcType=INTEGER}, #{showData,jdbcType=LONGVARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.lxl.beans.po.DfGroupItemPo" >
+    <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
     insert into df_group_item
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        id,
-      </if>
       <if test="groupid != null" >
         groupid,
       </if>
@@ -121,9 +122,6 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        #{id,jdbcType=INTEGER},
-      </if>
       <if test="groupid != null" >
         #{groupid,jdbcType=INTEGER},
       </if>

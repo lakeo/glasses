@@ -7,6 +7,8 @@ public class DfItemPo {
 
     private String description;
 
+    private String comment;
+
     public Integer getId() {
         return id;
     }
@@ -29,5 +31,13 @@ public class DfItemPo {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
     }
 }

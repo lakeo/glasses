@@ -11,7 +11,11 @@ public class DfGroup {
 
     private String name;
 
+    private Integer type;
+
     private String description;
+
+    private String comment;
 
     public DfGroup()
     {
@@ -23,6 +27,24 @@ public class DfGroup {
         this.id =  po.getId();
         this.name = po.getName();
         this.description = po.getDescription();
+        this.type = po.getType();
+        this.comment = po.getComment();
+    }
+
+    public Integer getType() {
+        return type;
+    }
+
+    public void setType(Integer type) {
+        this.type = type;
+    }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
     }
 
     public Integer getId() {

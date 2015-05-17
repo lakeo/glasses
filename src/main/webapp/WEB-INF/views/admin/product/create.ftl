@@ -16,7 +16,7 @@
         <div class="form-group">
             <label for="levelone" class="col-sm-2 control-label">一级品类</label>
             <div class="col-sm-10">
-                <select id="levelone" class="form-control">
+                <select id="levelone" class="form-control" name="type1id">
                     <option>一级品类</option>
                 </select>
             </div>
@@ -24,7 +24,7 @@
         <div class="form-group">
             <label for="levelone" class="col-sm-2 control-label">二级品类</label>
             <div class="col-sm-10">
-                <select id="leveltwo" class="form-control">
+                <select id="leveltwo" class="form-control" name="type2id">
                     <option>二级品类</option>
                 </select>
             </div>

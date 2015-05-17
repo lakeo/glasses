@@ -1,7 +1,7 @@
 package com.lxl.beans.po;
 
 public class ProductExtInfoPo {
-    private Integer id;
+    private Long id;
 
     private Long productid;
 
@@ -9,11 +9,11 @@ public class ProductExtInfoPo {
 
     private String value;
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

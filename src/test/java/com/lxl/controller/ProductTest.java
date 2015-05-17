@@ -3,8 +3,10 @@ package com.lxl.controller;
 import com.lxl.BaseTest;
 import com.lxl.beans.vo.Product;
 import com.lxl.beans.vo.SearchParam;
-import com.lxl.service.ProductService;
+import com.lxl.web.ProductController;
 import com.lxl.web.admin.AdminProductController;
+import org.apache.log4j.Logger;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import javax.annotation.Resource;
@@ -12,12 +14,18 @@ import javax.annotation.Resource;
 /**
  * Created by xiaolu on 15/5/8.
  */
-public class ProcutTest extends BaseTest {
+public class ProductTest extends BaseTest {
+
+    Logger logger = Logger.getLogger(ProductTest.class);
 
     @Resource
     AdminProductController adminProductController;
 
+    @Resource
+    ProductController productController;
+
     @Test
+    @Ignore
     public void insert()
     {
         Product product = new Product();
@@ -36,4 +44,9 @@ public class ProcutTest extends BaseTest {
         this.adminProductController.productList(param);
     }
 
+    @Test
+    public void testProductDetail()
+    {
+        logger.info(this.productController.detailPage(11));
+    }
 }

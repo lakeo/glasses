@@ -6,7 +6,7 @@ import com.lxl.beans.po.ProductExtInfoPoExample;
 import java.util.List;
 
 public interface ProductExtInfoPoMapper {
-    int deleteByPrimaryKey(Integer id);
+    int deleteByPrimaryKey(Long id);
 
     int insert(ProductExtInfoPo record);
 
@@ -16,7 +16,7 @@ public interface ProductExtInfoPoMapper {
 
     List<ProductExtInfoPo> selectByExample(ProductExtInfoPoExample example);
 
-    ProductExtInfoPo selectByPrimaryKey(Integer id);
+    ProductExtInfoPo selectByPrimaryKey(Long id);
 
     int updateByPrimaryKeySelective(ProductExtInfoPo record);
 
