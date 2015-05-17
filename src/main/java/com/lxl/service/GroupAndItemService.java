@@ -299,4 +299,19 @@ public class GroupAndItemService {
         }
         return list;
     }
+
+    public DfItemPo getItemByName(String name) {
+        if(!StringUtils.isNotBlank(name)) {
+            return null;
+        }
+        DfItemPoExample example = new DfItemPoExample();
+        example.createCriteria().andNameEqualTo(name);
+        List<DfItemPo> items = this.dfItemPoMapper.selectByExample(example);
+        if(items.isEmpty()) {
+            return null;
+        }else  {
+            return items.get(0);
+        }
+    }
+
 }

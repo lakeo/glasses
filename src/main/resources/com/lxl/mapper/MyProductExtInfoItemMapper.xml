@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.lxl.dao.ProductExtInfoItemMapper" >
+<mapper namespace="com.lxl.dao.MyProductExtInfoItemMapper" >
   <select id="selectByProductId" resultType="com.lxl.beans.vo.ProductExtInfoItem" parameterType="long" >
       SELECT  pxt.id AS id,
               pxt.productid AS productId,

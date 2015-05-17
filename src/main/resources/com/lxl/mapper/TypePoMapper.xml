@@ -66,17 +66,20 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.lxl.beans.po.TypePo" >
-    insert into type (id, name, level, 
-      description, parentid)
-    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{level,jdbcType=INTEGER}, 
-      #{description,jdbcType=VARCHAR}, #{parentid,jdbcType=INTEGER})
+    <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into type (name, level, description, 
+      parentid)
+    values (#{name,jdbcType=VARCHAR}, #{level,jdbcType=INTEGER}, #{description,jdbcType=VARCHAR}, 
+      #{parentid,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" parameterType="com.lxl.beans.po.TypePo" >
+    <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
     insert into type
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        id,
-      </if>
       <if test="name != null" >
         name,
       </if>
@@ -91,9 +94,6 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        #{id,jdbcType=INTEGER},
-      </if>
       <if test="name != null" >
         #{name,jdbcType=VARCHAR},
       </if>

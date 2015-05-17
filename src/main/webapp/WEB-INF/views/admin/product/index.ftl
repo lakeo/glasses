@@ -26,7 +26,7 @@
                 <#list products as p>
                     <tr>
                         <td>${p.id}</td>
-                        <td><a href="/admin/product/edit.html?productid=${p.id}">${p.name}</a></td>
+                        <td><a href="/admin/product/edit.html?productId=${p.id}">${p.name}</a></td>
                         <td>${p.ctime?datetime}</td>
                         <td>${p.mtime?datetime}</td>
                     </tr>

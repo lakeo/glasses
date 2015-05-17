@@ -62,10 +62,34 @@
 
 <script>
     $(function(){
+        //init df form
         var form = MyDynamicForm.create({
             el:'#test_form',
             dataurl:'/admin/dynamicform/product/data/${product.id}',
             showurl:'/admin/dynamicform/product/show/${product.type2id}'
         });
+
+        //hook the submit
+        $('#test_form').submit(function(event) {
+            event.preventDefault();
+            var elements = $(this).find('input[type=text], select, textarea');
+            var data = [];
+            var productid = 0;
+            $.each(elements, function(index, element){
+                if($(element).attr('name') != 'productid') {
+                    data.push({name: $(element).attr('name'), value: $(element).val()})
+                } else {
+
+                    productid = $(element).val();
+                }
+            });
+            data = JSON.stringify(data)
+            var form = $('<form action="" method="post" ></form>');
+            var frmProduct =  $('<input />',{name:'id', value:productid})
+            var frmData = $('<input />', {name:'data',value:data})
+            $(form).append(frmProduct);
+            $(form).append(frmData);
+            $(form).submit();
+        })
     });
 </script>

@@ -3,6 +3,7 @@ package com.lxl.web.admin;
 import com.lxl.beans.vo.Product;
 import com.lxl.beans.vo.SearchParam;
 import com.lxl.service.ProductService;
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -17,6 +18,9 @@ import javax.annotation.Resource;
 @Controller
 @RequestMapping("/admin/product")
 public class AdminProductController {
+
+    Logger logger = Logger.getLogger(AdminProductController.class);
+
     @Resource
     ProductService productService;
 
@@ -39,8 +43,8 @@ public class AdminProductController {
     {
         ModelAndView view;
         Long productid;
-        if((productid = this.productService.createProdut(product)) != 0) {
-            view = new ModelAndView("redirect:/admin/product/edit.html?productid="+productid);
+        if((productid = this.productService.createProduct(product)) != 0) {
+            view = new ModelAndView("redirect:/admin/product/edit.html?productId="+productid);
         } else {
             view = new ModelAndView();
         }
@@ -48,16 +52,19 @@ public class AdminProductController {
     }
 
     @RequestMapping(value = "/edit.html", method = RequestMethod.GET)
-    public ModelAndView editProductIndex(Long productid)
+    public ModelAndView editProductIndex(Long productId)
     {
         ModelAndView view = new ModelAndView();
-        view.addObject("product",this.productService.getProductById(productid));
+        view.addObject("product",this.productService.getProductById(productId));
         return view;
     }
 
     @RequestMapping(value = "/edit.html", method = RequestMethod.POST)
     public ModelAndView editProduct(Product product)
     {
-        return new ModelAndView();
+        int productId = product.getId() == null ? 0 : product.getId().intValue();
+        logger.info("try save product: id="+productId);
+        this.productService.setProductExtFromWeb(product);
+        return new ModelAndView("redirect:/admin/product/edit.html?productId="+productId);
     }
 }

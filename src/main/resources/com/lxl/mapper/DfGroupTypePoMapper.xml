@@ -64,17 +64,18 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.lxl.beans.po.DfGroupTypePo" >
-    insert into df_group_type (id, groupid, typeid
-      )
-    values (#{id,jdbcType=INTEGER}, #{groupid,jdbcType=INTEGER}, #{typeid,jdbcType=INTEGER}
-      )
+    <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into df_group_type (groupid, typeid)
+    values (#{groupid,jdbcType=INTEGER}, #{typeid,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" parameterType="com.lxl.beans.po.DfGroupTypePo" >
+    <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
     insert into df_group_type
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        id,
-      </if>
       <if test="groupid != null" >
         groupid,
       </if>
@@ -83,9 +84,6 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        #{id,jdbcType=INTEGER},
-      </if>
       <if test="groupid != null" >
         #{groupid,jdbcType=INTEGER},
       </if>

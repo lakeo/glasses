@@ -89,17 +89,20 @@
     where id = #{id,jdbcType=BIGINT}
   </delete>
   <insert id="insert" parameterType="com.lxl.beans.po.ProductExtInfoPo" >
-    insert into product_ext_info (id, productid, itemid, 
-      value)
-    values (#{id,jdbcType=BIGINT}, #{productid,jdbcType=BIGINT}, #{itemid,jdbcType=INTEGER}, 
-      #{value,jdbcType=LONGVARCHAR})
+    <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
+    insert into product_ext_info (productid, itemid, value
+      )
+    values (#{productid,jdbcType=BIGINT}, #{itemid,jdbcType=INTEGER}, #{value,jdbcType=LONGVARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="com.lxl.beans.po.ProductExtInfoPo" >
+    <selectKey resultType="java.lang.Long" keyProperty="id" order="AFTER" >
+      SELECT LAST_INSERT_ID()
+    </selectKey>
     insert into product_ext_info
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        id,
-      </if>
       <if test="productid != null" >
         productid,
       </if>
@@ -111,9 +114,6 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        #{id,jdbcType=BIGINT},
-      </if>
       <if test="productid != null" >
         #{productid,jdbcType=BIGINT},
       </if>

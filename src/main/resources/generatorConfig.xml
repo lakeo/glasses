@@ -31,6 +31,7 @@
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
         </table>
 
 
@@ -38,16 +39,19 @@
                enableCountByExample="true" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
         </table>
         <table schema="df_group" tableName="df_group"     domainObjectName="DfGroupPo"
                enableCountByExample="true" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
         </table>
         <table schema="df_group_type" tableName="df_group_type"     domainObjectName="DfGroupTypePo"
                enableCountByExample="true" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
         </table>
 
 
@@ -55,19 +59,21 @@
                enableCountByExample="true" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
         </table>
 
         <table schema="product" tableName="product"     domainObjectName="ProductPo"
                enableCountByExample="true" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
-            <generatedKey column="id" sqlStatement="MySql" />
+            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
         </table>
 
         <table schema="product_ext_info" tableName="product_ext_info"     domainObjectName="ProductExtInfoPo"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
         </table>
 
     </context>

@@ -21,7 +21,8 @@ public class TestDB extends BaseTest{
     DfGroupPoMapper dfGroupPoMapper;
 
     @Resource
-    ProductExtInfoItemMapper productExtInfoItemMapper;
+    ProductExtInfoPoMapper productExtInfoPoMapper;
+
     @Test
     public void test()
     {
@@ -35,7 +36,7 @@ public class TestDB extends BaseTest{
     public void testProductExt()
     {
         logger.info("get product ext info");
-        Object o = productExtInfoItemMapper.selectByProductId(6);
+        Object o = productExtInfoPoMapper.selectByPrimaryKey((long)6);
         logger.info(o);
     }
 }
