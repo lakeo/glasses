@@ -19,6 +19,7 @@
     <link href="/resources/assets/css/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
     <link href="/resources/assets/css/lightbox.css" rel="stylesheet">
     <link href="/resources/assets/css/animate.min.css" rel="stylesheet">
+    <link href="/resources/assets/css/uploadify.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300,100' rel='stylesheet' type='text/css'>

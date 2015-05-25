@@ -1,7 +1,7 @@
 <div class="row" id="create_div">
     <h3>方案编辑</h3>
     <div class="col-md-10">
-    <form class="form form-horizontal" action="" method="">
+        <form class="form form-horizontal" action="" method="">
         <div class="container-fluid df-form-container">
             <h4>基本信息</h4>
             <div class="form-group">
@@ -41,7 +41,15 @@
         </form>
     </div>
 </div>
+<div class="row">
+    <h3>图片管理</h3>
+    <div class="col-md-12 df-form-container">
 
+    </div>
+    <div class="col-md-12">
+        <input type="file" name="file" id="file" />
+    </div>
+</div>
 
 <script type="text/javascript" src="/resources/assets/js/jquery-ui.custom.min.js"></script>
 <script type="text/javascript" src="/resources/assets/js/bootstrap.min.js"></script>
@@ -59,7 +67,9 @@
 <script type="text/javascript" src="/resources/assets/js/underscore-min.js"></script>
 <script type="text/javascript" src="/resources/assets/js/backbone-min.js"></script>
 <script type="text/javascript" src="/resources/assets/js/admin/df/df.js"></script>
+<script type="text/javascript" src="/resources/assets/js/jquery.uploadify.min.js"></script>
 
+<!-- df -->
 <script>
     $(function(){
         //init df form
@@ -91,5 +101,26 @@
             $(form).append(frmData);
             $(form).submit();
         })
+    });
+</script>
+
+<!-- image manager-->
+<script>
+    $(function() {
+        $("#file").uploadify({
+            'auto'     : true,
+            'swf'      : '/resources/assets/swf/uploadify.swf',
+            'uploader' : '/admin/product/uploadImage.html',
+            'fileObjName' : 'fileData',
+            'formData' : {
+                'productId':'${product.id}'
+            },
+            'onUploadSuccess' : function(file, data, response) {
+                console.log(response);
+            },
+            'onUploadError'  : function(file, errorCode, errorMsg, errorString) {
+                alert('The file ' + file.name + ' could not be uploaded: ' + errorString);
+            }
+        });
     });
 </script>
