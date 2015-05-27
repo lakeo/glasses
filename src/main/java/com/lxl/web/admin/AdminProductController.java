@@ -2,9 +2,12 @@ package com.lxl.web.admin;
 
 import com.lxl.beans.vo.Product;
 import com.lxl.beans.vo.SearchParam;
+import com.lxl.service.ImageService;
 import com.lxl.service.ProductService;
 import com.lxl.web.util.Message;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -29,8 +32,11 @@ public class AdminProductController {
 
     Logger logger = Logger.getLogger(AdminProductController.class);
 
-    @Resource
+    @Autowired
     ProductService productService;
+
+    @Autowired
+    ImageService imageService;
 
     @RequestMapping("/index.html")
     public ModelAndView productList(SearchParam param)
@@ -78,22 +84,22 @@ public class AdminProductController {
 
     @RequestMapping(value = "/uploadImage.html", method = RequestMethod.POST)
     @ResponseBody
-    public Message uploadImage(@RequestParam("productId") String productId, @RequestParam("fileData") MultipartFile file, HttpServletRequest request)
+    public Message uploadImage(@RequestParam("productId") String productId, @RequestParam("fileData") MultipartFile file)
     {
+        Message message = new Message();
         if (!file.isEmpty()) {
-            logger.info(productId);
-            String name = "test";
             try {
-                byte[] bytes = file.getBytes();
-                BufferedOutputStream stream =
-                        new BufferedOutputStream(new FileOutputStream(new File(name)));
-                stream.write(bytes);
-                stream.close();
-                logger.info( "You successfully uploaded " + name + "!");
+                String name = this.imageService.saveImage(Integer.valueOf(productId), file);
+                logger.info("You successfully uploaded " + name + "!");
+                message.putData(name);
+                if(!StringUtils.isNotBlank(name)) {
+                    message.setType(Message.Type.WARNING);
+                }
             } catch (Exception e) {
-                logger.warn( "You failed to upload " + name + " => " + e.getMessage());
+                logger.warn( "You failed to upload " + file.getOriginalFilename() + " => " + e.getMessage());
+                message.setType(Message.Type.WARNING);
             }
         }
-        return new Message();
+        return message;
     }
 }

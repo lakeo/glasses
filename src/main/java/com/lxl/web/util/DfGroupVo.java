@@ -8,8 +8,6 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.codehaus.jackson.*;
-
 /**
  * Created by xiaolu on 15/5/12.
  */

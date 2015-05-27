@@ -33,7 +33,7 @@
     utils.getItemDOM = function(item) {
         var container = $('<div class="form-group"></div>');
         container.append('<label for="'+item.name+'" class="col-sm-2 control-label">'+item.description+'</label>');
-        container.append('<div class="col-sm-10"> <input type="text" class="form-control" name="'+item.name+'" id="'+item.name+'" value="'+item.data+'"></div>');
+        container.append('<div class="col-sm-10"> <input type="text" class="form-control" name="'+item.name+'" id="'+item.name+'" value=""></div>');
         return container;
     }
     utils.additem = function(el, item) {

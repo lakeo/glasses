@@ -111,12 +111,13 @@
             'auto'     : true,
             'swf'      : '/resources/assets/swf/uploadify.swf',
             'uploader' : '/admin/product/uploadImage.html',
+            'cancelImg': '/resources/assets/images/uploadify-cancel.png',
             'fileObjName' : 'fileData',
             'formData' : {
                 'productId':'${product.id}'
             },
             'onUploadSuccess' : function(file, data, response) {
-                console.log(response);
+                console.log(data)
             },
             'onUploadError'  : function(file, errorCode, errorMsg, errorString) {
                 alert('The file ' + file.name + ' could not be uploaded: ' + errorString);
