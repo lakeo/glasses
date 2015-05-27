@@ -70,6 +70,7 @@ public class AdminProductController {
     {
         ModelAndView view = new ModelAndView();
         view.addObject("product", this.productService.getProductById(productId));
+        view.addObject("images",this.imageService.getProductImages(productId));
         return view;
     }
 
@@ -82,7 +83,7 @@ public class AdminProductController {
         return new ModelAndView("redirect:/admin/product/edit.html?productId="+productId);
     }
 
-    @RequestMapping(value = "/uploadImage.html", method = RequestMethod.POST)
+    @RequestMapping(value = "/uploadImage", method = RequestMethod.POST)
     @ResponseBody
     public Message uploadImage(@RequestParam("productId") String productId, @RequestParam("fileData") MultipartFile file)
     {

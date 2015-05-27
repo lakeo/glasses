@@ -84,6 +84,7 @@
                 this.showModel.fetch({
                     error:function(){
                         alert('The Internet has some problems');
+                        console.log('showmodel getdata');
                     }
                 });
             },
@@ -105,6 +106,7 @@
                 this.fetch({
                     error:function(){
                         alert('The Internet has some problems');
+                        console.log('getdata');
                     }
                 });
             }

@@ -30,6 +30,9 @@
     <!-- Main CSS -->
     <link href="/resources/assets/css/main.css" rel="stylesheet">
 
+    <!-- Main CSS -->
+    <link href="/resources/assets/css/admin.css" rel="stylesheet">
+
     <!-- Default Preset Color -->
     <link href="/resources/assets/css/blue.css" rel="stylesheet">
 

@@ -1,6 +1,8 @@
 package com.lxl.service;
 
 import com.lxl.beans.po.ImagePo;
+import com.lxl.beans.po.ImagePoExample;
+import com.lxl.beans.vo.ProductImage;
 import com.lxl.constants.EImage;
 import com.lxl.dao.ImagePoMapper;
 import com.lxl.util.CommonUtil;
@@ -11,6 +13,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by xiaolu on 15/5/21.
@@ -42,6 +46,18 @@ public class ImageService {
         }catch (Exception e) {
             return "";
         }
+    }
+
+    public List<ProductImage> getProductImages(long productId)
+    {
+        ImagePoExample imagePoExample = new ImagePoExample();
+        imagePoExample.createCriteria().andObjidEqualTo(productId).andTypeEqualTo(EImage.PRODUCT.getIndex());
+        List<ImagePo> list = this.imagePoMapper.selectByExample(imagePoExample);
+        List<ProductImage> ret = new ArrayList<>();
+        for(ImagePo imagePo : list) {
+            ret.add(new ProductImage(imagePo));
+        }
+        return ret;
     }
 
 }

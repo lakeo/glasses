@@ -44,7 +44,14 @@
 <div class="row">
     <h3>图片管理</h3>
     <div class="col-md-12 df-form-container">
-
+        <ul class="list-unstyled list-inline" id="image-list">
+            <#list images as image>
+                <li >
+                    <img class="info-img" src="${image.filename}" alt="">
+                    <input type="text" value="${image.filename}" >
+                </li>
+            </#list>
+        </ul>
     </div>
     <div class="col-md-12">
         <input type="file" name="file" id="file" />
@@ -69,8 +76,8 @@
 <script type="text/javascript" src="/resources/assets/js/admin/df/df.js"></script>
 <script type="text/javascript" src="/resources/assets/js/jquery.uploadify.min.js"></script>
 
-<!-- df -->
 <script>
+    //df
     $(function(){
         //init df form
         var form = MyDynamicForm.create({
@@ -102,22 +109,26 @@
             $(form).submit();
         })
     });
-</script>
 
-<!-- image manager-->
-<script>
+    // uploadify
     $(function() {
         $("#file").uploadify({
             'auto'     : true,
             'swf'      : '/resources/assets/swf/uploadify.swf',
-            'uploader' : '/admin/product/uploadImage.html',
+            'uploader' : '/admin/product/uploadImage',
             'cancelImg': '/resources/assets/images/uploadify-cancel.png',
             'fileObjName' : 'fileData',
             'formData' : {
                 'productId':'${product.id}'
             },
             'onUploadSuccess' : function(file, data, response) {
-                console.log(data)
+                var message = $.parseJSON(data);
+                if(message.type == 0) {
+                    //add
+                    $('#image-list').append('<il><img class="info-img" src="'+message.args.data+'" alt="">' + '<input type="text" value="'+message.args.data+'" ></il>');
+                } else {
+                    console.log('error');
+                }
             },
             'onUploadError'  : function(file, errorCode, errorMsg, errorString) {
                 alert('The file ' + file.name + ' could not be uploaded: ' + errorString);
