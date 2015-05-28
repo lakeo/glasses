@@ -3,7 +3,7 @@
         <div class="breadcrumb-inner">
             <ul class="list-inline list-unstyled">
                 <li><a href="/index.html">主页</a></li>
-                <li><a href="/category.html">经典女款</a></li>
+                <li><a href="/category/women/index.html">经典女款</a></li>
             </ul>
         </div>
         <!-- /.breadcrumb-inner -->

@@ -74,7 +74,7 @@
                                     <a href="/index.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="">首页</a>
                                 </li>
                                 <li class="dropdown yamm-fw active">
-                                    <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">女款</a>
+                                    <a href="/category/women/index.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">女款</a>
                                     <ul class="dropdown-menu">
                                         <li>
                                             <div class="yamm-content">
@@ -169,7 +169,7 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">男款</a>
+                                    <a href="/category/common/index/man.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">男款</a>
                                     <ul class="dropdown-menu">
                                         <li>
                                             <div class="yamm-content">
@@ -234,7 +234,7 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">太阳镜</a>
+                                    <a href="/category/common/index/sunglass.html" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">太阳镜</a>
                                     <ul class="dropdown-menu">
                                         <li>
                                             <div class="yamm-content">
@@ -298,13 +298,13 @@
                                             </div><!-- /.yamm-content -->					</li>
                                     </ul>
                                 </li>
-                                <li><a href="/category.html">品牌街</a></li>
+                                <li><a href="/category/common/index/brand.html">品牌街</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">帮助</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="/index.html">首页</a></li>
-                                        <li><a href="/category.html">类别页</a></li>
-                                        <li><a href="/product.html">商品详情页</a></li>
+                                        <li><a href="/category/women/index.html">类别页</a></li>
+                                        <li><a href="/product/detail/6.html">商品详情页</a></li>
                                     </ul>
                                 </li>
                             </ul><!-- /.navbar-nav -->
