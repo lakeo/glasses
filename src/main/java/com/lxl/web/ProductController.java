@@ -20,13 +20,6 @@ public class ProductController {
     @Resource
     ProductService productService;
 
-    @RequestMapping({"/category/index/{keyWord}.html"})
-    public ModelAndView categoryPage(@PathVariable String keyWord)
-    {
-        ModelAndView view =  new ModelAndView("/product/category/index");
-        return view;
-    }
-
     @RequestMapping("/detail/{productId}.html")
     public ModelAndView detailPage(@PathVariable long productId)
     {
