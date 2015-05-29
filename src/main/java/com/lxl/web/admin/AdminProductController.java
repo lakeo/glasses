@@ -9,10 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -78,8 +75,8 @@ public class AdminProductController {
     public ModelAndView editProduct(Product product)
     {
         int productId = product.getId() == null ? 0 : product.getId().intValue();
-        logger.info("try save product: id="+productId);
-        this.productService.setProductExtFromWeb(product);
+        logger.info("try save product: id=" + productId);
+        this.productService.saveProductExtFromWeb(product);
         return new ModelAndView("redirect:/admin/product/edit.html?productId="+productId);
     }
 
@@ -102,5 +99,12 @@ public class AdminProductController {
             }
         }
         return message;
+    }
+
+    @RequestMapping("/confirm/{productId}.html")
+    public ModelAndView confirmProduct(@PathVariable String productId)
+    {
+        this.productService.confirmProduct(Long.valueOf(productId));
+        return new ModelAndView("redirect:/admin/product/index.html");
     }
 }

@@ -1,6 +1,7 @@
 package com.lxl.beans.vo;
 
 import com.lxl.beans.po.ProductPo;
+import com.lxl.constants.EProduct;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import java.util.Date;
@@ -28,6 +29,8 @@ public class Product {
 
     private Integer status;
 
+    private String statusString;
+
     private String description;
 
     private String data;
@@ -38,6 +41,7 @@ public class Product {
     {
 
     }
+
     public Product(ProductPo po)
     {
         this.id = po.getId();
@@ -49,6 +53,15 @@ public class Product {
         this.type2id = po.getType2id();
         this.status = po.getStatus();
         this.description = po.getDescription();
+        this.statusString = EProduct.getDescriptionFromIndex(this.status);
+    }
+
+    public String getStatusString() {
+        return statusString;
+    }
+
+    public void setStatusString(String statusString) {
+        this.statusString = statusString;
     }
 
     public List<ProductExtInfoItem> getItems() {

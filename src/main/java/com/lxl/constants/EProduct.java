@@ -12,9 +12,21 @@ public enum EProduct {
 
     private int index;
     private String description;
+
     EProduct(int index, String description) {
         this.index = index;
         this.description = description;
+    }
+
+    public static String getDescriptionFromIndex(int index) {
+        if(index >= 0) {
+            for(EProduct p : EProduct.values()) {
+                if(p.getIndex() == index) {
+                    return p.description;
+                }
+            }
+        }
+        return "unknown";
     }
 
     public String getDescription() {

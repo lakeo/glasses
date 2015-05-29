@@ -20,6 +20,8 @@
                     <th>方案名称</th>
                     <th>创建时间</th>
                     <th>修改时间</th>
+                    <th>状态</th>
+                    <th>操作</th>
                 </tr>
             </thead>
             <tbody>
@@ -29,6 +31,15 @@
                         <td><a href="/admin/product/edit.html?productId=${p.id}">${p.name}</a></td>
                         <td>${p.ctime?datetime}</td>
                         <td>${p.mtime?datetime}</td>
+                        <td>${p.statusString!''}</td>
+                        <td>
+                            <a href="/admin/product/edit.html?productId=${p.id}">编辑</a>
+                            <#if p.status != 3 && p.status != 0>
+                                <a href="/product/detail/${p.id}.html">预览</a>
+                            <#elseif p.status == 4>
+                                <a href="/admin/product/confirm/${p.id}.html">审核通过</a>
+                            </#if>
+                        </td>
                     </tr>
                 </#list>
             </tbody>

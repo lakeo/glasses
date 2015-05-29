@@ -189,7 +189,8 @@ public class ProductService {
         }
         return true;
     }
-    public boolean setProductExtFromWeb(Product product)
+
+    public boolean saveProductExtFromWeb(Product product)
     {
         product.setItems(this.convertDataToItems(product.getData(), product.getId()));
         if(!this.validProductExtDataForSave(product)) {
@@ -214,8 +215,23 @@ public class ProductService {
                 return false;
             }
         }
+
+        //change product status
+        ProductPo productPo = new ProductPo();
+        productPo.setId(product.getId());
+        productPo.setStatus(EProduct.waitingApproved.getIndex());
+        this.productPoMapper.updateByPrimaryKeySelective(productPo);
+
         logger.info("save product:"+product);
         return true;
     }
 
+    public boolean confirmProduct(long productId)
+    {
+        ProductPo productPo = new ProductPo();
+        productPo.setId(productId);
+        productPo.setStatus(EProduct.online.getIndex());
+        this.productPoMapper.updateByPrimaryKeySelective(productPo);
+        return true;
+    }
 }
