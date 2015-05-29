@@ -5,7 +5,10 @@ package com.lxl.constants;
  */
 public enum EType {
     LevelOne(1),
-    LevelTwo(2);
+    LevelTwo(2),
+    GLASS(3),
+    MAN(4),
+    WOMEN(5);
 
     private int index;
     EType(int index){
