@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>  
 <decorators defaultdir="/WEB-INF/decorators">
     <decorator name="common" page="common.ftl">
-        <pattern>/category.html</pattern>
+        <pattern>/category/*</pattern>
         <pattern>/product.html</pattern>
         <pattern>/product/*</pattern>
     </decorator>

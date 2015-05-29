@@ -7,38 +7,38 @@
         <div class="col-md-3 index-nav" role="navigation">
             <ul class="nav nav-pills nav-stacked">
                 <li  role="presentation">
-					<a  href="/product/category/index/women.html">经典女款 >></a>
+					<a  href="/category/women/index.html">经典女款 >></a>
 				</li>
                 <li  role="presentation">
-                    <a  href="/category.html">经典男款 >></a>
+                    <a  href="/category/common/index/man.html">经典男款 >></a>
                 </li>
                 <li  role="presentation">
-                    <a  href="/category.html">近视镜 >></a>
+                    <a  href="/category/common/index/myopia.html">近视镜 >></a>
                 </li>
                 <li  role="presentation">
-                    <a  href="/category.html">太阳镜 >></a>
+                    <a  href="/category/common/index/sunglass.html">太阳镜 >></a>
                 </li>
                 <li  role="presentation">
-                    <a  href="/category.html">每日特价 >></a>
+                    <a  href="/category/common/index/bestsell.html">每日特价 >></a>
                 </li>
                 <li  role="presentation">
-                    <a  href="/category.html">国内品牌 >></a>
+                    <a  href="/category/common/index/localbrand.html">国内品牌 >></a>
                 </li>
                 <li  role="presentation">
-                    <a  href="#">国外品牌 >></a>
+                    <a  href="/category/common/index/foreignbrand.html">国外品牌 >></a>
                 </li>
                 <li  role="presentation">
-                    <a  href="/category.html">学生专柜 >></a>
+                    <a  href="/category/common/index/student.html">学生专柜 >></a>
                 </li>
                 <li  role="presentation">
-                    <a  href="/category.html">流行前沿 >></a>
+                    <a  href="/category/common/index/fashion.html">流行前沿 >></a>
                 </li>
 
                 <li  role="presentation">
-                    <a  href="/category.html">购买须知 >></a>
+                    <a  href="#">购买须知 >></a>
                 </li>
                 <li  role="presentation">
-                    <a  href="/category.html">关于我们 >></a>
+                    <a  href="#">关于我们 >></a>
                 </li>
             </ul><!-- /.list-unstyled -->
         </div><!-- /.col -->
