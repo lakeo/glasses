@@ -7,6 +7,7 @@ import com.lxl.constants.EImage;
 import com.lxl.dao.ImagePoMapper;
 import com.lxl.util.CommonUtil;
 import com.qiniu.util.Auth;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -21,6 +22,7 @@ import java.util.List;
  */
 @Service
 public class ImageService {
+    Logger logger = Logger.getLogger(ImageService.class);
     final String IMAGE_WEB = "http://7xifr5.com1.z0.glb.clouddn.com/";
 
     @Autowired
@@ -44,6 +46,7 @@ public class ImageService {
             this.imagePoMapper.insert(imagePo);
             return this.IMAGE_WEB+filename;
         }catch (Exception e) {
+            logger.warn(e);
             return "";
         }
     }
