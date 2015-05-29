@@ -210,7 +210,7 @@ ${body}
 
 <!-- page default files-->
 <script>
-/*
+
     if(!$.isEmptyObject(MYJS_FILES)) {
         $(document).ready(function (loadfiles) {
             if ($.isEmptyObject(loadfiles))
@@ -222,7 +222,7 @@ ${body}
             });
         }(MYJS_FILES));
         ;
-    }*/
+    }
 </script>
 <!-- For demo purposes – can be removed on production -->
 
