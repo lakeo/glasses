@@ -1,1 +1,5 @@
 cluster.name: glass
+http.enabled: false
+transport.tcp.port: 9300-9400
+discovery.zen.ping.multicast.enabled: false
+discovery.zen.ping.unicast.hosts: localhost

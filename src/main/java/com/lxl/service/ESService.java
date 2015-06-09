@@ -23,12 +23,7 @@ public class ESService {
         if(this.node == null) {
             synchronized (ESService.class) {
                 if(this.node == null) {
-                    Settings settings = ImmutableSettings.settingsBuilder()
-                            .put("http.enabled", "false")
-                            .put("transport.tcp.port", "9300-9400")
-                            .put("discovery.zen.ping.multicast.enabled", "false")
-                            .put("discovery.zen.ping.unicast.hosts", "localhost").build();
-                    this.node = NodeBuilder.nodeBuilder().client(true).settings(settings).node();
+                    this.node = NodeBuilder.nodeBuilder().client(true).node();
                 }
             }
         }
