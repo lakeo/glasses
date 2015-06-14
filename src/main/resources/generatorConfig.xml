@@ -26,56 +26,56 @@
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.lxl.dao"
                              targetProject="MAVEN"/>
         <!--对应数据库表 mysql可以加入主键自增 字段命名 忽略某字段等-->
-<!--
+
         <table schema="type" tableName="type"     domainObjectName="TypePo"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"
                selectByExampleQueryId="false">
             <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
         </table>
+        <!--
+
+                <table schema="df_item" tableName="df_item"     domainObjectName="DfItemPo"
+                       enableCountByExample="true" enableUpdateByExample="false"
+                       enableDeleteByExample="false" enableSelectByExample="true"
+                       selectByExampleQueryId="false">
+                    <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
+                </table>
+                <table schema="df_group" tableName="df_group"     domainObjectName="DfGroupPo"
+                       enableCountByExample="true" enableUpdateByExample="false"
+                       enableDeleteByExample="false" enableSelectByExample="true"
+                       selectByExampleQueryId="false">
+                    <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
+                </table>
+                <table schema="df_group_type" tableName="df_group_type"     domainObjectName="DfGroupTypePo"
+                       enableCountByExample="true" enableUpdateByExample="false"
+                       enableDeleteByExample="false" enableSelectByExample="true"
+                       selectByExampleQueryId="false">
+                    <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
+                </table>
 
 
-        <table schema="df_item" tableName="df_item"     domainObjectName="DfItemPo"
-               enableCountByExample="true" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="true"
-               selectByExampleQueryId="false">
-            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
-        </table>
-        <table schema="df_group" tableName="df_group"     domainObjectName="DfGroupPo"
-               enableCountByExample="true" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="true"
-               selectByExampleQueryId="false">
-            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
-        </table>
-        <table schema="df_group_type" tableName="df_group_type"     domainObjectName="DfGroupTypePo"
-               enableCountByExample="true" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="true"
-               selectByExampleQueryId="false">
-            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
-        </table>
+                <table schema="df_group_item" tableName="df_group_item"     domainObjectName="DfGroupItemPo"
+                       enableCountByExample="true" enableUpdateByExample="false"
+                       enableDeleteByExample="false" enableSelectByExample="true"
+                       selectByExampleQueryId="false">
+                    <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
+                </table>
 
+                <table schema="product" tableName="product"     domainObjectName="ProductPo"
+                       enableCountByExample="true" enableUpdateByExample="false"
+                       enableDeleteByExample="false" enableSelectByExample="true"
+                       selectByExampleQueryId="false">
+                    <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
+                </table>
 
-        <table schema="df_group_item" tableName="df_group_item"     domainObjectName="DfGroupItemPo"
-               enableCountByExample="true" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="true"
-               selectByExampleQueryId="false">
-            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
-        </table>
-
-        <table schema="product" tableName="product"     domainObjectName="ProductPo"
-               enableCountByExample="true" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="true"
-               selectByExampleQueryId="false">
-            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
-        </table>
-
-        <table schema="product_ext_info" tableName="product_ext_info"     domainObjectName="ProductExtInfoPo"
-               enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="true"
-               selectByExampleQueryId="false">
-            <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
-        </table>
--->
+                <table schema="product_ext_info" tableName="product_ext_info"     domainObjectName="ProductExtInfoPo"
+                       enableCountByExample="false" enableUpdateByExample="false"
+                       enableDeleteByExample="false" enableSelectByExample="true"
+                       selectByExampleQueryId="false">
+                    <generatedKey column="id" sqlStatement="MySql" identity="true" type="post" />
+                </table>
+        -->
         <table schema="image" tableName="image"     domainObjectName="ImagePo"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="true"

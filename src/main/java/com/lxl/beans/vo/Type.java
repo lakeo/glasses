@@ -12,6 +12,7 @@ public class Type {
     int parentid;
     String name;
     String description;
+    String alias;
 
     public Type()
     {
@@ -25,6 +26,15 @@ public class Type {
         this.parentid = typePo.getParentid();
         this.name = typePo.getName();
         this.description = typePo.getDescription();
+        this.alias = typePo.getAlias();
+    }
+
+    public String getAlias() {
+        return alias;
+    }
+
+    public void setAlias(String alias) {
+        this.alias = alias;
     }
 
     public int getId() {

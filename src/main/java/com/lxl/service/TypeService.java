@@ -98,6 +98,7 @@ public class TypeService {
         typePo.setParentid(type.getParentid());
         typePo.setDescription(type.getDescription());
         typePo.setLevel(type.getLevel());
+        typePo.setAlias(type.getAlias());
         try {
             this.typePoMapper.insert(typePo);
             logger.info("add success");

@@ -38,7 +38,6 @@ public class ESService {
     public GetResponse getResponseByIndexTypeId(String index, String type, String Id)
     {
         return this.getClient().prepareGet(index, type, Id)
-            .setOperationThreaded(false)
             .execute()
             .actionGet();
     }

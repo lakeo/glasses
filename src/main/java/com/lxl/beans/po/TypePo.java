@@ -5,6 +5,8 @@ public class TypePo {
 
     private String name;
 
+    private String alias;
+
     private Integer level;
 
     private String description;
@@ -25,6 +27,14 @@ public class TypePo {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAlias() {
+        return alias;
+    }
+
+    public void setAlias(String alias) {
+        this.alias = alias;
     }
 
     public Integer getLevel() {
